@@ -16,7 +16,7 @@ The accessibility issues opportunity identifies how well your website conforms t
 
 The **Accessibility issues opportunity** identifies accessibility issues on your website, and includes the following:
 
-* **Issues** – THe specific accessibility issue found.
+* **Issues** – The specific accessibility issue found.
 * **Guidelines** – The [WCAG guidelines ID](https://www.w3.org/TR/WCAG21/) the issue is in violation of.
 * **User impact** – An assessment of the impact on users with disabilities.
 * **Failing elements** - The HTML elements on the webpage affected by the issue.
