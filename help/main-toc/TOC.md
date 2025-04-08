@@ -32,4 +32,3 @@ user-guide-description: This is a description for the user guide that will be di
     + [Website permissions](/help/documentation/opportunities/website-permissions.md)
     + [Website vulnerabilities](/help/documentation/opportunities/website-vulnerabilities.md)
   + [Settings](/help/documentation/settings.md)
-+ [Hidden file to trigger Loc TOC update](hidden-delete-me.md)
