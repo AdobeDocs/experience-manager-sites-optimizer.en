@@ -4,7 +4,7 @@ description: Learn about the broken links opportunity and how to use it to impro
 badgeEngagement: label="Engagement" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Engagement"
 ---
 
-# Invalid or missing metadata opportunity
+# Broken internal links opportunity
 
 ![Broken internal links opportunity](./assets/broken-internal-links/hero.png){align="center"}
 
