@@ -32,6 +32,7 @@ user-guide-description: This is a description for the user guide that will be di
     + [Forms low conversions](/help/documentation/opportunities/low-conversions.md)
     + [Forms low views](/help/documentation/opportunities/low-views.md)
     + [Forms low navigation](/help/documentation/opportunities/low-navigation.md)
+    + [Forms accessibility issue](/help/documentation/opportunities/forms-accessibility-issues.md)
     + [Sitemap issues](/help/documentation/opportunities/sitemap-issues.md)
     + [Website permissions](/help/documentation/opportunities/website-permissions.md)
     + [Website vulnerabilities](/help/documentation/opportunities/website-vulnerabilities.md)

@@ -8,19 +8,19 @@ badgeFormOptimization: label="Form Optimization" type="Caution" url="../../oppor
 
 <span class="preview"> The Forms optimization feature is available under early adopter program. You can write to aem-forms-ea@adobe.com from your official email id to join the early adopter program and request access to the capability. </span>
 
-![Low navigation opportunity](./assets/low-views/hero.png){align="center"}
+<!-- ![Low navigation opportunity](./assets/low-views/hero.png){align="center"} -->
 
-The low navigation opportunity identifies forms on your website that have low navigation rates. This opportunity helps you understand which forms are not being discovered or accessed by users and provides suggestions on how to improve their discoverability and accessibility. By optimizing navigation to your forms, you can increase the number of form interactions and improve the overall performance of your website.
+The low navigation opportunity identifies forms on your website that have low navigation rates. This opportunity helps you understand which forms are not being discovered or accessed by users and provides suggestions on how to improve their discoverability. By optimizing navigation to your forms, you can increase the number of form interactions and improve the overall performance of your website.
 
 ## Auto-identify
 
-![Auto-identify low navigation](./assets/low-views/auto-identify.png){align="center"}
+<!-- ![Auto-identify low navigation](./assets/low-views/auto-identify.png){align="center"} -->
 
 Each webpage with a form with low navigation is listed as its own **Low navigation** opportunity. A brief summary of the opportunity, and AI-rationale, is displayed at the top of the opportunity page.
 
 ## Auto-suggest
 
-![Auto-suggest low navigation](./assets/low-views/auto-suggest.png){align="center"}
+<!-- ![Auto-suggest low navigation](./assets/low-views/auto-suggest.png){align="center"} -->
 
 Auto-suggest provides AI-generated webpage variations that are designed to increase the navigation to your forms. Each variation displays the **projected conversion rate increase** based on its potential to improve form discoverability and accessibility, helping you prioritize the most effective suggestions.
 
@@ -28,13 +28,13 @@ Auto-suggest provides AI-generated webpage variations that are designed to incre
 
 >[!TAB Control variation]
 
-![Control variations](./assets/low-views/control-variation.png){align="center"}
+<!-- ![Control variations](./assets/low-views/control-variation.png){align="center"} -->
 
 The control variation is the original form that is currently live on your website. This variation is used as a baseline to compare the performance of the suggested variations.
 
 >[!TAB Suggested variations]
 
-![Suggested variations](./assets/low-views/suggested-variations.png){align="center"}
+<!-- ![Suggested variations](./assets/low-views/suggested-variations.png){align="center"} -->
 
 The suggested variations are AI-generated webpage variations that are designed to increase the navigation to your forms. Each variation displays the **projected conversion rate increase** based on its potential to improve form discoverability and accessibility, helping you prioritize the most effective suggestions.
 
