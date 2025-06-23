@@ -7,7 +7,7 @@ description: Learn about the key opportunity types in Sites Optimizer and how th
 
 ![Opportunities types](./assets/overview/hero.png){align="center"}
 
-AEM Sites Optimizer provides valuable insights and recommendations to help you improve your website's performance, usability, and security. These insights are grouped into key opportunity areas: Engagement, Traffic Acquisition, Security Posture, Site Health, and Form Opt imization. Each category highlights specific ways to enhance your site, whether by increasing visitor interaction, improving discoverability, strengthening security, maintaining site stability, or optimizing form performance.
+AEM Sites Optimizer provides valuable insights and recommendations to help you improve your website's performance, usability, and security. These insights are grouped into key opportunity areas: Engagement, Traffic Acquisition, Security Posture, Site Health, and Form Optimization. Each category highlights specific ways to enhance your site, whether by increasing visitor interaction, improving discoverability, strengthening security, maintaining site stability, or optimizing form performance.
 
 Leveraging these opportunities improves user experience, attracts the right audience, and keeps your site secure and reliable. Enhancing engagement and traffic acquisition drives interaction and visibility, while a strong security posture and site health help ensure trust and stability. Optimizing forms can also boost conversions. Explore the links below to see opportunities organized by category and discover ways to improve your site.
 
@@ -121,11 +121,7 @@ Leveraging these opportunities improves user experience, attracts the right audi
             </div>
         </div>
     </div>
-</div>
-
-<span class="preview"> The Forms optimization feature is available under early adopter program. You can write to aem-forms-ea@adobe.com from your official email id to join the early adopter program and request access to the capability. </span>
-
- <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Form optimization">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Form optimization">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
@@ -140,10 +136,15 @@ Leveraging these opportunities improves user experience, attracts the right audi
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./form-optimization.md" target="_blank" rel="referrer" title="Form optimization">Form optimization</a>
                     </p>
-                    <p class="is-size-6">Learn about Form Optimization along with Sites Optimizer.</p>
+                    <p class="is-size-6">Learn about Form Optimization with Sites Optimizer.</p>
                 </div>
                 <a href="./form-optimization.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
                 </a>
             </div>
+        </div>
+    </div>
+</div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
+<span class="preview"> The Forms optimization feature is available under early adopter program. You can write to aem-forms-ea@adobe.com from your official email id to join the early adopter program and request access to the capability. </span>
