@@ -122,6 +122,9 @@ Leveraging these opportunities improves user experience, attracts the right audi
         </div>
     </div>
 </div>
+
+<span class="preview"> The Forms optimization feature is available under early adopter program. You can write to aem-forms-ea@adobe.com from your official email id to join the early adopter program and request access to the capability. </span>
+
  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Form optimization">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
