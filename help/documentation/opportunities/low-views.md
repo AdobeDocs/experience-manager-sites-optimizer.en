@@ -4,7 +4,7 @@ description: Learn about the low views opportunity and how to use it to improve 
 badgeFormOptimization: label="Form Optimization" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Form Optimization"
 ---
 
-# Low views opportunity
+# Forms low views opportunity
 
 <span class="preview"> The Forms optimization feature is available under early adopter program. You can write to aem-forms-ea@adobe.com from your official email id to join the early adopter program and request access to the capability. </span>
 
@@ -46,6 +46,8 @@ Click on each variation to preview it on the right side of the screen. In the to
 
 >[!ENDTABS]
 
+<!-- 
+
 ## Auto-optimize
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
@@ -68,3 +70,6 @@ Sites Optimizer Ultimate adds the ability to deploy auto-optimization for the is
 {{auto-optimize-request-approval}}
 
 >[!ENDTABS]
+
+--> 
+
