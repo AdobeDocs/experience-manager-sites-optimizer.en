@@ -24,7 +24,7 @@ The **Forms accessibility issues opportunity** identifies accessibility issues s
 
 ## Auto-suggest
 
-![Auto-suggest forms accessibility issues](./assets/accessibility-issues/auto-suggest.png){align="center"}
+<!-- ![Auto-suggest forms accessibility issues](./assets/accessibility-issues/auto-suggest.png){align="center"} --> 
 
 Auto-suggest provides AI-generated recommendations in the **How to fix the issue** field, which provides prescriptive guidance on what to do to fix the form accessibility issue.
 

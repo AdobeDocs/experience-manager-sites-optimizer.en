@@ -50,4 +50,4 @@ Sites Optimizer Ultimate adds the ability to deploy auto-optimization for the vu
 
 ## Also see
 
-[Forms accessibility issues](/help/documentation/opportunities/forms-accessibility-issues.md)
+[Forms accessibility issues opportunity](/help/documentation/opportunities/forms-accessibility-issues.md)
