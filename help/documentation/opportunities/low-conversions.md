@@ -1,26 +1,28 @@
 ---
 title: Low Conversions Opportunity Documentation
 description: Learn about the low conversions opportunity and how to use it to improve form engagement on your website.
-badgeFormOptimization: label="Form Optimization" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Form Optimization"
+badgeFormOptimization: label="Forms Optimizer" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Forms Optimizer"
 ---
 
-# Low conversions opportunity
+# Forms low conversions opportunity
+
+<span class="preview"> The Forms Optimizer capability is available under early access program. You can write to aem-forms-ea@adobe.com from your official email id to join the early access program and request access to the capability. </span>
 
 ![Low conversions opportunity](./assets/low-conversions/hero.png){align="center"}
 
-The low conversions opportunity identifies forms on your website that have low conversions rates. This opportunity helps you understand which forms are not performing well and provides suggestions on how to improve their engagement rates. By optimizing conversions of your forms, you can increase the number of form submissions and improve the overall performance of your website.
+The low conversions opportunity identifies forms on your website that have low conversion rates. This opportunity type type helps you understand which forms are not performing well and provides suggestions on how to improve their engagement rates.
 
 ## Auto-identify
 
 ![Auto-identify low conversions](./assets/low-conversions/auto-identify.png){align="center"}
 
-Each webpage with a form with low conversions is listed as its own **Low conversions** opportunity. A brief summary of the opportunity, and AI-rationale, is displayed at the top of the opportunity page.
+Each webpage with a form with low conversions is listed as its own **Low conversions** opportunity. A brief summary of the opportunity and rationale is displayed at the top of the opportunity page.
 
 ## Auto-suggest
 
 ![Auto-suggest low conversions](./assets/low-conversions/auto-suggest.png){align="center"}
 
-Auto-suggest provides AI-generated webpage variations that are designed to increase the conversions of your forms. Each variation is displays the **project conversion rate increase** based on its potential to improve form engagement, helping you prioritize the most effective suggestions.
+Auto-suggest provides AI-generated form variations that are designed to increase the conversions of your forms. Each variation displays the **projected conversion rate increase** based on its potential to improve form engagement, helping you prioritize the most effective suggestions.
 
 >[!BEGINTABS]
 
@@ -34,7 +36,7 @@ The control variation is the original form that is currently live on your websit
 
 ![Suggested variations](./assets/low-conversions/suggested-variations.png){align="center"}
 
-The suggested variations are AI-generated webpage variations that are designed to increase the conversions of your forms. Each variation displays the **projected conversion rate increase** based on its potential to improve form engagement, helping you prioritize the most effective suggestions.
+The suggested variations are AI-generated form variations that are designed to increase the conversions of your forms. Each variation displays the **projected conversion rate increase** based on its potential to improve form engagement, helping you prioritize the most effective suggestions.
 
 Click on each variation to preview it on the right side of the screen. In the top of the preview, the following actions and information are available:
 
@@ -43,6 +45,9 @@ Click on each variation to preview it on the right side of the screen. In the to
 * **Edit** - Click to edit the variation in AEM authoring.
 
 >[!ENDTABS]
+
+
+<!-- 
 
 ## Auto-optimize
 
@@ -66,3 +71,6 @@ Sites Optimizer Ultimate adds the ability to deploy auto-optimization for the is
 {{auto-optimize-request-approval}}
 
 >[!ENDTABS]
+
+
+--> 
