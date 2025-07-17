@@ -1,13 +1,15 @@
 ---
-title: Form Optimization with Sites Optimizer
-description: Learn about Form Optimization with Sites Optimizer.
+title: Forms Optimizer with Sites Optimizer
+description: Learn about Forms Optimizer with Sites Optimizer.
 ---
 
-# Form optimization opportunities
+# Forms Optimizer opportunities
 
-![Form optimization opportunities](./assets/form-optimization/hero.png){align="center"}
+<span class="preview"> The Forms Optimizer capability is available under early access program. You can write to aem-forms-ea@adobe.com from your official email id to join the early access program and request access to the capability. </span>
 
-Form optimization in AEM Sites Optimizer is essential for improving user interactions and maximizing conversions. By identifying areas for improvement—such as low views and low conversions of forms—teams can refine form design, placement, and content to enhance engagement. Optimized forms ensure a seamless user experience, making it easier for visitors to complete actions and drive business outcomes. Leveraging AEM Sites Optimizer's insights allows marketers to continuously identify areas of improvement, ultimately increasing effectiveness and boosting overall site performance.
+![Forms Optimizer opportunities](./assets/form-optimization/hero.png){align="center"}
+
+Forms Optimizer in AEM Sites Optimizer is essential for improving user interactions and maximizing conversions. By identifying areas for improvement—such as low views, low conversions, and accessibility issues of forms—teams can refine form design, placement, and content to enhance engagement. Optimized forms ensure a seamless user experience, making it easier for visitors to complete actions and drive business outcomes. Leveraging AEM Sites Optimizer's insights allows marketers to continuously identify areas of improvement, ultimately increasing effectiveness and boosting overall site performance.
 
 ## Opportunities 
 
@@ -69,7 +71,30 @@ Form optimization in AEM Sites Optimizer is essential for improving user interac
             </div>
         </div>
     </div>
-     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Accessibility issues">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Low navigation">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="../documentation/opportunities/low-navigation.md" title="Low navigation" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/common/card-arrows.png" alt="Low navigation"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="../documentation/opportunities/low-navigation.md" target="_blank" rel="referrer" title="Accessibility issues">Low navigation</a>
+                    </p>
+                    <p class="is-size-6">Learn about the low navigation opportunity and how to use it to improve form engagement on your website.</p>
+                </div>
+                <a href="../documentation/opportunities/low-navigation.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Accessibility issues">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
@@ -82,7 +107,7 @@ Form optimization in AEM Sites Optimizer is essential for improving user interac
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/low-conversions.md" target="_blank" rel="referrer" title="Accessibility issues">Accessibility issues</a>
+                        <a href="../documentation/opportunities/accessibility-issues.md" target="_blank" rel="referrer" title="Accessibility issues">Accessibility issues</a>
                     </p>
                     <p class="is-size-6">Learn about the accessibility issues opportunity and how to use it to improve form engagement on your website.</p>
                 </div>

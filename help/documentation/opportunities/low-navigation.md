@@ -1,28 +1,28 @@
 ---
 title: Low Navigation Opportunity Documentation
 description: Learn about the low navigation opportunity and how to use it to improve form engagement on your website.
-badgeFormOptimization: label="Form Optimization" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Form Optimization"
+badgeFormOptimization: label="Forms Optimizer" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Forms Optimizer"
 ---
 
 # Forms low navigation opportunity
 
-<span class="preview"> The Forms optimization feature is available under early adopter program. You can write to aem-forms-ea@adobe.com from your official email id to join the early adopter program and request access to the capability. </span>
+<span class="preview"> The Forms Optimizer capability is available under early access program. You can write to aem-forms-ea@adobe.com from your official email id to join the early access program and request access to the capability. </span>
 
 <!-- ![Low navigation opportunity](./assets/low-views/hero.png){align="center"} -->
 
-The low navigation opportunity identifies forms on your website that have low navigation rates. This opportunity helps you understand which forms are not being discovered or accessed by users and provides suggestions on how to improve their discoverability. By optimizing navigation to your forms, you can increase the number of form interactions and improve the overall performance of your website.
+The low navigation opportunity identifies forms on your website that have low navigation rates. This opportunity type type helps you understand which forms are not being discovered or accessed by users and provides suggestions on how to improve their discoverability.
 
 ## Auto-identify
 
 <!-- ![Auto-identify low navigation](./assets/low-views/auto-identify.png){align="center"} -->
 
-Each webpage with a form with low navigation is listed as its own **Low navigation** opportunity. A brief summary of the opportunity, and AI-rationale, is displayed at the top of the opportunity page.
+Each webpage with a form with low navigation is listed as its own **Low navigation** opportunity. A brief summary of the opportunity and rationale is displayed at the top of the opportunity page.
 
 ## Auto-suggest
 
 <!-- ![Auto-suggest low navigation](./assets/low-views/auto-suggest.png){align="center"} -->
 
-Auto-suggest provides AI-generated webpage variations that are designed to increase the navigation to your forms. Each variation displays the **projected conversion rate increase** based on its potential to improve form discoverability and accessibility, helping you prioritize the most effective suggestions.
+Auto-suggest provides AI-generated form variations that are designed to increase the navigation to your forms. Each variation displays the **projected conversion rate increase** based on its potential to improve form discoverability and accessibility, helping you prioritize the most effective suggestions.
 
 >[!BEGINTABS]
 
@@ -36,7 +36,7 @@ The control variation is the original form that is currently live on your websit
 
 <!-- ![Suggested variations](./assets/low-views/suggested-variations.png){align="center"} -->
 
-The suggested variations are AI-generated webpage variations that are designed to increase the navigation to your forms. Each variation displays the **projected conversion rate increase** based on its potential to improve form discoverability and accessibility, helping you prioritize the most effective suggestions.
+The suggested variations are AI-generated form variations that are designed to increase the navigation to your forms. Each variation displays the **projected conversion rate increase** based on its potential to improve form discoverability and accessibility, helping you prioritize the most effective suggestions.
 
 Click on each variation to preview it on the right side of the screen. In the top of the preview, the following actions and information are available:
 

@@ -55,7 +55,7 @@ Each opportunity provides a brief description of the issue, its potential impact
 * **Opportunity title** – A brief description of the issue and its potential impact on your site's performance.
 * **Last updated** – The date the opportunity was last updated by Sites Optimizer with new data.
 * **Issue count** - The number of instances of the issue identified on your site.
-* **Opportunity type(s)** – The [type(s) of the opportunity](../opportunity-types/overview.md) this opportunity is part of -- such as traffic acquisition, engagement, or site health.
+* **Opportunity type(s)** – The [type(s) of the opportunity](../opportunity-types/overview.md) This opportunity type is part of -- such as traffic acquisition, engagement, or site health.
 
 The summary information for each opportunity varies by type and may include details on revenue impact, traffic, user engagement, or security threats.  
 

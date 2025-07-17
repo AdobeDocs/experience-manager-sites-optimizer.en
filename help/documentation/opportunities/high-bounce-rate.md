@@ -8,7 +8,7 @@ badgeEngagement: label="Engagement" type="Caution" url="../../opportunity-types/
 
 ![High bounce rate opportunity](./assets/high-bounce-rate/hero.png){align="center"}
 
-The high bounce rate opportunity identifies forms on your website that have a high bounce rate. This opportunity helps you understand which forms are not performing well and provides suggestions on how to improve their engagement rates. By optimizing views of your forms, you can increase the number of form submissions and improve the overall performance of your website.
+The high bounce rate opportunity identifies forms on your website that have a high bounce rate. This opportunity type helps you understand which forms are not performing well and provides suggestions on how to improve their engagement rates. By optimizing views of your forms, you can increase the number of form submissions and improve the overall performance of your website.
 
 ## Auto-identify
 
