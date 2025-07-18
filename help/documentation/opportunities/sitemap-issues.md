@@ -8,7 +8,7 @@ badgeTrafficAcquisition: label="Traffic acquisition" type="Caution" url="../../o
 
 ![Sitemap issues opportunity](./assets/sitemap-issues/hero.png){align="center"}
 
-A complete and accurate sitemap helps search engines efficiently crawl and index website pages, ensuring better visibility in the search results. The sitemap opportunity identifies potential issues with your sitemap. Fixing these issue can greatly improve search engine indexation and content discoverability on your site.
+A complete and accurate sitemap helps search engines efficiently crawl and index website pages, ensuring better visibility in the search results. The sitemap opportunity identifies potential issues with your sitemap. Fixing these issues can greatly improve search engine indexation and content discoverability on your site.
 
 A summary is displayed at the top of the page, including a synopsis of the problem and its impact on your site and business.
 
@@ -30,11 +30,11 @@ Sitemap issues can be filtered using the following criteria:
 
 ![Auto-identify sitemap client errors](./assets/sitemap-issues/auto-identify-client-errors.png){align="center"}  
 
- If URLs in your sitemap return these, search engines may assume your sitemap is outdated or that pages were mistakenly removed. Client indicates that the request from the client (browser or crawler) was invalid. Common ones include:
+If URLs in your sitemap return these errors, search engines may assume that your sitemap is outdated or that pages were mistakenly removed. Client indicates that the request from the client (browser or crawler) was invalid. Common ones include:
 
-* **404 Not Found** – The requested page doesn't exist.
+* **404 Not Found** – The requested page does not exist.
 * **403 Forbidden** – The server denies access to the requested page.
-* **410 Gone** – The page was intentionally removed and won't return.
+* **410 Gone** – The page was intentionally removed and is not returned.
 * **401 Unauthorized** – Authentication is required but not provided.
 
 These errors can harm SEO, especially if important pages return **404 or 410**, as search engines may de-index them.

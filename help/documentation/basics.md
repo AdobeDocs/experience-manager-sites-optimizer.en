@@ -22,7 +22,7 @@ The domain manager context menu allows you to choose the AEM site, by domain, yo
 The Navigation section provides quick, persistent access to key areas of the Sites Optimizer from anywhere in Sites Optimizer, including:
 
 * **Home** - The main dashboard, providing a high-level overview of your site's performance and opportunities for improvement.
-* **Opportunities** - View and manage the opportunities identified by Sites Optimizer, including those that have been optimized and those that remain unoptimized.
+* **Opportunities** - View and manage the opportunities identified by Sites Optimizer, including those opportunities that have been optimized or remain unoptimized.
 * **Settings** - Configure your Sites Optimizer settings, including the sites you're monitoring and the notifications you receive.
 
 ## Site summary
@@ -44,7 +44,8 @@ The Site Summary section provides a snapshot of your site's performance, how Sit
 
 The High Impact Opportunities section highlights the most significant pending opportunities for improvement, based on their potential impact on your site's performance. These opportunities are organized by type, making it easy to prioritize your optimization efforts.
 
-Opportunities can be filtered by keywords, tags, or URLs, or by [opportunity type](../opportunity-types/overview.md) to help you focus on the most critical areas of improvement.
+Filter opportunities by keywords, tags, URLs, or [opportunity type](../opportunity-types/overview.md) to focus on the most critical areas of improvement.
+
 
 ### Opportunity details
 
@@ -53,9 +54,9 @@ Opportunities can be filtered by keywords, tags, or URLs, or by [opportunity typ
 Each opportunity provides a brief description of the issue, its potential impact on your site, and a link to full details. You can also see its status, indicating whether it has been optimized or is still pending.  
 
 * **Opportunity title** – A brief description of the issue and its potential impact on your site's performance.
-* **Last updated** – The date the opportunity was last updated by Sites Optimizer with new data.
+* **Last updated** – Sites Optimizer last updated the opportunity with new data on this date.
 * **Issue count** - The number of instances of the issue identified on your site.
-* **Opportunity type(s)** – The [type(s) of the opportunity](../opportunity-types/overview.md) this opportunity is part of -- such as traffic acquisition, engagement, or site health.
+* **Opportunity types** – The [types of opportunity](../opportunity-types/overview.md) that this opportunity is part of -- such as traffic acquisition, engagement, or site health.
 
 The summary information for each opportunity varies by type and may include details on revenue impact, traffic, user engagement, or security threats.  
 

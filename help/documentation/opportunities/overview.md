@@ -14,7 +14,7 @@ Opportunities are available via the **Opportunities** menu option in [Site Optim
 
 ## Opportunity status
 
-Opportunities can be organized and filtered by status using the tabs across the top:
+Use the tabs across the top to organize and filter opportunities by status.
 
 >[!BEGINTABS]
 
@@ -38,7 +38,7 @@ A historical list of opportunities that have been optimized.
 
 ## Opportunities
 
-With an [opportunity status](#opportunity-status) selected, you can view a list of opportunities. The list of opportunities can be further filtered by:
+With an [opportunity status](#opportunity-status) selected, you can view a list of opportunities. You can filter the list of opportunities in the following ways:
 
 * **Search** - Search of opportunities by **keywords, tags or URLs**.
 * **Opportunity type** - Use the **Type** dropdown to filter opportunities by [opportunity type](/help/opportunity-types/overview.md).
@@ -50,9 +50,10 @@ With an [opportunity status](#opportunity-status) selected, you can view a list 
 Each opportunity provides a brief description of the issue, its potential impact on your site, and a link to full details. You can also see its status, indicating whether it has been optimized or is still pending.  
 
 * **Opportunity title** – A brief description of the issue and its potential impact on your site's performance.
-* **Last updated** – The date the opportunity was last updated by Sites Optimizer with new data.
+* **Last updated** – Sites Optimizer last updated the opportunity with new data on this date.
+
 * **Issue count** - The number of instances of the issue identified on your site.
-* **Opportunity type(s)** – The [type(s) of the opportunity](/help/opportunity-types/overview.md), this opportunity is part of -- such as traffic acquisition, engagement, or site health.
+* **Opportunity types** – The [types of opportunity](/help/opportunity-types/overview.md) that this opportunity is part of -- such as traffic acquisition, engagement, or site health.
 
 The summary information for each opportunity varies by type and may include details on revenue impact, traffic, user engagement, or security threats.  
 

@@ -8,7 +8,7 @@ badgeEngagement: label="Engagement" type="Caution" url="../../opportunity-types/
 
 ![Missing alt text opportunity](./assets/missing-alt-text/hero.png){align="center"}
 
-The missing alt text opportunity identifies images without descriptive alt text on your website. Search engines cannot properly index or understand images without alt text, significantly reducing your content's discoverability and potential search ranking, ultimately limiting your audience reach. Additionally, not having alt text for images excludes people with visual impairments who rely on screen readers to understand web content, effectively creating barriers to information access.
+The missing alt text opportunity identifies images without descriptive alt text on your website. Search engines cannot properly index or understand images without alt text. This functionality significantly reduces your content's discoverability and search ranking, ultimately limiting your audience reach. Additionally, not having alt text for images excludes people with visual impairments who rely on screen readers to understand web content, effectively creating barriers to information access.
 
 The missing alt text opportunity displays a summary at the top of the page, including a synopsis of the problem and its impact on your site and business.
 
@@ -31,7 +31,7 @@ The missing alt text opportunity lists out all the images on your website that a
 
 ![Auto-suggest missing alt text](./assets/missing-alt-text/auto-suggest.png){align="center"}
 
-Auto-suggest provides AI-generated suggestions for the alt text of the images. The AI-generated suggestions are designed to help you quickly add alt text to images without having to manually analyze each image. 
+Auto-suggest provides AI-generated suggestions for the alt text of the images. The AI-generated suggestions are designed to help you quickly add alt text to images without having to analyze each image manually. 
 
 >[!BEGINTABS]
 
@@ -39,15 +39,15 @@ Auto-suggest provides AI-generated suggestions for the alt text of the images. T
 
 ![Edit missing alt text](./assets/missing-alt-text/edit-alt-text-value.png){align="center"}
 
-If you disagree with the AI-generated suggestion, you can edit the suggested alt text by selecting the **edit icon**. This allows you to manually adjust the text you believe is the best fit for the image. The edit window contains the following:
+If you disagree with the AI-generated suggestion, you can edit the suggested alt text by selecting the **edit icon**. This ability lets you manually adjust the text you believe is the best fit for the image. The edit window contains the following:
 
 * **Page path** – A read-only field displaying the path to the page where the missing alt text issue occurs. Click the arrow next to the path to open the corresponding page.  
 * **Image** – A read-only preview of the image that requires alt text.  
-* **Target ALT text** – An editable field where you can manually enter a descriptive alt text for the image. Ensure the alt text clearly conveys the image's content and purpose concisely. When relevant, include keywords naturally without overloading them.  
+* **Target ALT text** – An editable field where you can manually enter a descriptive alt text for the image. Ensure that the alt text clearly conveys the image's content  and purpose concisely. When relevant, include keywords naturally without overloading them.  
 
 >[!TAB Ignore entries]
 
-You can choose to ignore entries in the opportunity list. Selecting the **ignore icon** removes the entry from the list. Ignored entries can be re-engaged from the **Ignored** tab at the top of the opportunity page.
+You can choose to ignore entries in the opportunity list. Selecting ![Delete icon](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) removes the entry from the list. Ignored entries can be re-engaged from the **Ignored** tab at the top of the opportunity page.
 
 >[!ENDTABS]
 

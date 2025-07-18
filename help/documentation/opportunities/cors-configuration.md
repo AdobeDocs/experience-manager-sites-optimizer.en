@@ -8,7 +8,7 @@ badgeSecurityPosture: label="Security posture" type="Caution" url="../../opportu
 
 ![CORS configuration opportunity](./assets/cors-configuration/hero.png){align="center"}
 
-Properly configuring Cross-Origin Resource Sharing (CORS) is essential for securing web applications against unauthorized data access. When the `Access-Control-Allow-Origin` header is set to `*`, any domain can request and receive responses, potentially exposing sensitive information to attackers. This presents an opportunity to strengthen security by implementing a controlled allowlist of trusted domains or disabling CORS where it is not required. Ensuring a secure CORS setup helps protect private content while maintaining seamless access for authorized users.
+Properly configuring Cross-Origin Resource Sharing (CORS) is essential for securing web applications against unauthorized data access. When the `Access-Control-Allow-Origin` header is set to `*`, any domain can request and receive responses, potentially exposing sensitive information to attackers. This functionality presents an opportunity to strengthen security by implementing a controlled allowlist of trusted domains or disabling CORS where it is not required. Ensuring a secure CORS setup helps protect private content while maintaining seamless access for authorized users.
 
 ## Auto-identify
 
