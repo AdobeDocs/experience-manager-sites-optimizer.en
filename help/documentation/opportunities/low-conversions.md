@@ -8,8 +8,6 @@ badgeFormOptimization: label="Forms Optimizer" type="Caution" url="../../opportu
 
 <span class="preview"> The Forms Optimizer capability is available under early access program. You can write to aem-forms-ea@adobe.com from your official email id to join the early access program and request access to the capability. </span>
 
-<span class="preview"> The Forms optimization feature is available under early adopter program. You can write to aem-forms-ea@adobe.com from your official email id to join the early adopter program and request access to the capability. </span>
-
 ![Low conversions opportunity](./assets/low-conversions/hero.png){align="center"}
 
 The low conversions opportunity identifies forms on your website that have low conversion rates. This opportunity type type helps you understand which forms are not performing well and provides suggestions on how to improve their engagement rates.

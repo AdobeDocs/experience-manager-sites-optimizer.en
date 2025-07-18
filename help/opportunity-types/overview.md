@@ -136,7 +136,7 @@ Leveraging these opportunities improves user experience, attracts the right audi
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./form-optimization.md" target="_blank" rel="referrer" title="Forms Optimizer">Forms Optimizer</a>
                     </p>
-                    <p class="is-size-6">Learn about Forms Optimizer with Sites Optimizer.</p>
+                    <p class="is-size-6">Learn about how to improve your forms conversion with Forms Optimizer.</p>
                 </div>
                 <a href="./form-optimization.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
