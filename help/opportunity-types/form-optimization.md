@@ -9,7 +9,7 @@ description: Learn about Forms Optimizer with Sites Optimizer.
 
 ![Forms Optimizer opportunities](./assets/form-optimization/hero.png){align="center"}
 
-Forms Optimizer in AEM Sites Optimizer is essential for improving user interactions and maximizing conversions. By identifying areas for improvement—such as low views, low conversions, and accessibility issues of forms—teams can refine form design, placement, and content to enhance engagement. Optimized forms ensure a seamless user experience, making it easier for visitors to complete actions and drive business outcomes. Leveraging AEM Sites Optimizer's insights allows marketers to continuously identify areas of improvement, ultimately increasing effectiveness and boosting overall site performance.
+Forms Optimizer is essential for improving user interactions and maximizing conversions. By identifying areas for improvement—such as low views, low conversions, and accessibility issues of forms—teams can refine form design, placement, and content to enhance engagement. Optimized forms ensure a seamless user experience, making it easier for visitors to complete actions and drive business outcomes. Leveraging AEM Sites Optimizer's insights allows marketers to continuously identify areas of improvement, ultimately increasing effectiveness and boosting overall site performance.
 
 ## Opportunities 
 
