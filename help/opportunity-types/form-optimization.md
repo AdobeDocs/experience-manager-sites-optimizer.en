@@ -1,9 +1,9 @@
 ---
 title: Forms Optimizer with Sites Optimizer
-description: Learn about Forms Optimizer 
+description: Learn about Forms Optimizer with Sites Optimizer.
 ---
 
-# Forms Optimization opportunities
+# Forms Optimizer opportunities
 
 <span class="preview"> The Forms Optimizer capability is available under early access program. You can write to aem-forms-ea@adobe.com from your official email id to join the early access program and request access to the capability. </span>
 
