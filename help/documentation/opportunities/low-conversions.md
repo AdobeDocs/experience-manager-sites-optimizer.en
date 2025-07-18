@@ -20,7 +20,7 @@ Each webpage with a form with low conversions is listed as its own **Low convers
 
 ![Auto-suggest low conversions](./assets/low-conversions/auto-suggest.png){align="center"}
 
-Auto-suggest provides AI-generated webpage variations that are designed to increase the conversions of your forms. Each variation is displays the **project conversion rate increase** based on its potential to improve form engagement, helping you prioritize the most effective suggestions.
+Auto-suggest provides AI-generated webpage variations that are designed to increase the conversions of your forms. Each variation displays the **project conversion rate increase** based on its potential to improve form engagement, helping you prioritize the most effective suggestions.
 
 >[!BEGINTABS]
 

@@ -8,7 +8,7 @@ badgeSecurityPosture: label="Security posture" type="Caution" url="../../opportu
 
 ![Website vulnerabilities opportunity](./assets/website-vulnerabilities/hero.png){align="center"}
 
-The website vulnerabilities opportunity identifies security vulnerabilities in the 3rd party libraries used by your application code. These vulnerabilities could be exploited by a malicious attacker, increasing the risk and decreasing the security posture of your website.
+The website vulnerabilities opportunity identifies security vulnerabilities in the third-party libraries used by your application code. Malicious attackers exploit such vulnerabilities, increasing the risk and decreasing the security posture of your website.
 
 The website vulnerabilities opportunity displays a summary at the top of the page, including the following:
 
@@ -31,17 +31,17 @@ The **Website Vulnerabilities Opportunity** feature automatically identifies and
 
 ![Auto-suggest website vulnerabilities](./assets/website-vulnerabilities/auto-suggest.png){align="center"}
 
-Auto-suggest provides AI-generated suggestions for the **Recommended version** of vulnerable library you should upgrade to. Each entry has a **Score** indicating its overall severity, helping prioritize the most critical vulnerabilities.
+Auto-suggest provides AI-generated suggestions for the **Recommended version** of a vulnerable library you should upgrade to. Each entry has a **Score** indicating its overall severity, helping prioritize the most critical vulnerabilities.
 
 >[!BEGINTABS]
 
 >[!TAB Vulnerability details]
 
-Each vulnerability contains a link to the detailed information in the [National Vulnerability Database (NVD)](https://nvd.nist.gov/). Clicking on the vulnerability identifier or the link item to the right of the description will take you to the NVD page for that vulnerability.
+Each vulnerability contains a link to the detailed information in the [National Vulnerability Database (NVD)](https://nvd.nist.gov/). Clicking on the vulnerability identifier or the link item to the right of the description takes you to the NVD page for that vulnerability.
 
 >[!TAB Ignore entries]
 
-You can choose to ignore entries from the vulnerability list. Selecting the **ignore icon** removes the entry from the list. Ignored entries can be re-engaged from the **Ignored** tab at the top of the opportunity page.<!---right now it does not seem to be implemented, but the page description mentions this functionality-->
+You can choose to ignore entries from the vulnerability list. Selecting ![Delete icon](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) removes the entry from the list. Ignored entries can be re-engaged from the **Ignored** tab at the top of the opportunity page.<!---right now it does not seem to be implemented, but the page description mentions this functionality-->
 
 >[!ENDTABS]
 

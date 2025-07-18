@@ -21,7 +21,7 @@ The missing or invalid structured data opportunity displays a summary at the top
 
 The missing or invalid structured data opportunity lists out all the issues detected on your pages, and contains the following categories:
 
-* **Page with issues** – The page that contains the invalid or missing structured data.
+* **Page with issues** – The page that contains invalid or missing structured data.
 * **Issue and AI-proposed fix** – Indicates the type of structured data issue impacting the page.
 * **Suggestion** - An AI-generated suggestion for suitable structured data updates. See the section below for more details.
 
