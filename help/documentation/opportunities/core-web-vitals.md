@@ -8,7 +8,7 @@ badgeSiteHealth: label="Site health" type="Caution" url="../../opportunity-types
 
 ![core web vitals opportunity](./assets/core-web-vitals/hero.png){align="center"}
 
-The core web vitals opportunity identifies issues that can degrade the user experience and organic search performance of your web pages. These issues arise from a wide range of factors like: custom fonts, unoptimized javascript dependencies, third-party scripts and so on. The core web vitals opportunity points these faulty elements and suggests fixes that can increase your web page's performance. Please note that only pages that have at least 1000 page views can be analyzed.
+The core web vitals opportunity identifies issues that can degrade the user experience and organic search performance of your web pages. These issues arise from a wide range of factors like: custom fonts, unoptimized JavaScript dependencies, third-party scripts and so on. The core web vitals opportunity points these faulty elements and suggests fixes that can increase your web page's performance. Please note that only pages that have at least 1000 page views can be analyzed.
 
 To begin, the core web vitals opportunity displays a summary at the top of the page, including a synopsis of the problem and its impact on your site and business.
 
@@ -26,7 +26,11 @@ In the lower part of the page, you have a list of all the current issues grouped
 
 Each issue is displayed in a table, with the **Page** column identifying the affected page entry.
 
-Furthermore, these issues are also grouped by the standard performance metrics of the core web vitals report: largest contentful paint **LCP**, interaction to next paint **INP** and cumulative layout shift **CLS**.
+The system groups these issues by the standard performance metrics in the Core Web Vitals report:
+
+* largest contentful paint **LCP**
+* interaction to next paint **INP**
+* cumulative layout shift **CLS**
 
 ## Auto-suggest
 

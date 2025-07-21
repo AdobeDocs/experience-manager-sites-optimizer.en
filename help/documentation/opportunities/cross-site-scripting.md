@@ -8,7 +8,7 @@ badgeSecurityPosture: label="Security posture" type="Caution" url="../../opportu
 
 ![Cross-site opportunity](./assets/cross-site-scripting/hero.png){align="center"}
 
-The cross-site scripting opportunity identifies and fixes vulnerabilities in your site's code that could be exploited by attackers to inject malicious scripts into web pages viewed by other users. These scripts can steal sensitive information, such as session cookies, or perform actions on behalf of the user, such as changing the user's password.
+The cross-site scripting opportunity identifies vulnerabilities in your site's code. It then fixes issues that attackers could exploit to inject malicious scripts into web pages viewed by other users. These scripts can steal sensitive information, such as session cookies, or perform actions on behalf of the user, such as changing the user's password.
 
 ## Auto-identify
 

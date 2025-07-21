@@ -7,9 +7,17 @@ description: Learn about the key opportunity types in Sites Optimizer and how th
 
 ![Opportunities types](./assets/overview/hero.png){align="center"}
 
-AEM Sites Optimizer provides valuable insights and recommendations to help you improve your website's performance, usability, and security. These insights are grouped into key opportunity areas: Engagement, Traffic Acquisition, Security Posture, Site Health, Form Optimization, and Form Accesibility. Each category highlights specific ways to enhance your site, whether by increasing visitor interaction, improving discoverability, strengthening security, maintaining site stability, or optimizing form performance.
 
-Leveraging these opportunities improves user experience, attracts the right audience, and keeps your site secure and reliable. Enhancing engagement and traffic acquisition drives interaction and visibility, while a strong security posture and site health help ensure trust and stability. Optimizing forms can also boost conversions. Explore the links below to see opportunities organized by category and discover ways to improve your site.
+AEM Sites Optimizer provides valuable insights and recommendations to help you improve your website's performance, usability, and security. These insights are grouped into the following key opportunity areas: 
+
+* Engagement
+* Traffic Acquisition
+* Security Posture
+* Site Health 
+
+Each category highlights a different way to enhance your site. One category may increase visitor interaction. Another can improve discoverability. Others focus on strengthening security or maintaining site stability.
+
+Using these opportunities improves the user experience, attracts the right audience, and keeps your site secure and reliable. Enhancing engagement and traffic acquisition drives interaction and visibility, while a strong Security Posture and site health help ensure trust and stability.  Explore the links below to see opportunities organized by category and discover ways to improve your site.
 
 ## Opportunities types
 

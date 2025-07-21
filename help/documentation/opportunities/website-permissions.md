@@ -8,7 +8,7 @@ badgeSecurityPosture: label="Security posture" type="Caution" url="../../opportu
 
 ![Website permissions opportunity](./assets/website-permissions/hero.png){align="center"}
 
-The website permissions opportunity optimizes website permissions, crucial for maintaining a secure and manageable AEM environment. This opportunity type allows you to refine access controls by removing overly broad permissions - such as `jcr:all` on generic paths like `/` or `/content` — and aligning user access with the principle of least privilege. By streamlining permissions and eliminating redundancies, you can reduce security risks, improve maintainability, and prevent future misconfigurations. Take action by reviewing and updating permissions in the AEM Security Permissions console or your code repository, ensuring service users have only the access they truly need.
+The website permissions opportunity optimizes website permissions, crucial for maintaining a secure and manageable AEM environment. This opportunity allows you to refine access controls by removing overly broad permissions - such as `jcr:all` on generic paths like `/` or `/content` — and aligning user access with the principle of least privilege. By streamlining permissions and eliminating redundancies, you can reduce security risks, improve maintainability, and prevent future misconfigurations. Review and update permissions in the AEM Security Permissions console or in your code repository. Doing so ensures that service users have only the access they truly need.
 
 ## Auto-identify
 
@@ -17,8 +17,8 @@ The website permissions opportunity optimizes website permissions, crucial for m
 The **Website Permissions opportunity** feature automatically identifies and lists 
 
 * **User** – The user account with the suspect permission.
-* **Path** – The path in AEM that is affected by the permission.
-* **Permission** – The permission that is suspect.
+* **Path** – Use the tabs across the top to organize and filter opportunities by status.
+* **Permission** – The suspected permission.
 * **Issue** - Indicates the type of issue impacting the permission.
 
 ## Auto-suggest
