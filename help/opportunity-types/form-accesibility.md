@@ -26,12 +26,12 @@ Forms Accessibility opportunities are critical for enhancing user interactions a
 --->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Accessibility issues">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Forms Accessibility issues">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../documentation/opportunities/forms-accessibility-issues.md" title="Accessibility issues" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-arrows.png" alt="Accessibility issues"
+                    <a href="../documentation/opportunities/forms-accessibility-issues.md" title="Forms Accessibility issues" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/common/card-arrows.png" alt="Forms Accessibility issues"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -39,9 +39,9 @@ Forms Accessibility opportunities are critical for enhancing user interactions a
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/forms-accessibility-issues.md" target="_blank" rel="referrer" title="Accessibility issues">Accessibility issues</a>
+                        <a href="../documentation/opportunities/forms-accessibility-issues.md" target="_blank" rel="referrer" title="Forms Accessibility issues">Forms Accessibility issues</a>
                     </p>
-                    <p class="is-size-6">Learn about the accessibility issues opportunity and how to use it to improve forms engagement on your website.</p>
+                    <p class="is-size-6">Learn about the forms accessibility issues and how to use these to improve forms engagement on your website.</p>
                 </div>
                 <a href="../documentation/opportunities/forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
