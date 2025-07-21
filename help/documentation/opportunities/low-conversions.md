@@ -10,7 +10,7 @@ badgeFormOptimization: label="Forms Optimizer" type="Caution" url="../../opportu
 
 ![Low conversions opportunity](./assets/low-conversions/hero.png){align="center"}
 
-The low conversions opportunity identifies forms on your website that have low conversion rates. This opportunity type type helps you understand which forms are not performing well and provides suggestions on how to improve their engagement rates.
+The low conversions opportunity identifies forms on your website that have low conversion rates. This opportunity type helps you understand which forms are not performing well and provides suggestions on how to improve their engagement rates.
 
 ## Auto-identify
 
