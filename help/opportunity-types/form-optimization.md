@@ -9,7 +9,7 @@ description: Learn about Forms Optimizer with Sites Optimizer.
 
 ![Forms Optimization opportunities](./assets/form-optimization/hero.png){align="center"}
 
-Forms Optimization opportunities, part of Forms Optimizer, are essential for improving user interactions and maximizing conversions. By identifying areas for improvement—such as low views, low conversions, and low navigation of forms—teams can refine forms design, placement, and content to enhance engagement. Optimized forms ensure a seamless user experience, making it easier for visitors to complete actions and drive business outcomes. Leveraging Forms Optimizer's insights allows marketers to continuously identify areas of improvement, ultimately increasing effectiveness and boosting overall forms performance.
+Forms Optimization opportunities enable organizations to systematically improve user interactions and increase form conversions. By detecting issues such as low views, low conversions, and low navigation rates, teams can make data-driven adjustments to form design, placement, and content. These optimizations help streamline the user experience, making it easier for visitors to complete forms and achieve desired outcomes. Utilizing insights from Forms Optimizer supports ongoing identification and resolution of performance gaps, resulting in more effective forms and improved business results.
 
 ## Opportunities 
 

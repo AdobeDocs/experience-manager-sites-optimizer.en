@@ -3,14 +3,14 @@ title: Forms Optimizer with Sites Optimizer
 description: Learn about Forms Optimizer with Sites Optimizer.
 ---
 
-# Forms Optimizer opportunities
+# Forms Accesibility opportunities
 
 <span class="preview"> The Forms Optimizer capability is available under early access program. You can write to aem-forms-ea@adobe.com from your official email id to join the early access program and request access to the capability. </span>
 
 ![Forms Accesibility opportunities](./assets/form-optimization/hero.png){align="center"}
 
 
-Forms Accessibility opportunities, part of Forms Optimizer, are essential for improving user interactions and maximizing conversions. By assessing how well your forms conform to WCAG, you help create an inclusive forms experience, allowing individuals with visual, auditory, cognitive, and motor impairments to navigate, interact with, and successfully complete your forms. Not only is this essential for ethical reasons, but it also promotes compliance with legal requirements, improves form completion rates, and can increase your audience reach, enhancing both user experience and business performance.
+Forms Accessibility opportunities are critical for enhancing user interactions and increasing conversions. Evaluating your forms for compliance with the Web Content Accessibility Guidelines (WCAG) helps ensure an inclusive experience for users with visual, auditory, cognitive, and motor impairments. This not only fulfills ethical and legal requirements but also improves form completion rates and broadens your audience, resulting in a better user experience and stronger business outcomes.
 
 ## Opportunities 
 
