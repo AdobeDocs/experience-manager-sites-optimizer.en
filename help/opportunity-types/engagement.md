@@ -7,7 +7,7 @@ description: Learn how to improve engagement with Sites Optimizer.
 
 ![Engagement opportunities](./assets/engagement/hero.png){align="center"}
 
-Engagement opportunities in AEM Sites Optimizer are crucial for enhancing digital experiences by providing actionable insights into how users interact with web pages. By identifying areas for improvement - such as accessibility issues, broken internal links, high bounce rates, and missing alt text - marketers and content authors can optimize their sites for better performance and user engagement. These opportunities help ensure that content is effective, discoverable, and compelling, ultimately driving higher conversions and a more seamless customer journey. Leveraging AEM Sites Optimizer's recommendations allows teams to continuously refine their digital strategy and deliver high-impact experiences at scale.
+Engagement opportunities in AEM Sites Optimizer are crucial for enhancing digital experiences by providing actionable insights into how users interact with web pages. By identifying areas for improvement - such as accessibility issues, broken internal links, high bounce rates, and missing alt text - marketers and content authors can optimize their sites for better performance and user engagement. These opportunities help ensure that content is effective, discoverable, and compelling, ultimately driving higher conversions and a more seamless customer journey. Using AEM Sites Optimizer's recommendations let teams continuously refine their digital strategy and deliver high-impact experiences at scale.
 
 
 ## Opportunities

@@ -8,7 +8,7 @@ badgeEngagement: label="Engagement" type="Caution" url="../../opportunity-types/
 
 ![Accessibility issues opportunity](./assets/accessibility-issues/hero.png){align="center"}
 
-The accessibility issues opportunity identifies how well your website conforms to the needs of people with disabilities and if they follow the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/). By assessing how well your site conforms to WCAG, you help create an inclusive online experience, allowing individuals with visual, auditory, cognitive, and motor impairments to navigate, interact with, and benefit from your content. Not only is this essential for ethical reasons, but it also promotes compliance with legal requirements, improves SEO, and can increase your audience reach, enhancing both user experience and business performance.
+The accessibility issues opportunity identifies how well your website conforms to the needs of people with disabilities and if they follow the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/). By assessing how well your site conforms to WCAG, you help create an inclusive online experience. In turn, it lets individuals with visual, auditory, cognitive, and motor impairments to navigate, interact with, and benefit from your content. Not only is this functionality essential for ethical reasons, but it also promotes compliance with legal requirements, improves SEO, and can increase your audience reach, enhancing both user experience and business performance.
 
 ## Auto-identify
 

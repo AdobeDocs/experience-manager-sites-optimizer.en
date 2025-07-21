@@ -7,7 +7,7 @@ description: Learn how to increase traffic acquisition with Sites Optimizer.
 
 ![Traffic acquisition opportunities](./assets/traffic-acquisition/hero.png){align="center"}
 
-Traffic acquisition is essential for driving potential customers to your website and creating opportunities for sales or lead generation. By leveraging strategies like search engine optimization (SEO), businesses can improve search visibility and make it easier for users to discover their content. A steady flow of visitors not only increases brand awareness and trust but also provides valuable insights into user behavior, helping teams refine their offerings and enhance the overall experience. Leveraging AEM Sites Optimizer's insights allows for continuous optimization, ensuring sustained growth and improved conversion rates over time.
+Traffic acquisition drives potential customers to your website and creates sales or lead opportunities. By using strategies like search engine optimization (SEO), businesses can improve search visibility and make it easier for users to discover their content. A steady flow of visitors increases brand awareness and builds trust. It also yields valuable insights into user behavior. These insights help teams refine their offerings and enhance the overall experience. Using AEM Sites Optimizer's insights allow for continuous optimization, ensuring sustained growth and improved conversion rates over time.
 
 ## Opportunities 
 

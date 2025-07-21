@@ -38,19 +38,19 @@ The broken backlinks opportunity also provides an AI-generated suggestions on wh
 
 ![AI rationale on autosuggestion of broken backlinks](./assets/broken-backlinks/auto-suggest-ai-rationale.png){align="center"}
 
-Select the **information** icon to view the AI rationale for the suggested URL. The rationale explains why the AI believes the suggested URL is the best fit for the broken link. This can help you understand the AI's decision-making process and make an informed decision on whether to accept or reject the suggestion.
+Select the **information** icon to view the AI rationale for the suggested URL. The rationale explains why the AI believes the suggested URL is the best fit for the broken link. It can help you understand the AI's decision-making process and make an informed decision on whether to accept or reject the suggestion.
 
 >[!TAB Edit target URL]
 
 ![Edit suggested URL of broken backlinks](./assets/broken-backlinks/edit-target-url.png){align="center"}
 
-If you disagree with the AI-generated suggestion, you can edit the suggested URL by selecting the **edit icon**. This allows you to manually input the URL you believe is the best fit for the broken link. Sites Optimizer will also list any other URLs on your site it believes may be a good fit for the broken link.  
+If you disagree with the AI-generated suggestion, you can edit the suggested URL by selecting the **edit icon**. Editing lets you manually input the URL you believe is the best fit for the broken link. Sites Optimizer also lists any other URLs on your site that it believes may be a good fit for the broken link.  
 
 >[!TAB Ignore entries]
 
 ![Ignore broken backlinks](./assets/broken-backlinks/ignore.png){align="center"}
 
-You can choose to ignore entires with the broken target URL. Selecting the **ignore icon** removes the broken backlink from the opportunity list. Ignored broken backlinks can be re-engaged from the **Ignored** tab at the top of the opportunity page.
+You can choose to ignore entires with the broken target URL. Selecting ![Delete icon or ignore icon](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) removes the broken backlink from the opportunity list. Ignored broken backlinks can be re-engaged from the **Ignored** tab at the top of the opportunity page.
 
 >[!ENDTABS]
 
@@ -60,7 +60,7 @@ You can choose to ignore entires with the broken target URL. Selecting the **ign
 
 ![Auto-optimize broken backlinks](./assets/broken-backlinks/auto-optimize.png){align="center"}
 
-Sites Optimizer Ultimate adds the ability to deploy auto-optimization for broken backlinks. Selecting the **Auto-optimize** button automatically updates the AEM Site's redirect rules to map the **broken target URL** to the **suggested URL**. This ensures website visitors and search bots following the broken links on the **referring pages** are redirected to the correct page on your site, improving SEO and user experience.
+Sites Optimizer Ultimate adds the ability to deploy auto-optimization for broken backlinks. Selecting the **Auto-optimize** button automatically updates the AEM Site's redirect rules to map the **broken target URL** to the **suggested URL**. This functionality ensures that website visitors and search bots following the broken links on the **referring pages** are redirected to the correct page on your site, improving SEO and user experience.
 
 >[!BEGINTABS]
 
@@ -68,7 +68,7 @@ Sites Optimizer Ultimate adds the ability to deploy auto-optimization for broken
 
 ![Deploy optimization of broken backlinks](./assets/broken-backlinks/deploy-optimization.png){align="center"}
 
-Selecting **Deploy optimization** will update the AEM Site's redirect rules to map the **broken target URL** to the **suggested URL**. This ensures website visitors and search bots following the broken links on the **referring pages** are redirected to the correct page on your site, improving SEO and user experience.
+Selecting **Deploy optimization** updates the AEM Site's redirect rules to map the **broken target URL** to the **suggested URL**. This functionality ensures that website visitors and search bots following the broken links on the **referring pages** are redirected to the correct page on your site, improving SEO and user experience.
 
 >[!TAB Request approval]
 
