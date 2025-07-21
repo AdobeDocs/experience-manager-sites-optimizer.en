@@ -10,7 +10,7 @@ badgeFormOptimization: label="Forms Optimizer" type="Caution" url="../../opportu
 
 ![Low navigation opportunity](./assets/low-navigation/hero.png){align="center"}
 
-The low navigation opportunity identifies forms on your website that have low navigation rates. This opportunity type type helps you understand which forms are not being discovered or accessed by users and provides suggestions on how to improve their discoverability.
+The low navigation opportunity identifies forms on your website that have low navigation rates. This opportunity type helps you understand which forms are not being discovered or accessed by users and provides suggestions on how to improve their discoverability.
 
 ## Auto-identify
 
