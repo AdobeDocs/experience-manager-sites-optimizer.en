@@ -14,7 +14,7 @@ user-guide-description: This is a description for the user guide that will be di
   + [Site health](/help/opportunity-types/site-health.md)
   + [Security posture](/help/opportunity-types/security-posture.md)
   + [Forms Optimization](/help/opportunity-types/form-optimization.md)
-  + [Forms Accessibility](/help/opportunity-types/form-optimization.md)
+  + [Forms Accessibility](/help/opportunity-types/form-accesibility.md)
 + Documentation{#documentation}
   + [Overview](/help/documentation/overview.md)
   + [Basics](/help/documentation/basics.md)
