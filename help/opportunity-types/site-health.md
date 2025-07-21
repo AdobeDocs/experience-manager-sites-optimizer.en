@@ -7,7 +7,7 @@ description: Learn how to improve your site's health with Sites Optimizer.
 
 ![Site health opportunities](./assets/site-health/hero.png){align="center"}
 
-Maintaining site health in AEM Sites Optimizer is essential for delivering fast, reliable, and high-performing digital experiences. By identifying opportunities for improvement—such as Core Web Vitals—teams can optimize page speed, interactivity, and visual stability to enhance user experience and search engine rankings. A well-maintained site ensures smoother navigation, better engagement, and improved overall performance. Leveraging AEM Sites Optimizer's insights enables continuous monitoring and refinement, ensuring the site remains efficient and effective over time.
+Maintaining site health in AEM Sites Optimizer is essential for delivering fast, reliable, and high-performing digital experiences. By identifying opportunities for improvement—such as Core Web Vitals—teams can optimize page speed, interactivity, and visual stability to enhance user experience and search engine rankings. A well-maintained site ensures smoother navigation, better engagement, and improved overall performance. Using AEM Sites Optimizer's insights enable continuous monitoring and refinement, ensuring the site remains efficient and effective over time.
 
 ## Opportunities
 
@@ -35,7 +35,7 @@ Maintaining site health in AEM Sites Optimizer is essential for delivering fast,
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/core-web-vitals.md" target="_blank" rel="referrer" title="Core web vitals">Core web vitals</a>
                     </p>
-                    <p class="is-size-6">Learn about the core web vitals opportunity and how to use it to improve traffic acquisition.</p>
+                    <p class="is-size-6">Learn about the Core Web Vitals opportunity and how to use it to improve traffic acquisition.</p>
                 </div>
                 <a href="../documentation/opportunities/core-web-vitals.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
