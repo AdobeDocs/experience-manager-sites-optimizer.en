@@ -9,7 +9,7 @@ description: Learn about Forms Optimizer with Sites Optimizer.
 
 ![Forms Optimization opportunities](./assets/form-optimization/hero.png){align="center"}
 
-Form Optimization opportunities, part of Forms Optimizer, are essential for improving user interactions and maximizing conversions. By identifying areas for improvement—such as low views, low conversions, and low navigation of forms—teams can refine form design, placement, and content to enhance engagement. Optimized forms ensure a seamless user experience, making it easier for visitors to complete actions and drive business outcomes. Leveraging Form Optimizer's insights allows marketers to continuously identify areas of improvement, ultimately increasing effectiveness and boosting overall forms performance.
+Forms Optimization opportunities, part of Forms Optimizer, are essential for improving user interactions and maximizing conversions. By identifying areas for improvement—such as low views, low conversions, and low navigation of forms—teams can refine forms design, placement, and content to enhance engagement. Optimized forms ensure a seamless user experience, making it easier for visitors to complete actions and drive business outcomes. Leveraging Forms Optimizer's insights allows marketers to continuously identify areas of improvement, ultimately increasing effectiveness and boosting overall forms performance.
 
 ## Opportunities 
 
@@ -40,7 +40,7 @@ Form Optimization opportunities, part of Forms Optimizer, are essential for impr
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/low-views.md" target="_blank" rel="referrer" title="Low views">Low views</a>
                     </p>
-                    <p class="is-size-6">Learn about the low views opportunity and how to use it to improve form engagement on your website.</p>
+                    <p class="is-size-6">Learn about the low views opportunity and how to use it to improve forms engagement on your website.</p>
                 </div>
                 <a href="../documentation/opportunities/low-views.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
@@ -63,7 +63,7 @@ Form Optimization opportunities, part of Forms Optimizer, are essential for impr
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/low-conversions.md" target="_blank" rel="referrer" title="Low conversions">Low conversions</a>
                     </p>
-                    <p class="is-size-6">Learn about the low conversions opportunity and how to use it to improve form engagement on your website.</p>
+                    <p class="is-size-6">Learn about the low conversions opportunity and how to use it to improve forms engagement on your website.</p>
                 </div>
                 <a href="../documentation/opportunities/low-conversions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
@@ -86,7 +86,7 @@ Form Optimization opportunities, part of Forms Optimizer, are essential for impr
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/low-navigation.md" target="_blank" rel="referrer" title="Accessibility issues">Low navigation</a>
                     </p>
-                    <p class="is-size-6">Learn about the low navigation opportunity and how to use it to improve form engagement on your website.</p>
+                    <p class="is-size-6">Learn about the low navigation opportunity and how to use it to improve forms engagement on your website.</p>
                 </div>
                 <a href="../documentation/opportunities/low-navigation.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>

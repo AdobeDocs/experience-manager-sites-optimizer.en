@@ -268,7 +268,7 @@ Explore all the possible opportunities available in Sites Optimizer:
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./high-bounce-rate.md" target="_blank" rel="referrer" title="High bounce rate">High bounce rate</a>
                     </p>
-                    <p class="is-size-6">Learn about the low views opportunity and how to use it to improve form engagement on your website.</p>
+                    <p class="is-size-6">Learn about the low views opportunity and how to use it to improve forms engagement on your website.</p>
                 </div>
                 <a href="./high-bounce-rate.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
@@ -314,7 +314,7 @@ Explore all the possible opportunities available in Sites Optimizer:
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./low-conversions.md" target="_blank" rel="referrer" title="Forms low conversions">Forms low conversions</a>
                     </p>
-                    <p class="is-size-6">Learn about the low conversions opportunity and how to use it to improve form engagement on your website.</p>
+                    <p class="is-size-6">Learn about the low conversions opportunity and how to use it to improve forms engagement on your website.</p>
                 </div>
                 <a href="./low-conversions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>

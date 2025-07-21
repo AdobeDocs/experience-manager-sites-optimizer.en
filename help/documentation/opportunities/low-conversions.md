@@ -1,6 +1,6 @@
 ---
 title: Low Conversions Opportunity Documentation
-description: Learn about the low conversions opportunity and how to use it to improve form engagement on your website.
+description: Learn about the low conversions opportunity and how to use it to improve forms engagement on your website.
 badgeFormOptimization: label="Forms Optimizer" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Forms Optimizer"
 ---
 
@@ -16,13 +16,13 @@ The low conversions opportunity identifies forms on your website that have low c
 
 ![Auto-identify low conversions](./assets/low-conversions/auto-identify.png){align="center"}
 
-Each webpage with a form with low conversions is listed as its own **Low conversions** opportunity. A brief summary of the opportunity and rationale is displayed at the top of the opportunity page.
+Each webpage with forms with low conversions is listed as its own **Low conversions** opportunity. A brief summary of the opportunity and rationale is displayed at the top of the opportunity page.
 
 ## Auto-suggest
 
 ![Auto-suggest low conversions](./assets/low-conversions/auto-suggest.png){align="center"}
 
-Auto-suggest provides AI-generated form variations that are designed to increase the conversions of your forms. Each variation displays the **projected conversion rate increase** based on its potential to improve form engagement, helping you prioritize the most effective suggestions.
+Auto-suggest provides AI-generated forms variations that are designed to increase the conversions of your forms. Each variation displays the **projected conversion rate increase** based on its potential to improve forms engagement, helping you prioritize the most effective suggestions.
 
 >[!BEGINTABS]
 
@@ -30,18 +30,18 @@ Auto-suggest provides AI-generated form variations that are designed to increase
 
 ![Control variations](./assets/low-conversions/control-variation.png){align="center"}
 
-The control variation is the original form that is currently live on your website. This variation is used as a baseline to compare the performance of the suggested variations.
+The control variation is the original forms that are currently live on your website. This variation is used as a baseline to compare the performance of the suggested variations.
 
 >[!TAB Suggested variations]
 
 ![Suggested variations](./assets/low-conversions/suggested-variations.png){align="center"}
 
-The suggested variations are AI-generated form variations that are designed to increase the conversions of your forms. Each variation displays the **projected conversion rate increase** based on its potential to improve form engagement, helping you prioritize the most effective suggestions.
+The suggested variations are AI-generated forms variations that are designed to increase the conversions of your forms. Each variation displays the **projected conversion rate increase** based on its potential to improve forms engagement, helping you prioritize the most effective suggestions.
 
 Click on each variation to preview it on the right side of the screen. In the top of the preview, the following actions and information are available:
 
 * **Changes** - A brief summary of what changed in this variation from the **Control** variation.
-* **Projected conversion rate increase** - The estimated increase in form engagement if this variation is implemented.
+* **Projected conversion rate increase** - The estimated increase in forms engagement if this variation is implemented.
 * **Edit** - Click to edit the variation in AEM authoring.
 
 >[!ENDTABS]

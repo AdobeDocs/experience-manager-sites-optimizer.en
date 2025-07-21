@@ -10,7 +10,7 @@ description: Learn about Forms Optimizer with Sites Optimizer.
 ![Forms Accesibility opportunities](./assets/form-optimization/hero.png){align="center"}
 
 
-Form Accesibility opportunities, part of Forms Optimizer, are essential for improving user interactions and maximizing conversions. By assessing how well your forms conform to WCAG, you help create an inclusive form experience, allowing individuals with visual, auditory, cognitive, and motor impairments to navigate, interact with, and successfully complete your forms. Not only is this essential for ethical reasons, but it also promotes compliance with legal requirements, improves form completion rates, and can increase your audience reach, enhancing both user experience and business performance.
+Forms Accessibility opportunities, part of Forms Optimizer, are essential for improving user interactions and maximizing conversions. By assessing how well your forms conform to WCAG, you help create an inclusive forms experience, allowing individuals with visual, auditory, cognitive, and motor impairments to navigate, interact with, and successfully complete your forms. Not only is this essential for ethical reasons, but it also promotes compliance with legal requirements, improves form completion rates, and can increase your audience reach, enhancing both user experience and business performance.
 
 ## Opportunities 
 
@@ -41,7 +41,7 @@ Form Accesibility opportunities, part of Forms Optimizer, are essential for impr
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/forms-accessibility-issues.md" target="_blank" rel="referrer" title="Accessibility issues">Accessibility issues</a>
                     </p>
-                    <p class="is-size-6">Learn about the accessibility issues opportunity and how to use it to improve form engagement on your website.</p>
+                    <p class="is-size-6">Learn about the accessibility issues opportunity and how to use it to improve forms engagement on your website.</p>
                 </div>
                 <a href="../documentation/opportunities/forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
