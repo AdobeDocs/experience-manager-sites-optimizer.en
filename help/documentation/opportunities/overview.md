@@ -381,11 +381,11 @@ Explore all the possible opportunities available in Sites Optimizer:
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./forms-accessibility-issues" target="_blank" rel="referrer" title="Forms accessibility issues">Forms accessibility issues</a>
+                        <a href="./forms-accessibility-issues.md" target="_blank" rel="referrer" title="Forms accessibility issues">Forms accessibility issues</a>
                     </p>
                     <p class="is-size-6">Learn about the Forms accessibility issues opportunity and how to use it to improve form engagement on your website.</p>
                 </div>
-                <a href="./forms-accessibility-issues" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="./forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
                 </a>
             </div>
