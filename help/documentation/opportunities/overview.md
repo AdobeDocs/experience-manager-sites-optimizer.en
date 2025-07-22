@@ -304,7 +304,7 @@ Explore all the possible opportunities available in Sites Optimizer:
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="./low-conversions.md" title="Forms low conversions" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../../assets/common/card-bag.png" alt="Forms low conversions"
+                        <img class="is-bordered-r-small" src="../../assets/common/card-conversion.png" alt="Forms low conversions"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -327,7 +327,7 @@ Explore all the possible opportunities available in Sites Optimizer:
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="./low-views.md" title="Forms low views" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../../assets/common/card-bag.png" alt="Low views"
+                        <img class="is-bordered-r-small" src="../../assets/common/card-conversion.png" alt="Low views"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -350,7 +350,7 @@ Explore all the possible opportunities available in Sites Optimizer:
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="./low-navigation.md" title="Forms low navigation" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../../assets/common/card-bag.png" alt="Forms low navigation"
+                        <img class="is-bordered-r-small" src="../../assets/common/card-conversion.png" alt="Forms low navigation"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -373,7 +373,7 @@ Explore all the possible opportunities available in Sites Optimizer:
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="./forms-accessibility-issues.md" title="Forms accessibility issues" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../../assets/common/card-bag.png" alt="Forms accessibility issues"
+                        <img class="is-bordered-r-small" src="../../assets/common/card-arrows.png" alt="Forms accessibility issues"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
