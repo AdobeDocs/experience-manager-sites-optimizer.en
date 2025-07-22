@@ -7,7 +7,6 @@ description: Learn about the key opportunity types in Sites Optimizer and how th
 
 ![Opportunities types](./assets/overview/hero.png){align="center"}
 
-
 AEM Sites Optimizer provides valuable insights and recommendations to help you improve your website's performance, usability, and security. These insights are grouped into the following key opportunity areas: 
 
 * Engagement
@@ -31,8 +30,6 @@ Using these opportunities improves the user experience, attracts the right audie
    { title = Site health }
 * ./traffic-acquisition.md
    { title = Traffic acquisition }
-* ./form-optimization.md
-   { title = Forms Optimizer }
 
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
@@ -129,54 +126,5 @@ Using these opportunities improves the user experience, attracts the right audie
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Forms Optimization">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="./form-optimization.md" title="Forms Optimization" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/form-optimization/hero.png" alt="Forms Optimization"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./form-optimization.md" target="_blank" rel="referrer" title="Forms Optimization">Forms Optimization</a>
-                    </p>
-                    <p class="is-size-6">Learn about how to improve your forms conversion with Forms Optimizer.</p>
-                </div>
-                <a href="./form-optimization.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Forms Accessibility">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="./form-optimization.md" title="Forms Accessibility" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/form-optimization/hero.png" alt="Forms Accessibility"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./form-optimization.md" target="_blank" rel="referrer" title="Forms Accessibility">Forms Accessibility</a>
-                    </p>
-                    <p class="is-size-6">Learn about how to improve your forms accessibility with Forms Optimizer.</p>
-                </div>
-                <a href="./form-optimization.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
-<span class="preview"> The Forms Optimization and Forms Accessibility capabilities are available under early access program. You can write to aem-forms-ea@adobe.com from your official email id to join the early access program and request access to the capability. </span>
