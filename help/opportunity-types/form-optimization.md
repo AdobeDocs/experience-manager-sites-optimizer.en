@@ -34,7 +34,7 @@ Forms Optimization opportunities enable organizations to systematically improve 
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../documentation/opportunities/low-views.md" title="Low views" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-bag.png" alt="Low views"
+                        <img class="is-bordered-r-small" src="../assets/common/card-conversion.png" alt="Low views"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -57,7 +57,7 @@ Forms Optimization opportunities enable organizations to systematically improve 
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../documentation/opportunities/low-conversions.md" title="Low conversions" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-bag.png" alt="Low conversions"
+                        <img class="is-bordered-r-small" src="../assets/common/card-conversion.png" alt="Low conversions"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -80,7 +80,7 @@ Forms Optimization opportunities enable organizations to systematically improve 
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../documentation/opportunities/low-navigation.md" title="Low navigation" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-arrows.png" alt="Low navigation"
+                        <img class="is-bordered-r-small" src="../assets/common/card-conversion.png" alt="Low navigation"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
