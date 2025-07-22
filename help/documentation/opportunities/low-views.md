@@ -2,6 +2,8 @@
 title: Low Views Opportunity Documentation
 description: Learn about the low views opportunity and how to use it to improve forms engagement on your website.
 badgeFormOptimization: label="Forms Optimizer" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Forms Optimizer"
+hide: yes
+hidefromtoc: yes
 ---
 
 # Forms low views opportunity
