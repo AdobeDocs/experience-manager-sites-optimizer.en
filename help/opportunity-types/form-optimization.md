@@ -1,19 +1,19 @@
 ---
-title: Forms Optimizer with Sites Optimizer
-description: Learn about Forms Optimizer with Sites Optimizer.
+title: Forms Optimization with Sites Optimizer
+description: Learn about Forms Optimization with Sites Optimizer.
 hide: yes
 hidefromtoc: yes
 ---
 
 # Forms Optimization opportunities 
 
-<span class="preview"> The Forms Optimizer capability is available under early access program. You can write to aem-forms-ea@adobe.com from your official email id to join the early access program and request access to the capability. </span>
+<span class="preview"> The Forms Optimization capability is available under early access program. You can write to aem-forms-ea@adobe.com from your official email id to join the early access program and request access to the capability. </span>
 
->[!VIDEO](https://video.tv.adobe.com/v/3469472/)
+<!-- [!VIDEO](https://video.tv.adobe.com/v/3469472/) -->
 
-<!-- ![Forms Optimization opportunities](./assets/form-optimization/hero.png){align="center"} -->
+![Forms Optimization opportunities](./assets/form-optimization/hero.png){align="center"} 
 
-Forms Optimization opportunities enable organizations to systematically improve user interactions and increase form conversions. By detecting issues such as low views, low conversions, and low navigation rates, teams can make data-driven adjustments to form design, placement, and content. These optimizations help streamline the user experience, making it easier for visitors to complete forms and achieve desired outcomes. Utilizing insights from Forms Optimizer supports ongoing identification and resolution of performance gaps, resulting in more effective forms and improved business results.
+Forms Optimization opportunities enable organizations to systematically improve user interactions and increase form conversions. By detecting issues such as low views, low conversions, and low navigation rates, teams can make data-driven adjustments to form design, placement, and content. These optimizations help streamline the user experience, making it easier for visitors to complete forms and achieve desired outcomes. Utilizing insights from Forms Optimization supports ongoing identification and resolution of performance gaps, resulting in more effective forms and improved business results.
 
 ## Opportunities 
 
@@ -34,7 +34,7 @@ Forms Optimization opportunities enable organizations to systematically improve 
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../documentation/opportunities/low-views.md" title="Low views" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-bag.png" alt="Low views"
+                        <img class="is-bordered-r-small" src="../assets/common/card-conversion.png" alt="Low views"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -57,7 +57,7 @@ Forms Optimization opportunities enable organizations to systematically improve 
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../documentation/opportunities/low-conversions.md" title="Low conversions" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-bag.png" alt="Low conversions"
+                        <img class="is-bordered-r-small" src="../assets/common/card-conversion.png" alt="Low conversions"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -80,7 +80,7 @@ Forms Optimization opportunities enable organizations to systematically improve 
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../documentation/opportunities/low-navigation.md" title="Low navigation" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-arrows.png" alt="Low navigation"
+                        <img class="is-bordered-r-small" src="../assets/common/card-conversion.png" alt="Low navigation"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
