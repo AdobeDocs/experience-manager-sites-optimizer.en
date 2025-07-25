@@ -32,7 +32,7 @@ Using these opportunities improves the user experience, attracts the right audie
 * ./traffic-acquisition.md
    { title = Traffic acquisition }
 * ./form-optimization.md
-   { title = Forms Optimizer }
+   { title = Forms Optimization }
 
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
@@ -144,7 +144,7 @@ Using these opportunities improves the user experience, attracts the right audie
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./form-optimization.md" target="_blank" rel="referrer" title="Forms Optimization">Forms Optimization</a>
                     </p>
-                    <p class="is-size-6">Learn about how to improve your forms conversion with Forms Optimizer.</p>
+                    <p class="is-size-6">Learn about how to improve your forms conversion with Forms Optimization.</p>
                 </div>
                 <a href="./form-optimization.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
@@ -167,7 +167,7 @@ Using these opportunities improves the user experience, attracts the right audie
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./form-optimization.md" target="_blank" rel="referrer" title="Forms Accessibility">Forms Accessibility</a>
                     </p>
-                    <p class="is-size-6">Learn about how to improve your forms accessibility with Forms Optimizer.</p>
+                    <p class="is-size-6">Learn about how to improve your forms accessibility with Forms Optimization.</p>
                 </div>
                 <a href="./form-optimization.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
