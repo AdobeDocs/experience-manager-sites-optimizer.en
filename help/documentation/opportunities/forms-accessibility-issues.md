@@ -8,8 +8,6 @@ hidefromtoc: yes
 
 # Forms accessibility issues opportunity
 
-<span class="preview"> The Forms Optimization capability is available under early access program. You can write to aem-forms-ea@adobe.com from your official email id to join the early access program and request access to the capability. </span>
-
 ![Forms accessibility issues opportunity](./assets/forms-accessibility-issues/hero.png){align="center"}
 
 The forms accessibility issues opportunity identifies how well your forms conform to the needs of people with disabilities and if they follow the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/). By assessing how well your forms conform to WCAG, you help create an inclusive forms experience, allowing individuals with visual, auditory, cognitive, and motor impairments to navigate, interact with, and successfully complete your forms. Not only is this essential for ethical reasons, but it also promotes compliance with legal requirements, improves form completion rates, and can increase your audience reach, enhancing both user experience and business performance.

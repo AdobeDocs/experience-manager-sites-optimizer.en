@@ -7,8 +7,6 @@ hidefromtoc: yes
 
 # Forms Accesibility opportunities
 
-<span class="preview"> The Forms Optimization capability is available under early access program. You can write to aem-forms-ea@adobe.com from your official email id to join the early access program and request access to the capability. </span>
-
 ![Forms Accesibility opportunities](./assets/form-accesibility/hero.png){align="center"}
 
 

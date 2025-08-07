@@ -8,8 +8,6 @@ hidefromtoc: yes
 
 # Forms low navigation opportunity
 
-<span class="preview"> The Forms Optimization capability is available under early access program. You can write to aem-forms-ea@adobe.com from your official email id to join the early access program and request access to the capability. </span>
-
 ![Low navigation opportunity](./assets/low-navigation/hero.png){align="center"}
 
 The low navigation opportunity identifies forms on your website that have low navigation rates. This opportunity type helps you understand which forms are not being discovered or accessed by users and provides suggestions on how to improve their discoverability.
