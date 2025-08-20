@@ -13,11 +13,12 @@ AEM Sites Optimizer provides valuable insights and recommendations to help you i
 * Engagement
 * Traffic Acquisition
 * Security Posture
-* Site Health 
+* Site Health
+* Preflight 
 
-Each category highlights a different way to enhance your site. One category may increase visitor interaction. Another can improve discoverability. Others focus on strengthening security or maintaining site stability.
+Each category highlights a different way to enhance your site. One category may increase visitor interaction. Another can improve discoverability. Others focus on strengthening security or maintaining site stability. Preflight helps you analyze and optimize pages before they are published.
 
-Using these opportunities improves the user experience, attracts the right audience, and keeps your site secure and reliable. Enhancing engagement and traffic acquisition drives interaction and visibility, while a strong Security Posture and site health help ensure trust and stability.  Explore the links below to see opportunities organized by category and discover ways to improve your site.
+Using these opportunities improves the user experience, attracts the right audience, and keeps your site secure and reliable. Enhancing engagement and traffic acquisition drives interaction and visibility, while a strong Security Posture and site health help ensure trust and stability. Preflight analysis ensures your content is optimized before it goes live. Explore the links below to see opportunities organized by category and discover ways to improve your site.
 
 ## Opportunities types
 
@@ -33,6 +34,8 @@ Using these opportunities improves the user experience, attracts the right audie
    { title = Traffic acquisition }
 * ./form-optimization.md
    { title = Forms Optimization }
+* ./preflight.md
+   { title = Preflight }
 
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
@@ -175,7 +178,30 @@ Using these opportunities improves the user experience, attracts the right audie
             </div>
         </div>
     </div>
-    
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Preflight">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="./preflight.md" title="Preflight" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/preflight/hero.png" alt="Preflight"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="./preflight.md" target="_blank" rel="referrer" title="Preflight">Preflight</a>
+                    </p>
+                    <p class="is-size-6">Learn about preflight analysis and how to set up preflight opportunities in Sites Optimizer.</p>
+                </div>
+                <a href="./preflight.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
+                </a>
+            </div>
+        </div>
+    </div>
+ </br>   
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
