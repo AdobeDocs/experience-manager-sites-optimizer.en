@@ -9,7 +9,7 @@ description: Learn about Preflight opportunities and how to set up preflight ana
 
 <span class="preview">AEM Sites Optimizer Preflight analyzes your page's technical and performance data and anticipates and detects opportunities before it is published. It uses generative AI to suggest optimisations.</span>
 
-## Onboarding Steps
+## Onboarding & Execution 
 
 ### Universal Editor Setup
 
@@ -18,6 +18,7 @@ description: Learn about Preflight opportunities and how to set up preflight ana
 3. AEM team will enable the extension for your org
 4. Once that is done, open page in Universal Editor such as: https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/site/subscription.html
 5. Preflight extension will be visible in side rail
+6. Clicking on Preflight Extesion from side rail will start the Preflight Audit for the current page
 
 ### Document-Based Preview Setup
 
@@ -98,6 +99,11 @@ if (window.location.href.includes('.aem.page')) {
    import('../tools/sidekick/aem-sites-optimizer-preflight.js');
 }
 ```
+Now Preflight Button should be visible in side kick. 
+
+#### Step 4: Running the Audit
+Open the preview url (*.aem.page) of the page where audits needs to be executed. Click on Preflight button from sidekick.  
+
 
 ### Bookmarklet Setup
 
@@ -116,6 +122,8 @@ Press **Ctrl+Shift+B** (Windows) or **Cmd+Shift+B** (Mac) to show your Bookmarks
 ```
 javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();
 ```
+Once Bookmarklet is added, Open the preview url (*.aem.page) of the page where audits needs to be executed. Click on Bookmark to start Preflight Audit.
+
 
 ## Best Practices
 
