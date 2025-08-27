@@ -156,11 +156,11 @@ description: Learn about Preflight opportunities and how to set up preflight ana
 ### Universal Editor Setup
 
 1. Go to Extension Manager from URL: https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor
-2. Select AEM Sites Optimiser Preflight Extension and request to Enable
-3. AEM team will enable the extension for your org
-4. Once that is done, open page in Universal Editor such as: https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/site/subscription.html
-5. Preflight extension will be visible in side rail
-6. Clicking on Preflight Extesion from side rail will start the Preflight Audit for the current page
+2. Select AEM Sites Optimizer Preflight Extension and request to Enable
+3. AEM Team will enable the extension for your org
+4. Once that is done, open a page in Universal Editor, such as: https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/site/subscription.html
+5. Preflight extension will be visible in the side rail
+6. Clicking on Preflight Extension from the side rail will start the Preflight Audit for the current page
 
 ### Document-Based Preview Setup
 
@@ -234,42 +234,41 @@ Create `/tools/sidekick/aem-sites-optimizer-preflight.js` with the following con
 
 #### Step 3: Update Scripts File
 
-Add the following import statement to the `loadLazy()` function in `/scripts/scripts.js` for preview urls as shown in the image below:
+Add the following import statement to the `loadLazy()` function in `/scripts/scripts.js` for preview URLs as shown in the image below:
 
 ```javascript
 if (window.location.href.includes('.aem.page')) {
    import('../tools/sidekick/aem-sites-optimizer-preflight.js');
 }
 ```
-Now Preflight Button should be visible in side kick. 
+Now Preflight Button should be visible in Sidekick. 
 
 #### Step 4: Running the Audit
-Open the preview url (*.aem.page) of the page where audits needs to be executed. Click on Preflight button from sidekick.  
+Open the preview URL (*.aem.page) of the page where audits need to be executed. Click on the Preflight button from Sidekick.  
 
+### AEM Cloud Service Setup
 
-### Bookmarklet Setup
-
-The bookmarklet option is an excellent choice to test preflight on AEM CS Page Editors and Sandboxes Environment.
+The bookmarklet option is an excellent choice to test Preflight on AEM Cloud Service Page Editors and Sandbox Environments.
 
 Drag the button below to your Bookmarks Bar to get started.
 
 Press **Ctrl+Shift+B** (Windows) or **Cmd+Shift+B** (Mac) to show your Bookmarks Bar
 
-**Drag this link to your bookmarks bar:**
+**Drag this link to your Bookmarks Bar:**
 
-<a href="javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();">ASO Preflight</a>
+<a href="javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();">Preflight</a>
 
 **Or copy this code and create a new bookmark:**
 
 ```
 javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();
 ```
-Once Bookmarklet is added, Open the preview url (*.aem.page) of the page where audits needs to be executed. Click on Bookmark to start Preflight Audit.
+Once the Bookmarklet is added, open the preview URL (*.aem.page) of the page where audits need to be executed. Click on Bookmark to start Preflight Audit.
 
 
 ## Best Practices
 
-- Run preflight audits on all staging/preview pages before publishing
+- Run Preflight audits on all staging/preview pages before publishing
 - Address high-impact issues first (broken links, missing H1 tags, insecure links)
 - Enable authentication for protected staging environments
 - Review and implement meta tag suggestions for better SEO performance 
