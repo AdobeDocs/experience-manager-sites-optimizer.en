@@ -7,7 +7,7 @@ description: Learn about Preflight opportunities and how to set up preflight ana
 
 ![Preflight opportunities](./assets/preflight/hero.png){align="center"}
 
-<span class="preview">AEM Sites Optimizer Preflight analyzes your page's technical and performance data and anticipates and detects opportunities before it is published. It uses generative AI to suggest optimisations.</span>
+<span class="preview">AEM Sites Optimizer Preflight analyzes your page's technical and performance data and anticipates and detects opportunities before it is published. It uses generative AI to suggest optimizations.</span>
 
 ## Opportunities
 
@@ -241,9 +241,11 @@ if (window.location.href.includes('.aem.page')) {
    import('../tools/sidekick/aem-sites-optimizer-preflight.js');
 }
 ```
-Now Preflight Button should be visible in Sidekick. 
+
+Now Preflight Button should be visible in Sidekick.
 
 #### Step 4: Running the Audit
+
 Open the preview URL (*.aem.page) of the page where audits need to be executed. Click on the Preflight button from Sidekick.  
 
 ### AEM Cloud Service Setup
@@ -263,6 +265,7 @@ Press **Ctrl+Shift+B** (Windows) or **Cmd+Shift+B** (Mac) to show your Bookmarks
 ```
 javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();
 ```
+
 Once the Bookmarklet is added, open the preview URL (*.aem.page) of the page where audits need to be executed. Click on Bookmark to start Preflight Audit.
 
 
