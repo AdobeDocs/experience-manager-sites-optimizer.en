@@ -151,16 +151,16 @@ description: Learn about Preflight opportunities and how to set up preflight ana
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-## Onboarding & Execution 
+## How to set up
 
 ### Universal Editor Setup
 
-1. Go to Extension Manager from URL: https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor
-2. Select AEM Sites Optimizer Preflight Extension and request to Enable
-3. AEM Team will enable the extension for your org
+1. Go to the Extension Manager from the URL: https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor
+2. Select the AEM Sites Optimizer Preflight Extension and request to Enable
+3. The AEM Team will enable the extension for your organization
 4. Once that is done, open a page in Universal Editor, such as: https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/site/subscription.html
-5. Preflight extension will be visible in the side rail
-6. Clicking on Preflight Extension from the side rail will start the Preflight Audit for the current page
+5. The Preflight extension will be visible in the side rail
+6. Clicking on the Preflight Extension from the side rail will start the Preflight Audit for the current page
 
 ### Document-Based Preview Setup
 
@@ -183,7 +183,7 @@ Add the following configuration to `/tools/sidekick/config.json` in your GitHub 
 }
 ```
 
-#### Step 2: Create Sidekick Integration Script
+#### Step 2: Create the Sidekick Integration Script
 
 Create `/tools/sidekick/aem-sites-optimizer-preflight.js` with the following content:
 
@@ -234,7 +234,7 @@ Create `/tools/sidekick/aem-sites-optimizer-preflight.js` with the following con
 
 #### Step 3: Update Scripts File
 
-Add the following import statement to the `loadLazy()` function in `/scripts/scripts.js` for preview URLs as shown in the image below:
+Add the following import statement to the `loadLazy()` function in `/scripts/scripts.js` for preview URLs, as shown below:
 
 ```javascript
 if (window.location.href.includes('.aem.page')) {
@@ -242,11 +242,11 @@ if (window.location.href.includes('.aem.page')) {
 }
 ```
 
-Now Preflight Button should be visible in Sidekick.
+Now the Preflight button should be visible in Sidekick.
 
 #### Step 4: Running the Audit
 
-Open the preview URL (*.aem.page) of the page where audits need to be executed. Click on the Preflight button from Sidekick.  
+Open the preview URL (*.aem.page) of the audited page. Click on the Preflight button from Sidekick.  
 
 ### AEM Cloud Service Setup
 
@@ -254,7 +254,7 @@ The bookmarklet option is an excellent choice to test Preflight on AEM Cloud Ser
 
 Drag the button below to your Bookmarks Bar to get started.
 
-Press **Ctrl+Shift+B** (Windows) or **Cmd+Shift+B** (Mac) to show your Bookmarks Bar
+Press **Ctrl+Shift+B** (Windows) or **Cmd+Shift+B** (Mac) to show your Bookmarks Bar and:
 
 **Drag this link to your Bookmarks Bar:**
 
@@ -266,12 +266,13 @@ Press **Ctrl+Shift+B** (Windows) or **Cmd+Shift+B** (Mac) to show your Bookmarks
 javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();
 ```
 
-Once the Bookmarklet is added, open the preview URL (*.aem.page) of the page where audits need to be executed. Click on Bookmark to start Preflight Audit.
-
+Once the Bookmarklet is added, open the preview URL (*.aem.page) of the audited page. Click on the Preflight bookmark to start the Preflight Audit.
 
 ## Best Practices
 
-- Run Preflight audits on all staging/preview pages before publishing
-- Address high-impact issues first (broken links, missing H1 tags, insecure links)
-- Enable authentication for protected staging environments
-- Review and implement meta tag suggestions for better SEO performance 
+When using Preflight please be aware of the following:
+
+* Run Preflight audits on all staging/preview pages before publishing.
+* Address high-impact issues first (broken links, missing H1 tags, insecure links).
+* Enable authentication for protected staging environments.
+* Review and implement meta tag suggestions for better SEO performance.
