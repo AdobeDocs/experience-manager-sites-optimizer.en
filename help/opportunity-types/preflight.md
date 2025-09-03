@@ -250,13 +250,13 @@ Open the preview URL (*.aem.page) of the audited page. Click on the Preflight bu
 
 ### AEM Cloud Service Setup
 
-The bookmarklet option is an excellent choice to test Preflight on AEM Cloud Service Page Editors and Sandbox Environments.
+You can use the bookmarklet option to test Preflight on AEM Cloud Service Page Editors and Sandbox Environments.
 
-<!--Drag the button below to your Bookmarks Bar to get started. -->
+<!-- Drag the button below to your Bookmarks Bar to get started. -->
 
-Press **Ctrl+Shift+B** (Windows) or **Cmd+Shift+B** (Mac) to show your Bookmarks Bar and:
+Press **Ctrl+Shift+B** (Windows) or **Cmd+Shift+B** (Mac) to show your Bookmarks Bar. Right-click the bookmarks bar and select "New Page" or "Add Bookmark". In the adress field copy the code below.
 
-<!--**Drag this link to your Bookmarks Bar:**
+<!-- **Drag this link to your Bookmarks Bar:**
 
 <a href="javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();">Preflight</a> -->
 
