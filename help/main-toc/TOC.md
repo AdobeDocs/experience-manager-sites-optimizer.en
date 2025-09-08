@@ -28,6 +28,7 @@ user-guide-description: This is a description for the user guide that will be di
     + [CORS configuration](/help/documentation/opportunities/cors-configuration.md)
     + [Cross-site scripting](/help/documentation/opportunities/cross-site-scripting.md)
     + [High bounce rate](/help/documentation/opportunities/high-bounce-rate.md)
+    + [High traffic page has low CTR](/help/documentation/opportunities/high-traffic-page-has-low-ctr.md)
     + [Invalid or missing metadata](/help/documentation/opportunities/invalid-or-missing-metadata.md)
     + [Missing or invalid structured data](/help/documentation/opportunities/missing-invalid-structured-data.md)
     + [Missing alt text](/help/documentation/opportunities/missing-alt-text.md)

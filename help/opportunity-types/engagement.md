@@ -9,9 +9,7 @@ description: Learn how to improve engagement with Sites Optimizer.
 
 Engagement opportunities in AEM Sites Optimizer are crucial for enhancing digital experiences by providing actionable insights into how users interact with web pages. By identifying areas for improvement - such as accessibility issues, broken internal links, high bounce rates, and missing alt text - marketers and content authors can optimize their sites for better performance and user engagement. These opportunities help ensure that content is effective, discoverable, and compelling, ultimately driving higher conversions and a more seamless customer journey. Using AEM Sites Optimizer's recommendations let teams continuously refine their digital strategy and deliver high-impact experiences at scale.
 
-
 ## Opportunities
-
 
 <!-- CARDS
 
@@ -24,6 +22,9 @@ Engagement opportunities in AEM Sites Optimizer are crucial for enhancing digita
 * ../documentation/opportunities//high-bounce-rate.md
   {title=High bounce rate}
   {image=../assets/common/card-arrows.png}
+* ../documentation/opportunities/high-traffic-page-has-low-ctr.md
+  {title=High traffic page has low CTR}
+  {image=../assets/common/card-browser.png}
 * ../documentation/opportunities/missing-alt-text.md  
   {title=Missing alt text}
   {image=../assets/common/card-arrows.png}
@@ -95,6 +96,29 @@ Engagement opportunities in AEM Sites Optimizer are crucial for enhancing digita
                     <p class="is-size-6">Learn about the low views opportunity and how to use it to improve forms engagement on your website.</p>
                 </div>
                 <a href="../documentation/opportunities//high-bounce-rate.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="High traffic page has low CTR">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="../documentation/opportunities/high-traffic-page-has-low-ctr.md" title="High traffic page has low CTR" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/common/card-browser.png" alt="High traffic page has low CTR"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="../documentation/opportunities/high-traffic-page-has-low-ctr.md" target="_blank" rel="referrer" title="High traffic page has low CTR">High traffic page has low CTR</a>
+                    </p>
+                    <p class="is-size-6">Learn about the high traffic page has low CTR opportunity and how to use it to increase the engagement on your website.</p>
+                </div>
+                <a href="../documentation/opportunities/high-traffic-page-has-low-ctr.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
                 </a>
             </div>
