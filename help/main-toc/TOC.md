@@ -15,7 +15,7 @@ user-guide-description: This is a description for the user guide that will be di
   + [Security posture](/help/opportunity-types/security-posture.md)
   + [Forms Optimization](/help/opportunity-types/form-optimization.md)
   + [Forms Accessibility](/help/opportunity-types/form-accesibility.md)
-  + [Preflight Opportunities](/help/opportunity-types/preflight.md)
+  + [Preflight](/help/opportunity-types/preflight.md)
 + Documentation{#documentation}
   + [Overview](/help/documentation/overview.md)
   + [Basics](/help/documentation/basics.md)
