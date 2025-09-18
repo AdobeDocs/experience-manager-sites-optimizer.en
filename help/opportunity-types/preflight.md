@@ -155,14 +155,14 @@ AEM Sites Optimizer preflight opportunities help ensure that your web pages are 
 
 AEM Sites Optimizer Preflight opportunity identification requires the set up of the Preflight extension in either Universal Editor, Document-Based Preview, or AEM Cloud Service in order to run Preflight audits on your pages before they are published.
 
-## Enable user access
+### Enable user access
 
 To use the Preflight extension, ensure your user is assigned to at least one of the following AEM Sites Optimizer product profiles in [Adobe Admin Console](https://adminconsole.adobe.com):
 
 * AEM Sites Optimizer - Auto-Suggest User
 * AEM Sites Optimizer - Auto-Optimize User
 
-## Enable the Preflight extension
+### Enable the Preflight extension
 
 >[!BEGINTABS]
 
