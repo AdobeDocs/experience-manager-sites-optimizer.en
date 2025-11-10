@@ -39,4 +39,12 @@ user-guide-description: This is a description for the user guide that will be di
     + [Sitemap issues](/help/documentation/opportunities/sitemap-issues.md)
     + [Website permissions](/help/documentation/opportunities/website-permissions.md)
     + [Website vulnerabilities](/help/documentation/opportunities/website-vulnerabilities.md)
+  + Preflight opportunities{#preflight-opportunities}
+    + [Overview](/help/documentation/preflight/overview.md)
+    + [Setup](/help/documentation/preflight/setup.md)
+    + [Accessibility](/help/documentation/preflight/accessibility.md)
+    + [H1 count](/help/documentation/preflight/h1-count.md)
+    + [Links](/help/documentation/preflight/links.md)
+    + [Metadata](/help/documentation/preflight/meta-data.md)
+    + [Readability](/help/documentation/preflight/readability.md)
   + [Settings](/help/documentation/settings.md)
