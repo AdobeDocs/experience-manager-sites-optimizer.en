@@ -118,7 +118,7 @@ To use Preflight in the AEM Sites Page Editor, you can create a bookmarklet in y
 
    * Press **Ctrl+Shift+B** (Windows) or **Cmd+Shift+B** (Mac).
 
-!. Create a new bookmark in your browser:
+1. Create a new bookmark in your browser:
 
    * Right-click the Bookmarks Bar and select **New Page** or **Add Bookmark**.
    * In the **Address (URL)** field, paste the following code:
