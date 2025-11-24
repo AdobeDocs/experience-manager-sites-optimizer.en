@@ -12,15 +12,15 @@ recommendations: noDisplay
 
 # Metadata for internal use
 
-Metadata in the GitHub authoring system is hierarchal and is defined the following increasing levels of precedent.
+The GitHub authoring system organizes metadata hierarchically, using the following increasing levels of precedent.
 
 1. metadata.md
 1. ToC
 1. Article
 
-Metadata defined in the metadata.md file apply to the entire repo, but can be overridden at the ToC and article levels. Any overriding of the metadata should be done at the lowest level possible.
+The metadata defined in the metadata.md file apply to the entire repo, but can be overridden at the ToC and article levels. Any overriding of the metadata should be done at the lowest level possible.
 
-The metadata in the experience-manager-cloud-service.en repo is the minimum required.
+The metadata in the `experience-manager-cloud-service.en` repo is the minimum required.
 
 metadata.md
 

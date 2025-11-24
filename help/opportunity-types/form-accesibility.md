@@ -5,14 +5,14 @@ hide: yes
 hidefromtoc: yes
 ---
 
-# Forms Accesibility opportunities
+# Forms Accessibility opportunities
 
-<span class="preview"> The Forms Optimization capability is available under early access program. You can write to aem-forms-ea@adobe.com from your official email id to join the early access program and request access to the capability. </span>
+<span class="preview"> The Forms Optimization capability is available under an early access program. You can write to aem-forms-ea@adobe.com from your official email id to join the early access program and request access to the capability. </span>
 
 ![Forms Accesibility opportunities](./assets/form-accesibility/hero.png){align="center"}
 
 
-Forms Accessibility opportunities are critical for enhancing user interactions and increasing conversions. Evaluating your forms for compliance with the Web Content Accessibility Guidelines (WCAG) helps ensure an inclusive experience for users with visual, auditory, cognitive, and motor impairments. This not only fulfills ethical and legal requirements but also improves form completion rates and broadens your audience, resulting in a better user experience and stronger business outcomes.
+Forms Accessibility opportunities are critical for enhancing user interactions and increasing conversions. Evaluating your forms for compliance with the Web Content Accessibility Guidelines (WCAG) helps ensure an inclusive experience for users with visual, auditory, cognitive, and motor impairments. This functionality not only fulfills ethical and legal requirements but also improves form completion rates and broadens your audience, resulting in a better user experience and stronger business outcomes.
 
 ## Opportunities 
 
@@ -43,7 +43,7 @@ Forms Accessibility opportunities are critical for enhancing user interactions a
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/forms-accessibility-issues.md" target="_blank" rel="referrer" title="Forms Accessibility issues">Forms Accessibility issues</a>
                     </p>
-                    <p class="is-size-6">Learn about the forms accessibility issues and how to use these to improve forms engagement on your website.</p>
+                    <p class="is-size-6">Learn about the forms accessibility issues and how to use them to improve forms engagement on your website.</p>
                 </div>
                 <a href="../documentation/opportunities/forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>

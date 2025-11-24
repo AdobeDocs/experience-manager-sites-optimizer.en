@@ -8,11 +8,11 @@ hidefromtoc: yes
 
 # Forms accessibility issues opportunity
 
-<span class="preview"> The Forms Optimization capability is available under early access program. You can write to aem-forms-ea@adobe.com from your official email id to join the early access program and request access to the capability. </span>
+<span class="preview"> The Forms Optimization capability is available under an early access program. You can write to aem-forms-ea@adobe.com from your official email id to join the early access program and request access to the capability. </span>
 
 ![Forms accessibility issues opportunity](./assets/forms-accessibility-issues/hero.png){align="center"}
 
-The forms accessibility issues opportunity identifies how well your forms conform to the needs of people with disabilities and if they follow the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/). By assessing how well your forms conform to WCAG, you help create an inclusive forms experience, allowing individuals with visual, auditory, cognitive, and motor impairments to navigate, interact with, and successfully complete your forms. Not only is this essential for ethical reasons, but it also promotes compliance with legal requirements, improves form completion rates, and can increase your audience reach, enhancing both user experience and business performance.
+The forms accessibility issues opportunity identifies how well your forms conform to the needs of people with disabilities and if they follow the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/). By assessing how well your forms conform to WCAG, you help create an inclusive forms experience. Doing so allows individuals with visual, auditory, cognitive, and motor impairments to navigate, interact with, and successfully complete your forms. Not only is it essential for ethical reasons, but it also promotes compliance with legal requirements. It also improves form completion rates, and can increase your audience reach, enhancing both user experience and business performance.
 
 ## Auto-identify
 
@@ -30,7 +30,7 @@ The **Forms accessibility issues opportunity** identifies accessibility issues s
 
 ![Auto-suggest forms accessibility issues](./assets/forms-accessibility-issues/auto-suggest.png){align="center"} 
 
-Auto-suggest provides AI-generated recommendations in the **Suggetions** field, which provides prescriptive guidance on what to do to fix the forms accessibility issue.
+Auto-suggest provides AI-generated recommendations in the **Suggestions** field, which provides prescriptive guidance on what to do to fix the forms accessibility issue.
 
 <!-- 
 
