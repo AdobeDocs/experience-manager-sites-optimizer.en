@@ -18,7 +18,7 @@ AEM Sites Optimizer provides valuable insights and recommendations to help you i
 
 Each category highlights a different way to enhance your site. One category may increase visitor interaction. Another can improve discoverability. Others focus on strengthening security or maintaining site stability. Preflight helps you analyze and optimize pages before they are published.
 
-Using these opportunities improves the user experience, attracts the right audience, and keeps your site secure and reliable. Enhancing engagement and traffic acquisition drives interaction and visibility, while a strong Security Posture and site health help ensure trust and stability. Preflight analysis ensures your content is optimized before it goes live. Explore the links below to see opportunities organized by category and discover ways to improve your site.
+Using these opportunities improves the user experience, attracts the right audience, and keeps your site secure and reliable. Enhancing engagement and traffic acquisition drives interaction and visibility, while a strong Security Posture and site health help ensure trust and stability. Preflight analysis ensures that your content is optimized before it goes live. Explore the links below to see opportunities organized by category and discover ways to improve your site.
 
 ## Opportunities types
 
@@ -205,4 +205,4 @@ Using these opportunities improves the user experience, attracts the right audie
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-<span class="preview"> The Forms Optimization and Forms Accessibility capabilities are available under early access program. You can write to aem-forms-ea@adobe.com from your official email id to join the early access program and request access to the capability. </span>
+<span class="preview"> The Forms Optimization and Forms Accessibility capabilities are available under the early access program. You can write to aem-forms-ea@adobe.com from your official email id to join the early access program and request access to the capability. </span>

@@ -1,13 +1,13 @@
 ---
 title: Preflight Opportunities
-description: Documenation about the Preflight Opportunities  in Sites Optimizer.
+description: Documentation about the Preflight Opportunities in Sites Optimizer.
 ---
 
 # Preflight opportunities
 
 ![Preflight opportunities](./assets/overview/hero.png){align="center"}
 
-Sites Optimizer Preflight opportunities are comprised of a set of evaluations that analyze different aspects of your website's content and structure prior to the publication of the web page. These evaluations help identify potential issues and provide actionable recommendations to improve the overall quality and performance of your site.
+Sites Optimizer Preflight Opportunities are comprised of a set of evaluations that analyze different aspects of your website's content and structure prior to the publication of the web page. These evaluations help identify potential issues and provide actionable recommendations to improve the overall quality and performance of your site.
 
 ## Preflight setup
 

@@ -7,7 +7,7 @@ description: Learn about Preflight opportunities with AEM Sites Optimizer.
 
 ![Preflight opportunities](./assets/preflight/hero.png){align="center"}
 
-AEM Sites Optimizer [preflight opportunities](../documentation/preflight/overview.md) help ensure that your web pages are optimized for performance, SEO, and user experience before they go live. By identifying potential issues such as broken links, missing meta tags, and accessibility concerns, preflight checks allow content authors and marketers to address these problems early in the publishing process. This proactive approach minimizes the risk of publishing suboptimal content, enhances site quality, and improves overall digital presence. Utilizing preflight opportunities supports a smoother workflow, reduces post-publishing fixes, and contributes to better search engine rankings and user satisfaction.
+AEM Sites Optimizer [preflight opportunities](../documentation/preflight/overview.md) help ensure that your web pages are optimized for performance, SEO, and user experience before they go live. By identifying potential issues such as broken links, missing meta tags, and accessibility concerns, preflight checks allow content authors and marketers to address these problems early in the publishing process. This proactive approach minimizes the risk of publishing suboptimal content, enhances site quality, and improves the overall digital presence. Using preflight opportunities supports a smoother workflow, reduces post-publishing fixes, and contributes to better search engine rankings and user satisfaction.
 
 ## Opportunities
 

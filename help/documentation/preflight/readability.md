@@ -18,4 +18,4 @@ Preflight Readability opportunities are available in multiple languages, includi
 * German
 * Dutch
 
-This ensures teams can evaluate and optimize content readability across a wide range of audiences.
+It ensures that teams can evaluate and optimize content readability across a wide range of audiences.
