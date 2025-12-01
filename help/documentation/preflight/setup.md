@@ -131,6 +131,31 @@ To use Preflight in the AEM Sites Page Editor, you can create a bookmarklet in y
 1. Open the preview URL (`*.aem.page`) of the page that you want to audit in the **AEM Sites Page Editor**.
 1. Click the **Preflight** bookmark in your Bookmarks Bar to start the audit for the current page.
 
+>[!TAB Adobe Managed Services]
+
+>[!IMPORTANT]
+>
+>Only Adobe Managed Services (AMS) environments that use Adobe's Identity Provider (IMS) for authentication on AEM Author are supported. Preflight does not work if your organization uses any other identity provider for AMS authentication.
+
+To use Preflight in the AEM Sites Page Editor on an AMS environment, create a bookmarklet in your web browser, following these steeps:
+
+1. Show your **Bookmarks Bar** in your web browser:
+
+   * Press **Ctrl+Shift+B** (Windows) or **Cmd+Shift+B** (Mac).
+
+1. Create a new bookmark in your browser:
+
+   * Right-click the Bookmarks Bar and select **New Page** or **Add Bookmark**.
+   * In the **Address (URL)** field, paste the following code:
+
+   ```javascript
+   javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=ams';document.head.appendChild(script);})();
+   ```
+   
+1. Name the bookmark **Preflight** (or any name you prefer).
+1. Open the page you want to audit in the **AEM Sites Page Editor**.
+1. Click the **Preflight** bookmark in your Bookmarks Bar to start the audit for the current page.
+
 >[!ENDTABS]
 
 ## Best practices
