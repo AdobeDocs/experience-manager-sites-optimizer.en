@@ -31,6 +31,8 @@ To run Preflight:
 
 When the audit completes, Preflight displays the opportunities it found. Each opportunity is organized by type and includes details on how to resolve the problem.
 
+At the top of the AEM Preflight dialog, is a User Progress bar that reflects overall audit results. It shows the percentage of opportunities that passed with no issues, and the total number of issues found across all opportunities. The User Progress bar helps authors gauge overall page health at a glance.
+
 ## About Preflight opportunities
 
 Preflight evaluates multiple aspects of your content, including accessibility, metadata, links, and readability. See [Preflight opportunities](./overview.md) for a full list of available opportunity types and how to address them.
