@@ -31,7 +31,7 @@ To run Preflight:
 
 When the audit completes, Preflight displays the opportunities it found. Each opportunity is organized by type and includes details on how to resolve the problem.
 
-At the top of the AEM Preflight dialog, is a User Progress bar that reflects overall audit results. It shows the percentage of opportunities that passed with no issues, and the total number of issues found across all opportunities. The User Progress bar helps authors gauge overall page health at a glance.
+At the top of the AEM Preflight dialog is a User Progress bar that reflects overall audit results. It shows the percentage of opportunities that passed with no issues, and the total number of issues found across all opportunities. The User Progress bar helps authors gauge overall page health at a glance. The bar is color-coded -- red for less than one third of opportunities complete, orange for one third to two thirds complete, and green for more than two thirds complete. While audits are still running the progress bar is shown in blue.
 
 ## About Preflight opportunities
 
