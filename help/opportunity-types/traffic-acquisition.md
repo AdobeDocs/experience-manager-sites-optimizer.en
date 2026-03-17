@@ -11,7 +11,9 @@ Traffic acquisition drives potential customers to your website and creates sales
 
 ## Opportunities 
 
-<!-- CARDS
+<!--
+CARDS
+
  
 * ../documentation/opportunities/broken-backlinks.md
   {title=Broken backlinks}

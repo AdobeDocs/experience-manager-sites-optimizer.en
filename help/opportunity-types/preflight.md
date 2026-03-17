@@ -11,7 +11,9 @@ AEM Sites Optimizer [preflight opportunities](../documentation/preflight/overvie
 
 ## Opportunities
 
-<!-- CARDS
+<!--
+CARDS
+
 
 * ../documentation/preflight/accessibility.md
   {title=Accessibility}

@@ -17,7 +17,9 @@ Forms Optimization opportunities enable organizations to improve user interactio
 
 ## Opportunities 
 
-<!-- CARDS
+<!--
+CARDS
+
  
 * ../documentation/opportunities/low-views.md
   {title=Low views}
