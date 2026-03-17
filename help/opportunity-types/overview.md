@@ -22,7 +22,8 @@ Using these opportunities improves the user experience, attracts the right audie
 
 ## Opportunities types
 
-<!-- CARDS 
+<!--
+CARDS 
 
 * ./engagement.md
    { title = Engagement }

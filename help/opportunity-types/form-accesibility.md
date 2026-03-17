@@ -16,7 +16,9 @@ Forms Accessibility opportunities are critical for enhancing user interactions a
 
 ## Opportunities 
 
-<!-- CARDS
+<!--
+CARDS
+
  
 * ../documentation/opportunities/low-views.md
   {title=Low views}
@@ -25,7 +27,7 @@ Forms Accessibility opportunities are critical for enhancing user interactions a
   {title=Low conversions}
   {image=../assets/common/card-bag.png}
 
---->
+-->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Forms Accessibility issues">

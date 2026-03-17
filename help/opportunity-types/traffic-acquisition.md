@@ -11,7 +11,9 @@ Traffic acquisition drives potential customers to your website and creates sales
 
 ## Opportunities 
 
-<!-- CARDS
+<!--
+CARDS
+
  
 * ../documentation/opportunities/broken-backlinks.md
   {title=Broken backlinks}
@@ -26,7 +28,7 @@ Traffic acquisition drives potential customers to your website and creates sales
   {title=Sitemap issues}
   {image=../assets/common/card-relationship.png}
 
---->
+-->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Broken backlinks">

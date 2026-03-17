@@ -17,7 +17,9 @@ Forms Optimization opportunities enable organizations to improve user interactio
 
 ## Opportunities 
 
-<!-- CARDS
+<!--
+CARDS
+
  
 * ../documentation/opportunities/low-views.md
   {title=Low views}
@@ -26,7 +28,7 @@ Forms Optimization opportunities enable organizations to improve user interactio
   {title=Low conversions}
   {image=../assets/common/card-bag.png}
 
---->
+-->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Low views">

@@ -64,8 +64,8 @@ To exclude an opportunity from the Sites Optimizer dashboard, click the **Ignore
 
 Explore all the possible opportunities available in Sites Optimizer:
 
-<!-- CARDS
-
+<!--
+CARDS
 * ./accessibility-issues.md
   {title=Accessibility issues}
   {image=../../assets/common/card-arrows.png} 
@@ -111,8 +111,8 @@ Explore all the possible opportunities available in Sites Optimizer:
 * ./website-vulnerabilities.md
   {title=Website vulnerabilities}
   {image=../../assets/common/card-puzzle.png}
-  
---->
+-->
+
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Accessibility issues">

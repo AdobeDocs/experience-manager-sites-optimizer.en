@@ -15,7 +15,9 @@ Follow the steps in the [Preflight setup](./setup.md) guide to configure the Pre
 
 ## Preflight opportunities
 
-<!-- CARDS
+<!--
+CARDS
+
 * ./accessibility.md
 * ./h1-count.md
 * ./links.md

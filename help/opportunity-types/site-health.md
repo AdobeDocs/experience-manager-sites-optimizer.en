@@ -11,7 +11,9 @@ Maintaining site health in AEM Sites Optimizer is essential for delivering fast,
 
 ## Opportunities
 
-<!-- CARDS
+<!--
+CARDS
+
 
 * ../documentation/opportunities/core-web-vitals.md
   {title=Core web vitals}
