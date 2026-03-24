@@ -13,7 +13,8 @@ Welcome to the Sites Optimizer documentation. Here you find information on how t
 
 Explore the AEM Sites Optimizer documentation to learn about key UI components, including the Home dashboard, Settings configurations, and the Opportunities list for optimization insights.
 
-<!-- CARDS 
+<!--
+CARDS 
 
 * ./basics.md
   {title = Basics}

@@ -11,7 +11,9 @@ Engagement opportunities in AEM Sites Optimizer are crucial for enhancing digita
 
 ## Opportunities
 
-<!-- CARDS
+<!--
+CARDS
+
 
 * ../documentation/opportunities/accessibility-issues.md
   {title=Accessibility issues}

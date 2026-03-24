@@ -12,7 +12,9 @@ Maintaining a strong security posture in AEM Sites Optimizer is critical for pro
 ## Opportunities
 
 
-<!-- CARDS
+<!--
+CARDS
+
 
 * ../documentation/opportunities/cors-configuration.md
   {title=CORS configuration}

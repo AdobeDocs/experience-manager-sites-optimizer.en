@@ -64,8 +64,8 @@ To exclude an opportunity from the Sites Optimizer dashboard, click the **Ignore
 
 Explore all the possible opportunities available in Sites Optimizer:
 
-<!-- CARDS
-
+<!--
+CARDS
 * ./accessibility-issues.md
   {title=Accessibility issues}
   {image=../../assets/common/card-arrows.png} 
@@ -111,8 +111,8 @@ Explore all the possible opportunities available in Sites Optimizer:
 * ./website-vulnerabilities.md
   {title=Website vulnerabilities}
   {image=../../assets/common/card-puzzle.png}
-  
---->
+-->
+
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Accessibility issues">
@@ -360,7 +360,7 @@ Explore all the possible opportunities available in Sites Optimizer:
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./low-navigation.md" target="_blank" rel="referrer" title="Forms low navigation">Forms low navigation</a>
                     </p>
-                    <p class="is-size-6">Learn about the forms low navigation opportunity and how to use it to improve form engagement on your website.</p>
+                    <p class="is-size-6">Learn about the low navigation opportunity and how to use it to improve form engagement on your website.</p>
                 </div>
                 <a href="./low-navigation.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
@@ -383,7 +383,7 @@ Explore all the possible opportunities available in Sites Optimizer:
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./forms-accessibility-issues.md" target="_blank" rel="referrer" title="Forms accessibility issues">Forms accessibility issues</a>
                     </p>
-                    <p class="is-size-6">Learn about the forms accessibility issues opportunity and how to use it to improve engagement on your website.</p>
+                    <p class="is-size-6">Learn about the Forms accessibility issues and how to use it to improve engagement on your website.</p>
                 </div>
                 <a href="./forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>

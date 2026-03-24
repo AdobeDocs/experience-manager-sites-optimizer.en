@@ -8,7 +8,7 @@ hidefromtoc: yes
 
 # Forms low views opportunity
 
-<span class="preview"> The Forms Optimization capability is available under early access program. You can write to aem-forms-ea@adobe.com from your official email id to join the early access program and request access to the capability. </span>
+<span class="preview"> The Forms Optimization capability is available under an early access program. You can write to aem-forms-ea@adobe.com from your official email id to join the early access program and request access to the capability. </span>
 
 ![Low views opportunity](./assets/low-views/hero.png){align="center"}
 

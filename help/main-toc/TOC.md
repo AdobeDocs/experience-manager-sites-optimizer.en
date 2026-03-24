@@ -19,6 +19,8 @@ user-guide-description: This is a description for the user guide that will be di
 + Documentation{#documentation}
   + [Overview](/help/documentation/overview.md)
   + [Basics](/help/documentation/basics.md)
+  + Set up{#set-up}
+    + [Onboard users](/help/documentation/setup/onboard-users.md)
   + Opportunities{#opportunities}
     + [Overview](/help/documentation/opportunities/overview.md)
     + [Accessibility issues](/help/documentation/opportunities/accessibility-issues.md)
@@ -41,6 +43,7 @@ user-guide-description: This is a description for the user guide that will be di
     + [Website vulnerabilities](/help/documentation/opportunities/website-vulnerabilities.md)
   + Preflight opportunities{#preflight-opportunities}
     + [Overview](/help/documentation/preflight/overview.md)
+    + [Basics](/help/documentation/preflight/basics.md)
     + [Setup](/help/documentation/preflight/setup.md)
     + [Accessibility](/help/documentation/preflight/accessibility.md)
     + [H1 count](/help/documentation/preflight/h1-count.md)

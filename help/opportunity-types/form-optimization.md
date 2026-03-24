@@ -7,17 +7,19 @@ hidefromtoc: yes
 
 # Forms Optimization opportunities 
 
-<span class="preview"> The Forms Optimization capability is available under early access program. You can write to aem-forms-ea@adobe.com from your official email id to join the early access program and request access to the capability. </span>
+<span class="preview"> The Forms Optimization capability is available under an early access program. You can write to aem-forms-ea@adobe.com from your official email id to join the early access program and request access to the capability. </span>
 
 <!-- [!VIDEO](https://video.tv.adobe.com/v/3469472/) -->
 
 ![Forms Optimization opportunities](./assets/form-optimization/hero.png){align="center"} 
 
-Forms Optimization opportunities enable organizations to systematically improve user interactions and increase form conversions. By detecting issues such as low views, low conversions, and low navigation rates, teams can make data-driven adjustments to form design, placement, and content. These optimizations help streamline the user experience, making it easier for visitors to complete forms and achieve desired outcomes. Utilizing insights from Forms Optimization supports ongoing identification and resolution of performance gaps, resulting in more effective forms and improved business results.
+Forms Optimization opportunities enable organizations to improve user interactions systematically and increase form conversions. By detecting issues, such as low views, low conversions, and low navigation rates, teams can make data-driven adjustments to form design, placement, and content. These optimizations help streamline the user experience, making it easier for visitors to complete forms and achieve desired outcomes. Using insights from Forms Optimization supports ongoing identification and resolution of performance gaps, resulting in more effective forms and improved business results.
 
 ## Opportunities 
 
-<!-- CARDS
+<!--
+CARDS
+
  
 * ../documentation/opportunities/low-views.md
   {title=Low views}
@@ -26,7 +28,7 @@ Forms Optimization opportunities enable organizations to systematically improve 
   {title=Low conversions}
   {image=../assets/common/card-bag.png}
 
---->
+-->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Low views">
