@@ -25,7 +25,7 @@ After the audit completes, you can move quickly to identified issues and apply A
 ### Navigate to an issue
 
 1. Select an issue from the issues list in the Preflight panel.
-1. The preview automatically scrolls to and highlights the corresponding location on the page. This allows you to review the issue in context without manually searching for it.
+1. The preview automatically scrolls to and highlights the corresponding location on the page, so you can review the issue in context without manually searching for it.
 
 ### Apply AI-generated suggestions
 
