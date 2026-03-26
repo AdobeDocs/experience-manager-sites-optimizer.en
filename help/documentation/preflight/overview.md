@@ -22,7 +22,8 @@ Getting started with Preflight is easy. Simply set up Preflight, open it in your
 
 ## Preflight opportunities
 
-<!-- CARDS
+<!--
+CARDS
 
 * ./opportunities/accessibility.md
 * ./opportunities/h1-count.md
