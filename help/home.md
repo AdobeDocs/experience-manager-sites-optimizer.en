@@ -11,17 +11,16 @@ Adobe Experience Manager (AEM) Sites Optimizer is a cloud-based service that ana
 
 ## Get started with Sites Optimizer
 
-<!--
-CARDS 
+<!-- CARDS 
 
 * ./opportunity-types/overview.md
     * {title=Opportunity types}
     * {description = Learn about the available Site Optimizer opportunities and how to use them to improve your site's performance.}
-* ./opportunity-types/preflight.md
-  * {title=Preflight opportunities}
-  * {description = Learn about the Preflight opportunities in Sites Optimizer and how to optimize your web pages before they're even published.}
+* ./documentation/preflight/overview.md
+  * {title=Preflight documentation}
+  * {description = Learn about the Preflight in Sites Optimizer and how to optimize your web pages before they're published.}
 * ./documentation/overview.md
-  * {title=Documentation}
+  * {title=Sites Optimizer documentation}
   * {description=Explore the Sites Optimizer documentation to learn about all its capabilities.}
 
 -->
@@ -50,12 +49,12 @@ CARDS
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Documentation">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Preflight documentation">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./documentation/overview.md" title="Documentation" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="documentation/assets/overview/hero.png" alt="Documentation"
+                    <a href="./documentation/preflight/overview.md" title="Preflight documentation" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="documentation/preflight/assets/overview/hero.png" alt="Preflight documentation"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -63,7 +62,30 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./documentation/overview.md" target="_blank" rel="referrer" title="Documentation">Documentation</a>
+                        <a href="./documentation/preflight/overview.md" target="_blank" rel="referrer" title="Preflight documentation">Preflight documentation</a>
+                    </p>
+                    <p class="is-size-6">Learn about the Preflight in Sites Optimizer and how to optimize your web pages before they're published.</p>
+                </div>
+                <a href="./documentation/preflight/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Sites Optimizer documentation">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="./documentation/overview.md" title="Sites Optimizer documentation" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="documentation/assets/overview/hero.png" alt="Sites Optimizer documentation"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="./documentation/overview.md" target="_blank" rel="referrer" title="Sites Optimizer documentation">Sites Optimizer documentation</a>
                     </p>
                     <p class="is-size-6">Explore the Sites Optimizer documentation to learn about all its capabilities.</p>
                 </div>
@@ -93,53 +115,3 @@ CARDS
     {target=_blank}
     {cta=Learn more}
 -->
-<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
-<div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Packages and licensing">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-sites-optimizer.html" title="Packages and licensing" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="./assets/home/licensing.png" alt="Packages and licensing"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-sites-optimizer.html" target="_blank" rel="referrer" title="Packages and licensing">Packages and licensing</a>
-                    </p>
-                    <p class="is-size-6">Learn about AEM Sites Optimizer packages and licensing.</p>
-                </div>
-                <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-sites-optimizer.html" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Explore the capabilities of AEM Sites Optimizer">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://business.adobe.com/products/experience-manager/sites/optimizer.html" title="Explore the capabilities of AEM Sites Optimizer" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="./assets/home/business-adobe-com.png" alt="Explore the capabilities of AEM Sites Optimizer"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://business.adobe.com/products/experience-manager/sites/optimizer.html" target="_blank" rel="referrer" title="Explore the capabilities of AEM Sites Optimizer">Explore the capabilities of AEM Sites Optimizer</a>
-                    </p>
-                    <p class="is-size-6">Learn what AEM Site Optimizer can do for your company.</p>
-                </div>
-                <a href="https://business.adobe.com/products/experience-manager/sites/optimizer.html" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
