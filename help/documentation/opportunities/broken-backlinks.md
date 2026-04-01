@@ -2,8 +2,14 @@
 title: Broken Backlinks Opportunity Documentation
 description: Learn about the broken backlinks opportunity and how to use it to improve traffic acquisition.
 badgeTrafficAcquisition: label="Traffic acquisition" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Traffic acquisition"
+TQID: https://experienceleague.adobe.com/HTgcPKBO-r-NRgdUdqS6ZOklYRaLM8pQbr3KbaYD4nQ
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
-
 # Broken backlinks opportunity
 
 ![Broken backlinks opportunity](./assets/broken-backlinks/hero.png){align="center"}

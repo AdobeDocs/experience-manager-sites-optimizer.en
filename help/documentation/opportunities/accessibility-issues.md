@@ -2,8 +2,18 @@
 title: Accessibility Issues Opportunity Documentation
 description: Learn about the accessibility issues opportunity and how to use it to increase the security of on your website.
 badgeEngagement: label="Engagement" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Engagement"
+TQID: https://experienceleague.adobe.com/I6kuOBsBfWCWGCnVUKGnY5lvyoeXNy3Wgw7DajZEce4
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
-
 # Accessibility issues opportunity
 
 ![Accessibility issues opportunity](./assets/accessibility-issues/hero.png){align="center"}

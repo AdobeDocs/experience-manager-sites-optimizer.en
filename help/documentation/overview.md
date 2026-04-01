@@ -1,8 +1,16 @@
 ---
 title: Sites Optimizer Documentation
 description: Experience Manager Sites Optimizer documentation.
+TQID: https://experienceleague.adobe.com/Thzxo0-DNTCjk9C0MX7OR2yObUKxbUQDQFV3BtD7kmg
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
-
 # Sites Optimizer documentation
 
 ![Sites Optimizer](./assets/overview/hero.png){align="center"}

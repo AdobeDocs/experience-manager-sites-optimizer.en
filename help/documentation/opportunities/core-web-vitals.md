@@ -2,8 +2,14 @@
 title: Core Web Vitals Opportunity Documentation
 description: Learn about the core web vitals opportunity and how to use it to improve traffic acquisition.
 badgeSiteHealth: label="Site health" type="Caution" url="../../opportunity-types/site-health.md" tooltip="Site health"
+TQID: https://experienceleague.adobe.com/3h-Xas767zUk-Sod7JEr9Lh767r5S3LKpbwJZFZU2kg
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
-
 # Core web vitals opportunity
 
 ![core web vitals opportunity](./assets/core-web-vitals/hero.png){align="center"}

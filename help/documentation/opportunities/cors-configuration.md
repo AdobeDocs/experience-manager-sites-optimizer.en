@@ -2,8 +2,16 @@
 title: CORS Configuration Opportunity Documentation
 description: Learn about the CORS configuration opportunity and to identify and fix site security vulnerabilities.
 badgeSecurityPosture: label="Security posture" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Security posture"
+TQID: https://experienceleague.adobe.com/z-8fvRSLN71AnJ4Y6n9TnHGHoOEAAjt8AbVJY9RG-C0
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
-
 # CORS configuration opportunity
 
 ![CORS configuration opportunity](./assets/cors-configuration/hero.png){align="center"}
