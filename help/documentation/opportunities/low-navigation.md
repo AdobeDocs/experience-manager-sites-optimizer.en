@@ -3,7 +3,6 @@ title: Low Navigation Opportunity Documentation
 description: Learn about the low navigation opportunity and how to use it to improve forms engagement on your website.
 badgeFormOptimization: label="Forms Optimization" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Forms Optimization"
 hide: yes
-hidefromtoc: yes
 ---
 
 # Forms low navigation opportunity
