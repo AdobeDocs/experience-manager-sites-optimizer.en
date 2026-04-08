@@ -23,6 +23,9 @@ CARDS
   {title = Opportunities}
 * ./settings.md
   {title = Settings}
+* ./trial.md
+  {title = Trial}
+  {image = ./assets/basics/card.png}
 
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
@@ -91,6 +94,29 @@ CARDS
                     <p class="is-size-6">Learn how to configure Sites Optimizer settings and integrate with other tools.</p>
                 </div>
                 <a href="./settings.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Trial">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="./trial.md" title="Trial" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="./assets/basics/card.png" alt="Trial"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="./trial.md" target="_blank" rel="referrer" title="Trial">Trial</a>
+                    </p>
+                    <p class="is-size-6">Get started with the Sites Optimizer trial, including steps, limits, and FAQs for existing AEM Sites customers.</p>
+                </div>
+                <a href="./trial.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Learn more</span>
                 </a>
             </div>
