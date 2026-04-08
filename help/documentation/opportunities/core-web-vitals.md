@@ -52,7 +52,9 @@ Sites Optimizer Ultimate adds the ability to deploy auto-optimization for the is
 
 >[!TAB Deploy optimization]
 
-{{auto-optimize-deploy-optimization-slack}}
+The following video shows how to deploy auto-optimization for the Core Web Vitals opportunity.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483252/?learn=on&enablevpops)
 
 >[!TAB Request approval]
 

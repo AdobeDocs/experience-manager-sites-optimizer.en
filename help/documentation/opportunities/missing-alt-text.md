@@ -63,7 +63,9 @@ Sites Optimizer Ultimate adds the ability to deploy auto-optimization for the is
 
 >[!TAB Deploy optimization]
 
-{{auto-optimize-deploy-optimization-slack}}
+The following video shows how to deploy auto-optimization for the missing alt text opportunity for Page Editor-based websites.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483251/?learn=on&enablevpops)
 
 >[!TAB Request approval]
 

@@ -56,8 +56,9 @@ You can choose to ignore entires with the broken target URL. Selecting ![Delete 
 
 ## Auto-optimize
 
-[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"} [!BADGE Trials]{type=Positive tooltip="Trials"}
 
+ 
 ![Auto-optimize broken backlinks](./assets/broken-backlinks/auto-optimize.png){align="center"}
 
 Sites Optimizer Ultimate adds the ability to deploy auto-optimization for broken backlinks. Selecting the **Auto-optimize** button automatically updates the AEM Site's redirect rules to map the **broken target URL** to the **suggested URL**. This functionality ensures that website visitors and search bots following the broken links on the **referring pages** are redirected to the correct page on your site, improving SEO and user experience.
@@ -66,9 +67,9 @@ Sites Optimizer Ultimate adds the ability to deploy auto-optimization for broken
 
 >[!TAB Deploy optimization]
 
-![Deploy optimization of broken backlinks](./assets/broken-backlinks/deploy-optimization.png){align="center"}
+The following video shows how to deploy auto-optimization for the broken backlinks opportunity for
 
-Selecting **Deploy optimization** updates the AEM Site's redirect rules to map the **broken target URL** to the **suggested URL**. This functionality ensures that website visitors and search bots following the broken links on the **referring pages** are redirected to the correct page on your site, improving SEO and user experience.
+>[!VIDEO](https://video.tv.adobe.com/v/3483250/?learn=on&enablevpops)
 
 >[!TAB Request approval]
 
