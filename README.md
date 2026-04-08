@@ -1,4 +1,4 @@
-# ARCHIVED
+# AEM Sites Optimizer Documentation
 
 This repository is for AEM Sites Optimizer documentation. The documentation covers the installation, administering, authoring use, and customization of AEM Sites Optimizer.
 
