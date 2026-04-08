@@ -8,29 +8,31 @@ badgeTrafficAcquisition: label="Traffic acquisition" type="Caution" url="../../o
 
 ![Broken backlinks opportunity](./assets/broken-backlinks/hero.png){align="center"}
 
-The broken backlinks opportunity identifies links from other websites to your site that lead to a 404 error. Since search engines use backlinks to determine search relevance, broken links can negatively impact your site's SEO and discoverability. These issues can arise from factors such as URL changes or the removal of the linked page.
-
-The broken backlinks opportunity displays a summary at the top of the page, including a synopsis of the problem and its impact on your site and business.
-
-* **Projected traffic lost** - The estimated traffic loss due to broken backlinks.
-* **Projected traffic value** - The estimated value of the lost traffic.
+The broken backlinks opportunity identifies external links pointing to non-existent (404) pages on your site. These links result in lost referral traffic and reduced SEO value, as search engines rely on backlinks to assess relevance and authority. These issues occur when URLs are changed, content is removed, or pages are no longer available without proper redirects. AEM Sites Optimizer identifies all broken backlinks, provides specific AI recommendations, and enables one-click deployment to fix them, all in a single centralized view.
 
 ## Auto-identify
 
 ![Auto-identify broken backlinks](./assets/broken-backlinks/auto-identify.png){align="center"}
 
-The broken backlinks opportunity lists out all the broken backlinks on your site, including the:
+AEM Sites Optimizer continuously scans external data sources to detect backlinks pointing to non-existent 404 pages on your site. Data is aggregated from multiple sources, including Google Search Console, [Operational Telemetry](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service), and third-party SEO platforms. The solution identifies external domains linking to broken URLs and prioritizes them based on impact, including domain authority and expected traffic and link equity losses.
 
-* **Referring page** - The website domain that contains the broken link.
-* **Priority** - High, medium, or low, indicating the impact the broken link has on SEO based on TODO.
-* **Broken target URL** - The non-existing URL on your site that is being linked to.
+This opportunity provides a list of all identified issues, including the following details:
+
+* **Referring domain and page** – The external page or domain that contains the broken link.
+* **Priority** – High, medium, or low indicates the impact the broken link has on SEO.
+* **Broken target URL** – The non-existent URL on your site that is being linked to.
 
 ## Auto-suggest
 
 ![Auto-suggest broken backlinks](./assets/broken-backlinks/auto-suggest.png){align="center"}
 
-The broken backlinks opportunity also provides an AI-generated suggestions on which page on your website the broken URL should redirect to. The suggestions are based on the text that comprises the broken URL, and the content of the suggested page.
+For each identified broken backlink, AEM Sites Optimizer recommends the most appropriate destination to restore traffic and SEO value. It determines the intent of the backlink by analyzing:
 
+* URL structure and tokens
+* Anchor text
+* Title and context of the referring page
+
+This intent is matched against existing site content to identify the most relevant destination page. Each broken URL is mapped to an exact replacement page or the closest relevant one. If no suitable destination can be determined, the issue is surfaced for manual review.
 
 >[!BEGINTABS]
 
@@ -44,13 +46,13 @@ Select the **information** icon to view the AI rationale for the suggested URL. 
 
 ![Edit suggested URL of broken backlinks](./assets/broken-backlinks/edit-target-url.png){align="center"}
 
-If you disagree with the AI-generated suggestion, you can edit the suggested URL by selecting the **edit icon**. Editing lets you manually input the URL you believe is the best fit for the broken link. Sites Optimizer also lists any other URLs on your site that it believes may be a good fit for the broken link.  
+If you disagree with the AI-generated suggestion, you can edit the suggested URL by selecting the **edit icon**. Editing lets you manually input the URL you believe is the best fit for the broken link. Sites Optimizer also lists any other URLs on your site that it believes may be a good fit for the broken link.
 
 >[!TAB Ignore entries]
 
 ![Ignore broken backlinks](./assets/broken-backlinks/ignore.png){align="center"}
 
-You can choose to ignore entires with the broken target URL. Selecting ![Delete icon or ignore icon](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) removes the broken backlink from the opportunity list. Ignored broken backlinks can be re-engaged from the **Ignored** tab at the top of the opportunity page.
+You can choose to ignore entries with the targeted broken URLs. Selecting ![Delete icon or ignore icon](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) removes the broken backlink from the opportunity list. Ignored broken backlinks can be re-engaged from the **Ignored** tab at the top of the opportunity page.
 
 >[!ENDTABS]
 
@@ -58,22 +60,12 @@ You can choose to ignore entires with the broken target URL. Selecting ![Delete 
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
-![Auto-optimize broken backlinks](./assets/broken-backlinks/auto-optimize.png){align="center"}
+Once suggestions are reviewed and approved, a user can click **Deploy Optimization**. AEM Sites Optimizer then applies the fixes into the authoring environment, based on how redirects are managed within your implementation. Your AEM owner or author can then publish from your CMS.
 
-Sites Optimizer Ultimate adds the ability to deploy auto-optimization for broken backlinks. Selecting the **Auto-optimize** button automatically updates the AEM Site's redirect rules to map the **broken target URL** to the **suggested URL**. This functionality ensures that website visitors and search bots following the broken links on the **referring pages** are redirected to the correct page on your site, improving SEO and user experience.
+Depending on the configuration, fixes are applied as either content or code changes within existing deployment workflows. The optimization process includes the following steps:
 
->[!BEGINTABS]
+* **Validation** – Ensures the changes function as expected and do not introduce regressions before deployment.
+* **Deployment** – Applies changes through existing processes, such as content updates in AEM or code deployment via CI/CD pipelines.
+* **Permissions check** – Verifies that the user has the appropriate permissions to deploy changes. If not, alternative outputs such as downloadable redirect lists or code patches are provided for handoff.
 
->[!TAB Deploy optimization]
-
-![Deploy optimization of broken backlinks](./assets/broken-backlinks/deploy-optimization.png){align="center"}
-
-Selecting **Deploy optimization** updates the AEM Site's redirect rules to map the **broken target URL** to the **suggested URL**. This functionality ensures that website visitors and search bots following the broken links on the **referring pages** are redirected to the correct page on your site, improving SEO and user experience.
-
->[!TAB Request approval]
-
-![Request approval of broken backlinks](./assets/broken-backlinks/request-approval.png){align="center"}
-
-{{auto-optimize-request-approval}}
-
->[!ENDTABS]
+This process ensures that redirects are implemented accurately, validated before release, and aligned with existing configurations and governance processes.
