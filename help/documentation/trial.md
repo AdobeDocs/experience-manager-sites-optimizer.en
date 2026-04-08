@@ -7,19 +7,19 @@ description: Get started with the AEM Sites Optimizer trial for existing AEM Sit
 
 Get started with Sites Optimizer using this trial for existing AEM Sites customers (Edge Delivery Services, Cloud Services, and Managed Services). Your domain data is already pre-onboarded, so you can begin optimizing right away. The video below walks through the trial experience and shows how to get started.
 
-<!-- Add trial walkthrough video URL when available: [!VIDEO](https://video.tv.adobe.com/v/...) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
 
 >[!TIP]
 >
 > Contact [siteoptimizer-now@adobe.com](mailto:siteoptimizer-now@adobe.com) with any questions or requests.
 
-## Step-by-step guide
+## Start your trial now!
 
-Follow these steps to get started.
+Follow these steps to get started with your trial:
 
 1. Log in using your AEM Sites IMS org ID to [www.sitesoptimizer.now](https://www.sitesoptimizer.now).
 2. View key metrics such as page views, load time, and engagement rate, along with your top optimization opportunities prioritized by impact.
-3. Explore available opportunities. The trial includes three opportunity types: [broken backlinks](./opportunities/broken-backlinks.md), [Core Web Vitals](./opportunities/core-web-vitals.md), and [missing alt text](./opportunities/missing-alt-text.md).
+3. Explore the three available opportunity types: [broken backlinks](./opportunities/broken-backlinks.md), [Core Web Vitals](./opportunities/core-web-vitals.md), and [missing alt text](./opportunities/missing-alt-text.md).
 4. For each opportunity, review up to three identified issues. Use AI-generated suggestions and deploy optimizations directly into your AEM environment when ready.
 5. Unlock more opportunities by upgrading to the full license at any time.
 
@@ -27,7 +27,7 @@ Follow these steps to get started.
 
 The following is included in the trial:
 
-* Three opportunity types: broken backlinks, low Core Web Vitals, and missing alt text
+* Three opportunity types: [broken backlinks](./opportunities/broken-backlinks.md), [Core Web Vitals](./opportunities/core-web-vitals.md), and [missing alt text](./opportunities/missing-alt-text.md)
 * Up to three issues per opportunity each month
 * Full workflow per issue: auto-identify, auto-suggest, and auto-optimize
   * **Auto-identify** — Detects issues across your site using multiple data sources

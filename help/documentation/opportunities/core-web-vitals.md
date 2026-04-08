@@ -42,7 +42,7 @@ Each category can contain several issues so make sure to scroll down to see the 
 
 ## Auto-optimize
 
-[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"} [!BADGE Ultimate]{type=Positive tooltip="Sites Optimizer trial"}
 
 ![Auto-optimize core web vitals opportunity](./assets/core-web-vitals/auto-optimize.png){align="center"}
 

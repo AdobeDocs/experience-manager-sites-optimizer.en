@@ -57,7 +57,7 @@ You can choose to ignore entries with the targeted broken URLs. Selecting ![Dele
 
 ## Auto-optimize
 
-[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"} [!BADGE Ultimate]{type=Positive tooltip="Sites Optimizer trial"}
 
 <!---![Auto-optimize suggested invalid or missing metadata](./assets/broken-internal-links/auto-optimize.png){align="center"}-->
 
