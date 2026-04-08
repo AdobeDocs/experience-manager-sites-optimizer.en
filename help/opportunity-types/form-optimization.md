@@ -2,7 +2,6 @@
 title: Forms Optimization with Sites Optimizer
 description: Learn about Forms Optimization with Sites Optimizer.
 hide: yes
-hidefromtoc: yes
 ---
 
 # Forms Optimization opportunities 
