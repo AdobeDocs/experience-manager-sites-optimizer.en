@@ -18,6 +18,7 @@ user-guide-description: This is a description for the user guide that will be di
 + Documentation{#documentation}
   + [Overview](/help/documentation/overview.md)
   + [Basics](/help/documentation/basics.md)
+  + [Trial](/help/documentation/trial.md)
   + Set up{#set-up}
     + [Onboard users](/help/documentation/setup/onboard-users.md)
   + Opportunities{#opportunities}
