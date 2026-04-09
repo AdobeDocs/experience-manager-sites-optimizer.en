@@ -30,9 +30,9 @@ When you click the suggestion button, a new window appears that contains the per
 
 ## Auto-optimize
 
-[!BADGE Ultimate]{type=Positive tooltip="Ultimate"} [!BADGE Ultimate]{type=Positive tooltip="Sites Optimizer trial"}
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
-![Auto-optimize core web vitals opportunity](./assets/core-web-vitals/auto-optimize.png){align="center"}
+>[!VIDEO](https://video.tv.adobe.com/v/3483252/?learn=on&enablevpops)
 
 Once recommendations are reviewed and approved, you can click **Deploy Optimization**. AEM Sites Optimizer generates code patches based on the identified issues and makes them available through version control processes. The optimization process includes the following steps:
 

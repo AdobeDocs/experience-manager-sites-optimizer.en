@@ -58,7 +58,9 @@ You can choose to ignore entries with the targeted broken URLs. Selecting ![Dele
 
 ## Auto-optimize
 
-[!BADGE Ultimate]{type=Positive tooltip="Ultimate"} [!BADGE Ultimate]{type=Positive tooltip="Sites Optimizer trial"}
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483250/?learn=on&enablevpops)
 
 Once suggestions are reviewed and approved, you can click **Deploy Optimization**. AEM Sites Optimizer then applies the fixes into the authoring environment, based on how redirects are managed within your implementation. The AEM author can then publish the changes from the Content Management System (CMS).
 

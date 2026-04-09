@@ -38,35 +38,40 @@ The following is included in the trial:
 
 Read the following for answers to frequently asked questions about the AEM Sites Optimizer trial.
 
-### What is AEM Sites Optimizer?
++++What is AEM Sites Optimizer?
 
 [AEM Sites Optimizer](/help/home.md) is an AI-first application that identifies issues across your website, provides prescriptive recommendations, and helps you fix them to increase traffic acquisition, engagement, and conversion.
 
-### Who can participate in this trial?
++++
++++Who can participate in this trial?
 
 Existing AEM Sites customers (Edge Delivery Services, Cloud Services, and Managed Services).
 
-### How do I access the trial?
++++
++++How do I access the trial?
 
 Go to [www.sitesoptimizer.now](https://www.sitesoptimizer.now) and log in using your AEM Sites IMS org ID.
 
-### Does this cost anything?
++++
++++Does the trial cost anything?
 
 No. This trial is available at no cost for existing AEM Sites customers.
 
-### Is there an expiration date?
++++
++++Is there an expiration date?
 
 No. The trial is not time-based. It is limited by usage through the number of opportunity types and issues available.
-
-### What happens after all issues are fixed?
++++
++++What happens after all issues are fixed?
 
 Sites Optimizer continuously identifies issues impacting your performance. On the free trial, issues are only added monthly. Upgrade for continuous auditing and optimization.
 
-### How do I access more opportunities?
++++
++++How do I access more opportunities?
 
 Use the upgrade or contact sales CTAs available through the product experience, or email [siteoptimizer-now@adobe.com](mailto:siteoptimizer-now@adobe.com).
 
-## Learn more about the opportunity types in the trial
++++
 
 <!--
 CARDS
