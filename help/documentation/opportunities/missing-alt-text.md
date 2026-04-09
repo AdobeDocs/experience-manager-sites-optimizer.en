@@ -8,13 +8,13 @@ badgeEngagement: label="Engagement" type="Caution" url="../../opportunity-types/
 
 ![Missing alt text opportunity](./assets/missing-alt-text/hero.png){align="center"}
 
-The missing alt text opportunity identifies images on your website that do not have descriptive alternative text. Without alt text, users who rely on screen readers cannot interpret visual content, creating accessibility barriers. It also limits how search engines understand and index images, reducing content discoverability and search performance. AEM Sites Optimizer identifies missing alt text issues, provides specific AI recommendations, and enables one-click deployment to fix them, all in a single centralized view.
+The missing alt text opportunity identifies images on your website that do not have descriptive alternative text. Without alternative text, users who rely on screen readers cannot interpret visual content, creating accessibility barriers. It also limits how search engines understand and index images, reducing content discoverability and search performance. AEM Sites Optimizer identifies missing alt text issues, provides specific AI recommendations, and enables one-click deployment to fix them, all in a single centralized view.
 
 ## Auto-identify
 
 ![Auto-identify missing alt text](./assets/missing-alt-text/auto-identify.png){align="center"}
 
-AEM Sites Optimizer scans your website using a multi-step audit that combines site crawling, real user traffic data, and AI analysis to identify images that require alt text but do not have it defined. It evaluates images on the page to determine whether alt text is necessary, excluding decorative or non-informative images in accordance with WCAG guidelines. Images are analyzed based on their role and relevance within the page, helping prioritize fixes that have the greatest impact on accessibility and SEO.
+AEM Sites Optimizer scans your website by using a multi-step audit that combines site crawling, real user traffic data and AI analysis to identify images that require alt text but do not have it defined. It also evaluates images on the page to determine whether alt text is necessary, excluding decorative or non-informative images in accordance with the Web Content Accessibility Guidelines (WCAG). Images are analyzed based on their role and relevance within the page prioritizing fixes that have the greatest impact on accessibility and SEO.
 
 This opportunity provides a list of identified issues, including:
 
@@ -25,7 +25,7 @@ This opportunity provides a list of identified issues, including:
 
 ![Auto-suggest missing alt text](./assets/missing-alt-text/auto-suggest.png){align="center"}
 
-For each identified issue, AEM Sites Optimizer suggests alt text for the image. It uses AI vision models to analyze the image and generate a description that reflects its content and role within the page. Recommendations are concise, relevant, and aligned with accessibility best practices. Each suggestion can be reviewed and edited before being applied.
+For each identified issue, AEM Sites Optimizer suggests a descriptive alternative text for the image. It uses AI vision models to analyze the image and generate a description that reflects its content and role within the page. Recommendations are concise, relevant and aligned with accessibility best practices. Each suggestion can be reviewed and edited before being applied.
 
 >[!BEGINTABS]
 
@@ -51,17 +51,17 @@ You can choose to ignore entries in the opportunity list. Selecting ![Delete ico
 
 ![Auto-optimize missing alt text](./assets/missing-alt-text/auto-optimize.png){align="center"}
 
-Once suggestions are reviewed and approved, a user can click **Deploy Optimization**. AEM Sites Optimizer then applies the fixes into the authoring environment, based on how alt text is managed within your implementation. Your AEM owner or author can then publish from your CMS.
+Once suggestions are reviewed and approved you can click **Deploy Optimization**. AEM Sites Optimizer then applies the fixes into the authoring environment, based on how alt text is managed within your implementation. The AEM author can then publish the changes from the Content Management System (CMS).
 
-Depending on the configuration, updates may be applied directly to page content, asset metadata, or supporting content models. The optimization process includes the following steps:
+Depending on the configuration, updates may be applied directly to page content, asset metadata or supporting content models. The optimization process includes the following steps:
 
 * **Validation** – Ensures updates are applied safely without impacting existing functionality.
-* **Deployment** – Applies updates through existing processes, such as content updates in AEM or integration with content APIs.
+* **Deployment** – Applies the updates through existing processes such as content updates in AEM or integration with content APIs.
 * **Permissions check** – Verifies that the user has the appropriate permissions to apply changes. If not, alternative outputs such as downloadable updates can be used for handoff.
 
-Updates are versioned where supported, providing visibility and rollback capacity. This ensures that alt text updates are applied accurately, aligned with existing implementations, and consistent with governance and accessibility standards.
+Updates are versioned where supported, providing visibility and rollback capacity. This ensures that alt text updates are applied accurately, aligned with existing implementations and consistent with governance and accessibility standards.
 
-### AEM Sites Optimizer automatically applies alt text updates based on your setup
+AEM Sites Optimizer automatically applies alt text updates based on your setup:
 
 * **Edge Delivery Services** – Updates the source document (for example, Google Docs or SharePoint).
 * **AEM as a Cloud Service** – Writes updates directly via the Content API with versioning and fallback support.

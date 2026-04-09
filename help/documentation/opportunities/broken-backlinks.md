@@ -8,18 +8,18 @@ badgeTrafficAcquisition: label="Traffic acquisition" type="Caution" url="../../o
 
 ![Broken backlinks opportunity](./assets/broken-backlinks/hero.png){align="center"}
 
-The broken backlinks opportunity identifies external links pointing to non-existent (404) pages on your site. These links result in lost referral traffic and reduced SEO value, as search engines rely on backlinks to assess relevance and authority. These issues occur when URLs are changed, content is removed, or pages are no longer available without proper redirects. AEM Sites Optimizer identifies all broken backlinks, provides specific AI recommendations, and enables one-click deployment to fix them, all in a single centralized view.
+The broken backlinks opportunity identifies external links pointing to non-existent (404) pages on your site. These links result in lost referral traffic and reduced SEO value since search engines rely on backlinks to assess relevance and authority. These issues occur when URLs are changed, content is removed or pages are no longer available without proper redirects. AEM Sites Optimizer identifies all broken backlinks, provides specific AI recommendations and enables one-click deployment to fix them, all in a single centralized view.
 
 ## Auto-identify
 
 ![Auto-identify broken backlinks](./assets/broken-backlinks/auto-identify.png){align="center"}
 
-AEM Sites Optimizer continuously scans external data sources to detect backlinks pointing to non-existent 404 pages on your site. Data is aggregated from multiple sources, including Google Search Console, [Operational Telemetry](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service), and third-party SEO platforms. The solution identifies external domains linking to broken URLs and prioritizes them based on impact, including domain authority and expected traffic and link equity losses.
+AEM Sites Optimizer continuously scans external data sources to detect backlinks pointing to non-existent 404 pages on your site. Data is aggregated from multiple sources, including Google Search Console, [Operational Telemetry](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) and third-party SEO platforms. The auto-identify opportunity identifies external domains linking to broken URLs and prioritizes them based on impact including domain authority and expected traffic and link equity losses.
 
-This opportunity provides a list of all identified issues, including the following details:
+This opportunity lists all identified issues, including the following details:
 
 * **Referring domain and page** – The external page or domain that contains the broken link.
-* **Priority** – High, medium, or low indicates the impact the broken link has on SEO.
+* **Priority** – High, medium or low indicating the impact the broken link has on the SEO process.
 * **Broken target URL** – The non-existent URL on your site that is being linked to.
 
 ## Auto-suggest
@@ -32,7 +32,7 @@ For each identified broken backlink, AEM Sites Optimizer recommends the most app
 * Anchor text
 * Title and context of the referring page
 
-This intent is matched against existing site content to identify the most relevant destination page. Each broken URL is mapped to an exact replacement page or the closest relevant one. If no suitable destination can be determined, the issue is surfaced for manual review.
+This intent is matched against existing site content to identify the most relevant destination page. Each broken URL is mapped either to an exact replacement page or the closest relevant one. If no suitable destination can be determined, the issue is surfaced for manual review.
 
 >[!BEGINTABS]
 
@@ -60,12 +60,12 @@ You can choose to ignore entries with the targeted broken URLs. Selecting ![Dele
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
-Once suggestions are reviewed and approved, a user can click **Deploy Optimization**. AEM Sites Optimizer then applies the fixes into the authoring environment, based on how redirects are managed within your implementation. Your AEM owner or author can then publish from your CMS.
+Once suggestions are reviewed and approved, you can click **Deploy Optimization**. AEM Sites Optimizer then applies the fixes into the authoring environment, based on how redirects are managed within your implementation. The AEM author can then publish the changes from the Content Management System (CMS).
 
-Depending on the configuration, fixes are applied as either content or code changes within existing deployment workflows. The optimization process includes the following steps:
+Depending on the configuration, fixes are applied as either content or code changes within the existing deployment workflows. The optimization process includes the following steps:
 
 * **Validation** – Ensures the changes function as expected and do not introduce regressions before deployment.
 * **Deployment** – Applies changes through existing processes, such as content updates in AEM or code deployment via CI/CD pipelines.
-* **Permissions check** – Verifies that the user has the appropriate permissions to deploy changes. If not, alternative outputs such as downloadable redirect lists or code patches are provided for handoff.
+* **Permissions check** – Verifies that the user has the appropriate permissions to deploy changes. If not, alternative outputs such as downloadable redirect lists or code patches are provided.
 
 This process ensures that redirects are implemented accurately, validated before release, and aligned with existing configurations and governance processes.
