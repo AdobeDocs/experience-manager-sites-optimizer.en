@@ -11,7 +11,8 @@ Adobe Experience Manager (AEM) Sites Optimizer is a cloud-based service that ana
 
 ## Get started with Sites Optimizer
 
-<!-- CARDS 
+<!--
+CARDS 
 
 * ./opportunity-types/overview.md
     * {title=Opportunity types}
