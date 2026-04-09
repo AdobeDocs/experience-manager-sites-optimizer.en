@@ -8,37 +8,25 @@ badgeSiteHealth: label="Site health" type="Caution" url="../../opportunity-types
 
 ![core web vitals opportunity](./assets/core-web-vitals/hero.png){align="center"}
 
-The core web vitals opportunity identifies issues that can degrade the user experience and organic search performance of your web pages. These issues arise from a wide range of factors like: custom fonts, unoptimized JavaScript dependencies, third-party scripts and so on. The core web vitals opportunity points these faulty elements and suggests fixes that can increase your web page's performance. Please note that only pages that have at least 1000 page views can be analyzed.
+The Core Web Vitals opportunity identifies pages on your website that are underperforming impacting user experience and organic search performance. These issues can arise from factors such as custom fonts, unoptimized JavaScript dependencies and third-party scripts. Core Web Vitals measures how quickly content loads, how stable the page layout is, and how responsive the page is to user interactions.
 
-To begin, the core web vitals opportunity displays a summary at the top of the page, including a synopsis of the problem and its impact on your site and business.
-
-* **Projected traffic lost** – The estimated traffic loss due to core web vitals that are below performance thresholds.
-* **Projected traffic value** – The estimated value of the lost traffic.
+AEM Sites Optimizer detects pages impacted by these issues, provides specific AI recommendations at the code level and applies fixes through your existing development workflows. Please note that only pages with at least 1000 page views can be analyzed.
 
 ## Auto-identify
 
 ![Auto-identify core web vitals](./assets/core-web-vitals/auto-identify.png){align="center"}
 
-In the lower part of the page, you have a list of all the current issues grouped as:
+AEM Sites Optimizer continuously monitors site performance by using [Operational Telemetry](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) to detect regressions in Core Web Vitals metrics such as Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS) and Interaction to Next Paint (INP). It uses real user data to identify performance regressions and prioritizes issues based on their impact on user experience.
 
-* **Mobile issues** – A list of issues affecting the mobile version of the page.
-* **Desktop issues** – A list of issues affecting the desktop version of the page.
-
-Each issue is displayed in a table, with the **Page** column identifying the affected page entry.
-
-The system groups these issues by the standard performance metrics in the Core Web Vitals report:
-
-* largest contentful paint **LCP**
-* interaction to next paint **INP**
-* cumulative layout shift **CLS**
+AEM Sites Optimizer displays the list of all the current issues, detailed by mobile and desktop. The **Page** column indicates the affected page entry and issues are categorized by LCP, INP and CLS.
 
 ## Auto-suggest
 
 ![Auto-suggest core web vitals opportunity](./assets/core-web-vitals/auto-suggest.png){align="center"}
 
-The core web vitals opportunity provides AI-generated fix suggestions. When you click the suggestions button, a new window appears that contains the performance metrics **LCP**, **INP** and **CLS** as categories. You can switch between these categories to see a list of specific issues.
+For each identified issue, AEM Sites Optimizer generates prescriptive code-level recommendations to improve Core Web Vitals performance. It evaluates the underlying implementation by accessing your code repository. This allows the system to analyze how components, scripts and styles are implemented and identify the root cause of the performance issues. Based on this analysis, the system provides targeted recommendations and generates code patches that specify the changes needed to improve performance. Each recommendation can be reviewed before being applied.
 
-Each category can contain several issues so make sure to scroll down to see the full list of issues and recommendations.  Additionally, there are two performance gages for both mobile and desktop for each metric.
+When you click the suggestion button, a new window appears that contains the performance metrics LCP, INP and CLS as categories. You can switch between these categories to see the list of specific issues. Each category can contain several issues, so make sure to scroll down to see the full list of issues and recommendations. Additionally, there are two performance gauges for both mobile and desktop for each metric.
 
 ## Auto-optimize
 
@@ -46,19 +34,12 @@ Each category can contain several issues so make sure to scroll down to see the 
 
 ![Auto-optimize core web vitals opportunity](./assets/core-web-vitals/auto-optimize.png){align="center"}
 
-Sites Optimizer Ultimate adds the ability to deploy auto-optimization for the issues found by the core web vitals opportunity. <!--- TBD-need more in-depth and opportunity specific information here. What does the auto-optimization do?-->
+Once recommendations are reviewed and approved, you can click **Deploy Optimization**. AEM Sites Optimizer generates code patches based on the identified issues and makes them available through version control processes. The optimization process includes the following steps:
 
->[!BEGINTABS]
+* **Issue creation** – Creates a labeled GitHub issue for each fix, including a clear description and affected URL for visibility.
+* **Pull request delivery** – Automatically opens a linked pull request with the exact code fix, ready for review, testing, and merge.
+* **Status tracking** – Tracks each fix through completion, flagging partial or failed attempts for follow-up.
 
->[!TAB Deploy optimization]
+Before making these updates available, AEM Sites Optimizer performs validation to ensure that the fixes address the underlying issue and do not introduce regressions. All updates follow standard development practices, requiring review and approval before being merged into production.
 
-The following video shows how to deploy auto-optimization for the Core Web Vitals opportunity.
-
->[!VIDEO](https://video.tv.adobe.com/v/3483252/?learn=on&enablevpops)
-
->[!TAB Request approval]
-
-{{auto-optimize-request-approval}}
-
->[!ENDTABS]
-
+This ensures that performance optimizations are accurate, validated and integrated into existing development and governance processes.
