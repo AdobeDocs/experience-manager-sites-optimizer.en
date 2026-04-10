@@ -24,7 +24,7 @@ user-guide-description: This is a description for the user guide that will be di
     + [Overview](/help/documentation/opportunities/overview.md)
     + [Accessibility issues](/help/documentation/opportunities/accessibility-issues.md)
     + [Broken internal links](/help/documentation/opportunities/broken-internal-links.md)
-    + [Broken back links](/help/documentation/opportunities/broken-backlinks.md)
+    + [Broken backlinks](/help/documentation/opportunities/broken-backlinks.md)
     + [Core web vitals](/help/documentation/opportunities/core-web-vitals.md)
     + [CORS configuration](/help/documentation/opportunities/cors-configuration.md)
     + [Cross-site scripting](/help/documentation/opportunities/cross-site-scripting.md)
