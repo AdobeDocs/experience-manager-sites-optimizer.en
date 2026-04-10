@@ -61,8 +61,20 @@ Depending on the configuration, updates may be applied directly to page content,
 
 Updates are versioned where supported, providing visibility and rollback capacity. This ensures that alt text updates are applied accurately, aligned with existing implementations and consistent with governance and accessibility standards.
 
-AEM Sites Optimizer automatically applies alt text updates based on your setup:
+AEM Sites Optimizer automatically applies alt text updates based on your setup, as follows:
 
-* **Edge Delivery Services** – Updates the source document (for example, Google Docs or SharePoint).
-* **AEM as a Cloud Service** – Writes updates directly via the Content API with versioning and fallback support.
-* **Digital Asset Management (optional)** – Updates asset-level alt text where applicable.
+>[!BEGINTABS]
+
+>[!TAB Edge Delivery Services]
+
+Updates the source document (for example, Google Docs or SharePoint).
+
+>[!TAB AEM as a Cloud Service]
+
+Writes updates directly via the Content API with versioning and fallback support.
+
+>[!TAB Digital Asset Management (optional)]
+
+Updates asset-level alt text where applicable.
+
+>[!ENDTABS]
