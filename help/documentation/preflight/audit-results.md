@@ -1,6 +1,6 @@
 ---
 title: Audit results in Preflight
-description: Learn how to interpret Preflight audit results and the User Progress bar, navigate to issues in the preview, and apply AI-generated suggestions.
+description: Learn how to interpret Preflight audit results and the User Progress bar and navigate to issues in the preview.
 ---
 
 # Audit results in Preflight
@@ -20,33 +20,13 @@ The bar is color-coded:
 
 See the [complete list of available opportunity types and how to address them](./overview.md#preflight-opportunities).
 
-## Navigate to issues and apply suggestions
+## Navigate to issues
 
-After the audit completes, you can move quickly to identified issues and apply AI-generated suggestions directly in the preview.
+After the audit completes, you can move quickly to identified issues in the preview.
 
-![Preflight preview highlighting and AI suggestion panel](./assets/audit-results/highlight-issue.png){align="center"}
+![Preflight preview highlighting an issue](./assets/audit-results/highlight-issue.png){align="center"}
 
 ### Navigate to an issue
 
 1. Select an issue from the issues list in the Preflight panel.
 1. The preview automatically scrolls to and highlights the corresponding location on the page, so you can review the issue in context without manually searching for it.
-
-### Apply AI-generated suggestions
-
-For issues that include AI-generated recommendations, you can apply suggested optimizations directly from the suggestion panel.
-
-#### Apply an optimization
-
-1. Review the AI-generated suggestion.
-1. Select **Apply Optimization**.
-
-The recommended content is applied directly to the content.
-
-#### Edit before applying
-
-If adjustments are required:
-
-1. Modify the AI-generated suggestion in the suggestion panel.
-1. Select **Apply Optimization**.
-
-Your edited version is applied to the preview.

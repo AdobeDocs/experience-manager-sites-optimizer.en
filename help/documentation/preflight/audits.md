@@ -11,4 +11,4 @@ Preflight audits your page to identify opportunities to enhance your content bef
 1. Open the [Preflight panel](./access-preflight.md).
 1. Preflight automatically performs all audits on the page open in the editor, and displays any opportunities it finds.
 
-To interpret results, open issues in the preview, and apply AI-generated suggestions, see [Audit results in Preflight](./audit-results.md).
+To interpret results and open issues in the preview, see [Audit results in Preflight](./audit-results.md).
