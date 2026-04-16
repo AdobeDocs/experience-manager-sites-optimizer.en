@@ -49,7 +49,7 @@ You can choose to ignore entries in the opportunity list. Selecting ![Delete ico
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
-![Auto-optimize missing alt text](./assets/missing-alt-text/auto-optimize.png){align="center"}
+>[!VIDEO](https://video.tv.adobe.com/v/3483251/?learn=on&enablevpops)
 
 Once suggestions are reviewed and approved you can click **Deploy Optimization**. AEM Sites Optimizer then applies the fixes into the authoring environment, based on how alt text is managed within your implementation. The AEM author can then publish the changes from the Content Management System (CMS).
 
