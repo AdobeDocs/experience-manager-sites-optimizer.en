@@ -5,7 +5,7 @@ description: Get started with the AEM Sites Optimizer trial for existing AEM Sit
 
 # Sites Optimizer trial
 
-Get started with Sites Optimizer using this trial for existing AEM Sites customers (Edge Delivery Services, Cloud Services, and Managed Services). Your domain data is already pre-onboarded, so you can begin optimizing right away. The video below walks through the trial experience and shows how to get started.
+Get started with Sites Optimizer using this trial for existing AEM Sites customers (Edge Delivery Services, Cloud Services and Managed Services). Your domain data is already pre-onboarded, so you can begin optimizing right away. The video below walks you through the trial experience and shows you how to get started.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
 
@@ -27,11 +27,11 @@ Follow these steps to get started with your trial:
 
 The following is included in the trial:
 
-* Three opportunity types: [broken backlinks](./opportunities/broken-backlinks.md), [Core Web Vitals](./opportunities/core-web-vitals.md), and [missing alt text](./opportunities/missing-alt-text.md)
-* Up to three issues per opportunity each month
-* Full workflow per issue: auto-identify, auto-suggest, and auto-optimize
-  * **Auto-identify** — Detects issues across your site using multiple data sources
-  * **Auto-suggest** — Provides prescriptive, AI-generated recommendations for each issue
+* Three opportunity types: [broken backlinks](./opportunities/broken-backlinks.md), [Core Web Vitals](./opportunities/core-web-vitals.md) and [missing alt text](./opportunities/missing-alt-text.md).
+* Up to three issues per opportunity each month.
+* Full workflow per issue: auto-identify, auto-suggest and auto-optimize.
+  * **Auto-identify** — Detects issues across your site using multiple data sources.
+  * **Auto-suggest** — Provides prescriptive, AI-generated recommendations for each issue.
   * **Auto-optimize** — After approval, deploy fixes directly into your authoring environment. Updates follow your existing workflows, allowing your team to review and publish through AEM.
 
 ## Frequently asked questions
