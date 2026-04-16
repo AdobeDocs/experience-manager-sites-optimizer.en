@@ -1,6 +1,6 @@
 ---
 title: Audit results in Preflight
-description: Learn how to interpret Preflight audit results and the User Progress bar, navigate to issues in the preview, and apply AI-generated suggestions.
+description: Learn how to interpret Preflight audit results and the User Progress bar and navigate to issues in the preview.
 ---
 
 # Audit results in Preflight
@@ -20,33 +20,14 @@ The bar is color-coded:
 
 See the [complete list of available opportunity types and how to address them](./overview.md#preflight-opportunities).
 
-## Navigate to issues and apply suggestions
+## Highlight opportunities
 
-After the audit completes, you can move quickly to identified issues and apply AI-generated suggestions directly in the preview.
+After the audit completes, you can quickly locate and understand opportunities by highlighting them directly on the page.
 
-![Preflight preview highlighting and AI suggestion panel](./assets/audit-results/highlight-issue.png){align="center"}
+>[!VIDEO](https://video.tv.adobe.com/v/3483412/?learn=on&enablevpops)
 
-### Navigate to an issue
+Preflight highlights each opportunity in context, connecting the results in the panel to the exact location in your content. This makes it easier to review and resolve opportunities without manually searching through the page.
 
-1. Select an issue from the issues list in the Preflight panel.
-1. The preview automatically scrolls to and highlights the corresponding location on the page, so you can review the issue in context without manually searching for it.
-
-### Apply AI-generated suggestions
-
-For issues that include AI-generated recommendations, you can apply suggested optimizations directly from the suggestion panel.
-
-#### Apply an optimization
-
-1. Review the AI-generated suggestion.
-1. Select **Apply Optimization**.
-
-The recommended content is applied directly to the content.
-
-#### Edit before applying
-
-If adjustments are required:
-
-1. Modify the AI-generated suggestion in the suggestion panel.
-1. Select **Apply Optimization**.
-
-Your edited version is applied to the preview.
+1. Open the Preflight panel in the context of the page to audit, and run the audits.
+1. Select a specific opportunity from the list in the Preflight panel.
+1. The preview automatically scrolls to the relevant area and highlights the corresponding element, allowing you to easily idenitfy, and optimize the opportunity in context.
