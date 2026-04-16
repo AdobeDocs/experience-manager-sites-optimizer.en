@@ -96,7 +96,7 @@ Navigate to [Microsoft Graph Explorer](https://developer.microsoft.com/graph/gra
 GET https://graph.microsoft.com/v1.0/sites/{tenant}.sharepoint.com:/sites/{site-name}
 ```
 
-2. Copy the `id` from the response, then grant site-level access:
+1. Copy the `id` from the response, then grant site-level access:
 
 ```
 POST https://graph.microsoft.com/v1.0/sites/{siteId}/permissions
