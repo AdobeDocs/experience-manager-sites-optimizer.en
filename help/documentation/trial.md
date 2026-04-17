@@ -17,7 +17,7 @@ Get started with Sites Optimizer using this trial for existing AEM Sites custome
 
 Follow these steps to get started with your trial:
 
-1. Log in using your AEM Sites IMS org ID to [www.sitesoptimizer.now](https://www.sitesoptimizer.now).
+1. Log in using your AEM Sites IMS org ID to [www.sitesoptimizer.live](http://www.sitesoptimizer.live/).
 2. View key metrics such as page views, load time, and engagement rate, along with your top optimization opportunities prioritized by impact.
 3. Explore the three available opportunity types: [broken backlinks](./opportunities/broken-backlinks.md), [Core Web Vitals](./opportunities/core-web-vitals.md), and [missing alt text](./opportunities/missing-alt-text.md).
 4. For each opportunity, review up to three identified issues. Use AI-generated suggestions and deploy optimizations directly into your AEM environment when ready.
@@ -50,7 +50,7 @@ Existing AEM Sites customers (Edge Delivery Services, Cloud Services, and Manage
 +++
 +++How do I access the trial?
 
-Go to [www.sitesoptimizer.now](https://www.sitesoptimizer.now) and log in using your AEM Sites IMS org ID.
+Go to [www.sitesoptimizer.live](http://www.sitesoptimizer.live/) and log in using your AEM Sites IMS org ID.
 
 +++
 +++Does the trial cost anything?
