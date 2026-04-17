@@ -46,6 +46,8 @@ Follow the section below that matches your content source.
 
 #### SharePoint — Adobe domain
 
+![Connect to AEM Sites dialog showing no action required for the Adobe SharePoint domain](./assets/settings/connect-content-and-drive.png){align="center"}
+
 If your Content Source URL uses the Adobe SharePoint domain, no further action is required. Access is already configured. Click **Save** to complete the connection.
 
 #### SharePoint — Custom domain
@@ -74,11 +76,15 @@ If your Content Source URL uses your organization's own SharePoint domain, you n
    - `Files.SelectedOperations.Selected` — file access without a signed-in user
 3. Click **Grant admin consent** for both
 
+![Azure API permissions showing Sites.Selected and Files.SelectedOperations.Selected granted](./assets/settings/app-permissions.png){align="center"}
+
 >[!NOTE]
 >
 >Granting admin consent requires tenant admin rights. If you do not have this, ask your IT or Azure administrator to complete this step before proceeding.
 
 ##### Step 2c — Create a client secret
+
+![Azure Certificates and secrets page for the app registration](./assets/settings/create-credentials.png){align="center"}
 
 1. Go to **Certificates & Secrets → New Client Secret**
 2. Set a description and an expiry, then click **Add**
@@ -118,6 +124,8 @@ Body:
 
 ##### Step 2e — Enter credentials in AEM Sites Optimizer
 
+![Connect to AEM Sites dialog showing the SharePoint credentials fields](./assets/settings/add-sharepoint-credentials.png){align="center"}
+
 Back in the **Connect to AEM Sites** dialog, enter the following under **Content Repository Connection via SharePoint**:
 
 - **Tenant ID (Azure AD)** — from App Registration → Overview
@@ -127,6 +135,8 @@ Back in the **Connect to AEM Sites** dialog, enter the following under **Content
 Click **Validate Connection** to confirm access, then click **Save**.
 
 #### Google Drive
+
+![Connect to AEM Sites dialog showing the Google Drive service account for sharing access](./assets/settings/validate-eds-google.png){align="center"}
 
 1. In Google Drive, right-click the folder that backs your EDS site and select **Share**
 2. In the **Add people and groups** field, enter the service account email shown in the **Connect to AEM Sites** dialog:
