@@ -36,8 +36,6 @@ In AEM Sites Optimizer, go to **Settings → Connect to AEM Sites** and enter th
 - **Content Source URL** — the URL of the SharePoint folder or Google Drive folder that backs your EDS site, for example:
   `https://drive.google.com/drive/folders/...` or `https://myorg.sharepoint.com/...`
 
-This URL must match what is configured in your EDS site's `fstab.yaml`.
-
 Once you enter the Content Source URL, AEM Sites Optimizer will detect your content source type and show the relevant access instructions below.
 
 ### Step 2 — Grant access to your content source
