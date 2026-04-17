@@ -6,7 +6,9 @@ badgeSiteHealth: label="Site health" type="Caution" url="../../opportunity-types
 
 # Core web vitals opportunity
 
-![core web vitals opportunity](./assets/core-web-vitals/hero.png){align="center"}
+<!--![core web vitals opportunity](./assets/core-web-vitals/hero.png){align="center"}-->
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483371/?learn=on&enablevpops)
 
 The Core Web Vitals opportunity identifies pages on your website that are underperforming impacting user experience and organic search performance. These issues can arise from factors such as custom fonts, unoptimized JavaScript dependencies and third-party scripts. Core Web Vitals measures how quickly content loads, how stable the page layout is, and how responsive the page is to user interactions.
 
@@ -14,7 +16,7 @@ AEM Sites Optimizer detects pages impacted by these issues, provides specific AI
 
 ## Auto-identify
 
-![Auto-identify core web vitals](./assets/core-web-vitals/auto-identify.png){align="center"}
+<!--![Auto-identify core web vitals](./assets/core-web-vitals/auto-identify.png){align="center"}-->
 
 AEM Sites Optimizer continuously monitors site performance by using [Operational Telemetry](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) to detect regressions in Core Web Vitals metrics such as Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS) and Interaction to Next Paint (INP). It uses real user data to identify performance regressions and prioritizes issues based on their impact on user experience.
 
@@ -22,7 +24,7 @@ AEM Sites Optimizer displays the list of all the current issues, detailed by mob
 
 ## Auto-suggest
 
-![Auto-suggest core web vitals opportunity](./assets/core-web-vitals/auto-suggest.png){align="center"}
+<!--![Auto-suggest core web vitals opportunity](./assets/core-web-vitals/auto-suggest.png){align="center"}-->
 
 For each identified issue, AEM Sites Optimizer generates prescriptive code-level recommendations to improve Core Web Vitals performance. It evaluates the underlying implementation by accessing your code repository. This allows the system to analyze how components, scripts and styles are implemented and identify the root cause of the performance issues. Based on this analysis, the system provides targeted recommendations and generates code patches that specify the changes needed to improve performance. Each recommendation can be reviewed before being applied.
 
@@ -30,9 +32,7 @@ When you click the suggestion button, a new window appears that contains the per
 
 ## Auto-optimize
 
-[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
-
->[!VIDEO](https://video.tv.adobe.com/v/3483371/?learn=on&enablevpops)
+<!--[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}-->
 
 Once recommendations are reviewed and approved, you can click **Deploy Optimization**. AEM Sites Optimizer generates code patches based on the identified issues and makes them available through version control processes. The optimization process includes the following steps:
 
