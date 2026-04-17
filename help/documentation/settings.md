@@ -19,12 +19,12 @@ To set up this connector, you must have credentials with administrative access t
 
 ## Connect to AEM Sites
 
-This guide explains how to connect your existing Edge Delivery Services (EDS) site to AEM Sites Optimizer. Before you begin, make sure your EDS site is already set up and working — this connection is specifically for AEM Sites Optimizer to access your content.
+This following guide explains how to connect your existing Edge Delivery Services (EDS) site to AEM Sites Optimizer. Before you begin, make sure your EDS site is already set up and working — this connection is specifically for AEM Sites Optimizer to access your content.
 
 The connection requires two steps:
 
-1. Provide your code repository URL and content source URL
-2. Grant AEM Sites Optimizer access to your content source
+1. Provide your code repository URL and content source URL.
+2. Grant AEM Sites Optimizer access to your content source.
 
 ### Step 1 — Link your code repository and content source
 
@@ -42,7 +42,7 @@ Once you enter the Content Source URL, AEM Sites Optimizer will detect your cont
 
 ### Step 2 — Grant access to your content source
 
-Follow the section below that matches your content source.
+Follow the section that matches your content source.
 
 #### SharePoint — Adobe domain
 
@@ -56,43 +56,43 @@ If your Content Source URL uses your organization's own SharePoint domain, you n
 
 ##### What you will need
 
-- Permission to register applications in the Azure Portal, or access to someone who does
-- Tenant admin rights to grant API consent, or access to someone who does
+- Permission to register applications in the Azure Portal, or a contact who can register applications on your behalf.
+- Tenant administrator rights to grant API consent, or an administrator who can approve the API consent for you.
 
 ##### Step 2a — Register an application in Azure
 
-1. Go to **Azure Portal → Microsoft Entra ID → App Registrations → New Registration**
-2. Give it a name, for example: `AEM Sites Optimizer`
-3. Leave all other defaults and click **Register**
+1. Go to **Azure Portal → Microsoft Entra ID → App Registrations → New Registration**.
+2. Give it a name, for example: `AEM Sites Optimizer`.
+3. Leave all other defaults and click **Register**.
 4. On the **Overview** page, note down:
    - **Application (client) ID**
    - **Directory (tenant) ID**
 
 ##### Step 2b — Add API permissions
 
-1. Go to **API Permissions → Add a permission → Microsoft Graph → Application permissions**
-2. Add both of the following:
-   - `Sites.Selected` — scoped access to specific SharePoint site collections
-   - `Files.SelectedOperations.Selected` — file access without a signed-in user
-3. Click **Grant admin consent** for both
+1. Go to **API Permissions → Add a permission → Microsoft Graph → Application permissions**.
+2. Add both the following:
+   - `Sites.Selected` — scoped access to specific SharePoint site collections.
+   - `Files.SelectedOperations.Selected` — file access without a signed-in user.
+3. Click **Grant admin consent** for both.
 
 ![Azure API permissions showing Sites.Selected and Files.SelectedOperations.Selected granted](./assets/settings/app-permissions.png){align="center"}
 
 >[!NOTE]
 >
->Granting admin consent requires tenant admin rights. If you do not have this, ask your IT or Azure administrator to complete this step before proceeding.
+>Granting admin consent requires tenant administrator rights. If you do not have this, ask your IT or Azure administrator to complete this step before proceeding.
 
 ##### Step 2c — Create a client secret
 
 ![Azure Certificates and secrets page for the app registration](./assets/settings/create-credentials.png){align="center"}
 
-1. Go to **Certificates & Secrets → New Client Secret**
-2. Set a description and an expiry, then click **Add**
-3. Copy the secret value immediately — it is only shown once
+1. Go to **Certificates & Secrets → New Client Secret**.
+2. Set a description and an expiry, then click **Add**.
+3. Copy the secret value immediately — it is only shown once.
 
 ##### Step 2d — Grant the app access to your SharePoint site
 
-You can grant the app access using Microsoft Graph Explorer, PowerShell, or direct Graph API calls.
+You can grant the app access by using Microsoft Graph Explorer, PowerShell, or direct Graph API calls.
 
 Navigate to [Microsoft Graph Explorer](https://developer.microsoft.com/graph/graph-explorer), sign in with your Microsoft account, and run the following requests:
 
@@ -128,9 +128,9 @@ Body:
 
 Back in the **Connect to AEM Sites** dialog, enter the following under **Content Repository Connection via SharePoint**:
 
-- **Tenant ID (Azure AD)** — from App Registration → Overview
-- **Client ID (App Registration)** — from App Registration → Overview
-- **Client Secret** — created in Step 2c
+- **Tenant ID (Azure AD)** — from App Registration → Overview.
+- **Client ID (App Registration)** — from App Registration → Overview.
+- **Client Secret** — created in Step 2c.
 
 Click **Validate Connection** to confirm access, then click **Save**.
 
@@ -138,10 +138,10 @@ Click **Validate Connection** to confirm access, then click **Save**.
 
 ![Connect to AEM Sites dialog showing the Google Drive service account for sharing access](./assets/settings/validate-eds-google.png){align="center"}
 
-1. In Google Drive, right-click the folder that backs your EDS site and select **Share**
+1. In Google Drive, right-click the folder that backs your EDS site and select **Share**.
 2. In the **Add people and groups** field, enter the service account email shown in the **Connect to AEM Sites** dialog:
    `experience-success-studio@helix-225321.iam.gserviceaccount.com`
-3. Set the permission level to **Editor**
-4. Uncheck **Notify people** and click **Share**
+3. Set the permission level to **Editor**.
+4. Uncheck **Notify people** and click **Share**.
 
 Once sharing is complete, click **Validate Connection** in the dialog, then click **Save**.
