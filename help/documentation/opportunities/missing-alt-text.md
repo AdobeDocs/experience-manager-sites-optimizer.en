@@ -6,13 +6,15 @@ badgeEngagement: label="Engagement" type="Caution" url="../../opportunity-types/
 
 # Missing alt text opportunity
 
-![Missing alt text opportunity](./assets/missing-alt-text/hero.png){align="center"}
+<!--![Missing alt text opportunity](./assets/missing-alt-text/hero.png){align="center"}-->
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483251/?learn=on&enablevpops)
 
 The missing alt text opportunity identifies images on your website that do not have descriptive alternative text. Without alternative text, users who rely on screen readers cannot interpret visual content, creating accessibility barriers. It also limits how search engines understand and index images, reducing content discoverability and search performance. AEM Sites Optimizer identifies missing alt text issues, provides specific AI recommendations, and enables one-click deployment to fix them, all in a single centralized view.
 
 ## Auto-identify
 
-![Auto-identify missing alt text](./assets/missing-alt-text/auto-identify.png){align="center"}
+<!--![Auto-identify missing alt text](./assets/missing-alt-text/auto-identify.png){align="center"}-->
 
 AEM Sites Optimizer scans your website by using a multi-step audit that combines site crawling, real user traffic data and AI analysis to identify images that require alt text but do not have it defined. It also evaluates images on the page to determine whether alt text is necessary, excluding decorative or non-informative images in accordance with the Web Content Accessibility Guidelines (WCAG). Images are analyzed based on their role and relevance within the page prioritizing fixes that have the greatest impact on accessibility and SEO.
 
@@ -23,7 +25,7 @@ This opportunity provides a list of identified issues, including:
 
 ## Auto-suggest
 
-![Auto-suggest missing alt text](./assets/missing-alt-text/auto-suggest.png){align="center"}
+<!--![Auto-suggest missing alt text](./assets/missing-alt-text/auto-suggest.png){align="center"}-->
 
 For each identified issue, AEM Sites Optimizer suggests a descriptive alternative text for the image. It uses AI vision models to analyze the image and generate a description that reflects its content and role within the page. Recommendations are concise, relevant and aligned with accessibility best practices. Each suggestion can be reviewed and edited before being applied.
 
@@ -31,7 +33,7 @@ For each identified issue, AEM Sites Optimizer suggests a descriptive alternativ
 
 >[!TAB Edit missing alt text]
 
-![Edit missing alt text](./assets/missing-alt-text/edit-alt-text-value.png){align="center"}
+<!--![Edit missing alt text](./assets/missing-alt-text/edit-alt-text-value.png){align="center"}-->
 
 If you disagree with the AI-generated suggestion, you can edit the suggested alt text by selecting the **edit icon**. This ability lets you manually adjust the text you believe is the best fit for the image. The edit window contains the following:
 
@@ -47,9 +49,7 @@ You can choose to ignore entries in the opportunity list. Selecting ![Delete ico
 
 ## Auto-optimize
 
-[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
-
->[!VIDEO](https://video.tv.adobe.com/v/3483251/?learn=on&enablevpops)
+<!--[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}-->
 
 Once suggestions are reviewed and approved you can click **Deploy Optimization**. AEM Sites Optimizer then applies the fixes into the authoring environment, based on how alt text is managed within your implementation. The AEM author can then publish the changes from the Content Management System (CMS).
 
