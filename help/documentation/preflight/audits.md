@@ -10,3 +10,5 @@ Preflight audits your page to identify opportunities to enhance your content bef
 1. Open the page that you want to audit in your [authoring environment](./access-preflight.md) (Universal Editor, Document-based authoring, or AEM Sites Page Editor).
 1. Open the [Preflight panel](./access-preflight.md).
 1. Preflight automatically performs all audits on the page open in the editor, and displays any opportunities it finds.
+
+To interpret results and open issues in the preview, see [Audit results in Preflight](./audit-results.md).

@@ -2,8 +2,6 @@
 title: Forms Accessibility Issues Opportunity Documentation
 description: Learn about the forms accessibility issues opportunity and how to use it to improve forms accessibility and user experience on your website.
 badgeFormOptimization: label="Forms Optimization" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Forms Optimization"
-hide: yes
-hidefromtoc: yes
 TQID: https://experienceleague.adobe.com/LsxxwR0UUBZEB1AJDXwE8zHbPRJcrOqwn25xdsesPhg
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
@@ -13,6 +11,7 @@ topic_v2:
     internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
+hide: true
 ---
 # Forms accessibility issues opportunity
 

@@ -1,8 +1,6 @@
 ---
 title: Forms Optimization with Sites Optimizer
 description: Learn about Forms Optimization with Sites Optimizer.
-hide: yes
-hidefromtoc: yes
 TQID: https://experienceleague.adobe.com/6YARKCyeKXDlXPs36QQK97WthDcUBdR3FtAqFFGWofQ
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
@@ -14,6 +12,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
+hide: true
 ---
 # Forms Optimization opportunities 
 
