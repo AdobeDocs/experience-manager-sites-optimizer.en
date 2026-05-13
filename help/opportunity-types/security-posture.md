@@ -1,8 +1,16 @@
 ---
 title: Optimize Security Posture with Sites Optimizer
 description: Learn how to improve your site's security with Sites Optimizer.
+TQID: https://experienceleague.adobe.com/f-WI-WIM2a7-NRuyfLU4Gut5tUqwJS08Ipvqe2Y9F7w
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
-
 # Security posture opportunities
 
 ![Security posture opportunities](./assets/security-posture/hero.png){align="center"}

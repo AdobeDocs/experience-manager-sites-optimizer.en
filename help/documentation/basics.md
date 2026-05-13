@@ -1,8 +1,16 @@
 ---
 title: Sites Optimizer Basics
 description: Learn about the basics of Sites Optimizer and how to navigate it.
+TQID: https://experienceleague.adobe.com/YnwwraMgmwnA7IuSnFdggMovi-PNgfxYN-rEYGh8V7I
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
-
 # Sites Optimizer basics
 
 ![Sites Optimizer home](./assets/basics/hero.png){align="center"}

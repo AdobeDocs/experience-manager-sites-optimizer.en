@@ -1,8 +1,11 @@
 ---
-title: AEM Sites Optimizer 
+title: AEM Sites Optimizer
 description: Boost your website's performance with Sites Optimizer — improve speed, reduce costs, and enhance reliability for better engagement.
+TQID: https://experienceleague.adobe.com/tep2UnSJ4BsorZ9caKACfbOFyI1qvM2ZCxhjHd3vcSc
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
-
 # AEM Sites Optimizer
 
 >[!VIDEO](https://video.tv.adobe.com/v/3455085/?learn=on&enablevpops)

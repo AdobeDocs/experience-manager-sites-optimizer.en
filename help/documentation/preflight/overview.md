@@ -1,8 +1,16 @@
 ---
-title:  AEM Sites Optimizer Preflight
+title: AEM Sites Optimizer Preflight
 description: Learn about Preflight and the opportunity types that it evaluates before publishing.
+TQID: https://experienceleague.adobe.com/pZrPXBAaroTlpEsfSluFiLW2Noy4y5sD4dZHTsXgSfA
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 ---
-
 # AEM Sites Optimizer Preflight
 
 ![Preflight opportunities](./assets/overview/hero.png){align="center"}
