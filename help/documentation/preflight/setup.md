@@ -27,8 +27,8 @@ To set up Preflight in Universal Editor, follow these steps:
 
 1. Open the **Extension Manager** at:
    [https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor](https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor)
-1. Locate the **AEM Sites Optimizer Preflight Extension** and submit a request to enable it.
-1. The **Adobe AEM team** reviews and enables the extension for your organization.
+1. Locate the **AEM Sites Optimizer Preflight** Extension.
+1. The organization's System Administrator will need to enable this extension.
 1. After the extension is enabled, open a page in **Universal Editor**, for example:
    `https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/en/example/home.html`
 1. The **Preflight Extension** appears in the **side rail**.
