@@ -1,8 +1,22 @@
 ---
 title: Sites Optimizer Opportunities Documentation
 description: Learn about all the available Site Optimizer opportunities and how to use them to improve your site's performance.
+TQID: https://experienceleague.adobe.com/x-9Vr-OhGbZV-RIJhD1sLhbEVJXeJWMX2Fs78Vb4Mdk
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
-
 # Opportunities documentation
 
 ![Sites Optimizer opportunities](./assets/overview/hero.png){align="center"}

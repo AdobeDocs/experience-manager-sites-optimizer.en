@@ -2,9 +2,17 @@
 title: Forms Accessibility Issues Opportunity Documentation
 description: Learn about the forms accessibility issues opportunity and how to use it to improve forms accessibility and user experience on your website.
 badgeFormOptimization: label="Forms Optimization" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Forms Optimization"
+TQID: https://experienceleague.adobe.com/LsxxwR0UUBZEB1AJDXwE8zHbPRJcrOqwn25xdsesPhg
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 hide: true
 ---
-
 # Forms accessibility issues opportunity
 
 <span class="preview"> The Forms Optimization capability is available under an early access program. You can write to aem-forms-ea@adobe.com from your official email id to join the early access program and request access to the capability. </span>

@@ -1,8 +1,11 @@
 ---
 title: Preflight setup
 description: Learn how to set up the Preflight extension for AEM Sites Optimizer.
+TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8ObcY
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
-
 # Preflight setup
 
 AEM Sites Optimizer Preflight opportunity identification requires the setup of the Preflight extension. You can set it up in either Universal Editor, Document-Based Preview, or AEM Cloud Service so you can run Preflight audits on your pages before they are published.

@@ -2,8 +2,16 @@
 title: Invalid or missing metadata Opportunity Documentation
 description: Learn about the invalid or missing metadata opportunity and how to use it to improve traffic acquisition.
 badgeTrafficAcquisition: label="Traffic acquisition" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Traffic acquisition"
+TQID: https://experienceleague.adobe.com/mNGZuKaPU9sxVOgXi4dRXPW1yU6FqHf9DC9WW9BsVBI
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
-
 # Invalid or missing metadata opportunity
 
 ![Invalid or missing metadata opportunity](./assets/missing-or-invalid-metadata/hero.png){align="center"}
