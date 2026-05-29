@@ -13,8 +13,6 @@ topic_v2:
 
 This page documents the latest updates, new features, and improvements in Adobe Experience Manager Sites Optimizer. Releases follow a roughly two-week cadence.
 
----
-
 ## May 11–22, 2026
 
 ### New Features
@@ -35,8 +33,6 @@ This page documents the latest updates, new features, and improvements in Adobe 
 - Regional preferences for language and number/date format can now be configured independently.
 - Broken image alt text is now accessible to screen readers.
 
----
-
 ## April 21–May 10, 2026
 
 ### New Features
@@ -50,8 +46,6 @@ This page documents the latest updates, new features, and improvements in Adobe 
 - Skipped suggestions now appear in the Ignored tab as expected.
 - Paid Traffic picker dropdowns no longer truncate translated text.
 - Sitemap page picker is now correctly sized.
-
----
 
 ## March 13–April 20, 2026
 
@@ -70,8 +64,6 @@ This page documents the latest updates, new features, and improvements in Adobe 
 - **Skip Failed Fixes** — You can now skip individual fixes that have failed deployment, keeping your workflow unblocked.
 - **Open in AEM Editor** — Opportunity suggestions now include a direct link to open the affected page in AEM's visual editor for quick inline edits.
 
----
-
 ## February 28–March 13, 2026
 
 ### New Features
@@ -85,8 +77,6 @@ This page documents the latest updates, new features, and improvements in Adobe 
 
 - **Top Organic Search Pages V2** — Organic traffic data is now sourced from a 30-day Ahrefs dataset, providing more comprehensive and actionable search performance insights.
 - **Security Vulnerabilities: Dependency Tree** — Security vulnerability details now include a dependency tree visualization so you can understand the full impact of a vulnerability across your project.
-
----
 
 ## February 14–27, 2026
 
@@ -103,8 +93,6 @@ This page documents the latest updates, new features, and improvements in Adobe 
 - **Advanced URL Filtering** — Opportunity lists now support sub-route prefix matching when filtering by URL, making it easier to focus on specific sections of your site.
 - **Improved Trend Charts** — Traffic trend charts now handle year-over-year data correctly, removing misleading dips at year boundaries.
 
----
-
 ## February 6–13, 2026
 
 ### New Features
@@ -119,8 +107,6 @@ This page documents the latest updates, new features, and improvements in Adobe 
 - **Deployed Views for Meta Tags & Security** — Meta Tags and Security opportunities now include date-grouped Deployed tabs, consistent with other opportunity types.
 - **Alt Text Deployment Tracking** — "Mark as Deployed" is now available for Alt Text fixes, and manually edited alt text is preserved across re-analysis runs.
 
----
-
 ## January 26–February 6, 2026
 
 ### New Features
@@ -133,8 +119,6 @@ This page documents the latest updates, new features, and improvements in Adobe 
 ### Enhancements
 
 - **Improved Cookie Banner Cost Estimates** — Cost calculations for the Cookie Banner opportunity have been refined for greater accuracy.
-
----
 
 ## January 16–23, 2026
 

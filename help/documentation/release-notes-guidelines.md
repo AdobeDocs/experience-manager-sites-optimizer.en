@@ -13,8 +13,6 @@ topic_v2:
 
 This document defines how to write customer-facing release notes for Adobe Experience Manager Sites Optimizer. These guidelines are used by the [`/release-notes` Claude Code skill](../../.claude/commands/release-notes.md) and should be followed when writing or reviewing release notes manually.
 
----
-
 ## Core Principles
 
 1. **Customer benefit first.** Every entry should answer "what can I do now that I couldn't before, or do better?" — not "what did we ship?" Lead with the value, not the implementation.
@@ -32,8 +30,6 @@ This document defines how to write customer-facing release notes for Adobe Exper
 4. **Short entries.** One sentence of *what*, one sentence of *why it matters*. If both fit in one sentence, do that.
 
 5. **Accurate scope.** Only include changes a customer will see in the product UI or experience in their workflows. Infrastructure, tooling, and developer-experience changes are excluded.
-
----
 
 ## Page Structure Template
 
@@ -62,8 +58,6 @@ Each release entry follows this structure:
 - Bug Fixes entries do not use bold feature names — they are plain bullets.
 - Only include Bug Fixes if there are 3 or more user-visible fixes worth noting.
 
----
-
 ## What to Include vs. Exclude
 
 ### Include
@@ -90,8 +84,6 @@ Each release entry follows this structure:
 | Release pipeline automation | Internal process |
 | SitesInternal-only features | Not available to customers |
 
----
-
 ## Tone Examples
 
 | Internal phrasing | Customer-facing phrasing |
@@ -102,8 +94,6 @@ Each release entry follows this structure:
 | "96% storage optimization for SHM metrics" | omit — infrastructure only |
 | "AGENTS.md with formal agent roles and safety guardrails" | omit — internal AI tooling |
 | "E2E test performance optimizations (~6min → ~5min)" | omit — engineering process |
-
----
 
 ## Grouping Rules
 
