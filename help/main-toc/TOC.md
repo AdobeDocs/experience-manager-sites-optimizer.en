@@ -54,5 +54,5 @@ user-guide-description: This is a description for the user guide that will be di
       + [Metadata](/help/documentation/preflight/opportunities/meta-data.md)
       + [Readability](/help/documentation/preflight/opportunities/readability.md)
   + [Settings](/help/documentation/settings.md)
-  + [Release Notes](/help/documentation/release-notes.md)
+  + [Release notes](/help/documentation/release-notes.md)
   + {hide-from-toc} [Release Notes Guidelines](/help/documentation/release-notes-guidelines.md)
