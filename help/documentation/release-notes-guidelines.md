@@ -11,7 +11,7 @@ topic_v2:
 
 # Release Notes Writing Guidelines
 
-This document defines how to write customer-facing release notes for Adobe Experience Manager Sites Optimizer. These guidelines are used by the [`/release-notes` Claude Code skill](../../.claude/commands/release-notes.md) and should be followed when writing or reviewing release notes manually.
+This document defines how to write customer-facing release notes for Adobe Experience Manager Sites Optimizer. These guidelines are used by the `/release-notes` Claude Code skill and should be followed when writing or reviewing release notes manually.
 
 ## Core Principles
 

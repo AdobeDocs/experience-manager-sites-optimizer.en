@@ -11,7 +11,7 @@ topic_v2:
 
 # Release Notes
 
-This page documents the latest updates, new features, and improvements in Adobe Experience Manager Sites Optimizer. Releases follow a roughly two-week cadence.
+This page documents the latest updates, new features, and improvements in Adobe Experience Manager Sites Optimizer.
 
 ## May 11–22, 2026
 
