@@ -1,6 +1,6 @@
 ---
 title: Preflight setup
-description: Learn how to set up the Preflight extension for AEM Sites Optimizer.
+description: Learn how to set up Preflight for AEM Sites Optimizer.
 TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8ObcY
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
@@ -8,16 +8,16 @@ product_v2:
 ---
 # Preflight setup
 
-AEM Sites Optimizer Preflight opportunity identification requires the setup of the Preflight extension. You can set it up in either Universal Editor, Document-Based Preview, or AEM Cloud Service so you can run Preflight audits on your pages before they are published.
+Running Preflight requires setting it up in your authoring environment. You can set up Preflight for Universal Editor, Document-based authoring, the AEM Sites Page Editor, or Adobe Managed Services, so you can run Preflight audits on your pages before they are published.
 
 ## Enable user access
 
-To use the Preflight extension, ensure that your user is assigned to at least one of the following AEM Sites Optimizer product profiles in [Adobe Admin Console](https://adminconsole.adobe.com):
+To use Preflight, ensure that your user is assigned to at least one of the following AEM Sites Optimizer product profiles in [Adobe Admin Console](https://adminconsole.adobe.com):
 
 * AEM Sites Optimizer - Auto-Suggest User
 * AEM Sites Optimizer - Auto-Optimize User
 
-## Enable the Preflight extension
+## Enable Preflight
 
 >[!BEGINTABS]
 
@@ -32,7 +32,7 @@ To set up Preflight in Universal Editor, follow these steps:
 1. After the extension is enabled, open a page in **Universal Editor**, for example:
    `https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/en/example/home.html`
 1. The **Preflight Extension** appears in the **side rail**.
-1. Select the **Preflight Extension** from the side rail to start a **Preflight Audit** of the current page.
+1. Select the **Preflight Extension** from the side rail to open Preflight for the current page.
 
 >[!TAB Document-based authoring]
 
@@ -111,7 +111,7 @@ To set up Preflight for Document-based authoring, follow these steps:
    ```
 
 1. Open the preview URL (`*.aem.page`) of the page that you want to audit.
-1. In **Sidekick**, click the **Preflight** button to start the audit for the current page.
+1. In **Sidekick**, click the **Preflight** button to open Preflight for the current page.
 
 >[!TAB AEM Sites Page Editor]
 
@@ -132,7 +132,7 @@ To use Preflight in the AEM Sites Page Editor, you can create a bookmarklet in y
 
 1. Name the bookmark **Preflight** (or any name you prefer).
 1. Open the preview URL (`*.aem.page`) of the page that you want to audit in the **AEM Sites Page Editor**.
-1. Click the **Preflight** bookmark in your Bookmarks Bar to start the audit for the current page.
+1. Click the **Preflight** bookmark in your Bookmarks Bar to open Preflight for the current page.
 
 >[!TAB Adobe Managed Services]
 
@@ -140,7 +140,7 @@ To use Preflight in the AEM Sites Page Editor, you can create a bookmarklet in y
 >
 >Only Adobe Managed Services (AMS) environments that use Adobe's Identity Provider (IMS) for authentication on AEM Author are supported. Preflight does not work if your organization uses any other identity provider for AMS authentication.
 
-To use Preflight in the AEM Sites Page Editor on an AMS environment, create a bookmarklet in your web browser, following these steeps:
+To use Preflight in the AEM Sites Page Editor on an AMS environment, create a bookmarklet in your web browser, following these steps:
 
 1. Show your **Bookmarks Bar** in your web browser:
 
@@ -157,7 +157,7 @@ To use Preflight in the AEM Sites Page Editor on an AMS environment, create a bo
    
 1. Name the bookmark **Preflight** (or any name you prefer).
 1. Open the page you want to audit in the **AEM Sites Page Editor**.
-1. Click the **Preflight** bookmark in your Bookmarks Bar to start the audit for the current page.
+1. Click the **Preflight** bookmark in your Bookmarks Bar to open Preflight for the current page.
 
 >[!ENDTABS]
 

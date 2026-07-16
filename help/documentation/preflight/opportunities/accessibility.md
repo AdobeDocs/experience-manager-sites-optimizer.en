@@ -1,10 +1,11 @@
 ---
-title: Preflight Accessibility Opportunity
-description: Learn about the Preflight Accessibility opportunity in Sites Optimizer.
+title: Preflight Accessibility Audits
+description: Learn about the Accessibility audits that Preflight runs on your page in AEM Sites Optimizer.
 ---
+# Accessibility audits
 
-# Preflight accessibility opportunity
+![Accessibility audits in the Preflight readiness dashboard](./assets/accessibility/hero.png){align="center"}
 
-![Preflight accessibility opportunity](./assets/accessibility/hero.png){align="center"}
+The **Accessibility** audit in Preflight evaluates your page against the Web Content Accessibility Guidelines (WCAG) to help ensure the page is usable by everyone, including people with disabilities. When you run a Preflight audit, it evaluates the page against these accessibility standards and groups the issues it finds into opportunities you can review and resolve before publishing.
 
-The Preflight Accessibility opportunity in Sites Optimizer helps you identify and address accessibility issues on your website to ensure it is usable by all individuals, including persons with disabilities. This opportunity focuses on evaluating your site's compliance with accessibility standards and provides actionable recommendations for improvement.
+In the readiness dashboard, expand the **Accessibility** category to see whether the audit passed and the number of opportunities it found. Select the audit to open its detail page and work through the opportunities. Each opportunity describes the accessibility issue, its severity, and the related WCAG rule and conformance level, along with the affected element on the page. To learn how to interpret results and resolve opportunities, see [Audit results in Preflight](../audit-results.md).

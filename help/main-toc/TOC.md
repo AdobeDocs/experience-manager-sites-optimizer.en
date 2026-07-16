@@ -47,11 +47,17 @@ user-guide-description: This is a description for the user guide that will be di
     + [Access Preflight](/help/documentation/preflight/access-preflight.md)
     + [Audits](/help/documentation/preflight/audits.md)
     + [Audit results](/help/documentation/preflight/audit-results.md)
-    + Opportunities{#preflight-opportunities}
+    + Audit categories{#preflight-opportunities}
       + [Accessibility](/help/documentation/preflight/opportunities/accessibility.md)
-      + [H1 count](/help/documentation/preflight/opportunities/h1-count.md)
-      + [Links](/help/documentation/preflight/opportunities/links.md)
-      + [Metadata](/help/documentation/preflight/opportunities/meta-data.md)
-      + [Readability](/help/documentation/preflight/opportunities/readability.md)
+      + SEO{#preflight-seo}
+        + [Overview](/help/documentation/preflight/opportunities/seo.md)
+        + [Metatags](/help/documentation/preflight/opportunities/seo/metatags.md)
+        + [Headings](/help/documentation/preflight/opportunities/seo/headings.md)
+        + [H1 count](/help/documentation/preflight/opportunities/seo/h1-count.md)
+        + [Links](/help/documentation/preflight/opportunities/seo/links.md)
+        + [Readability](/help/documentation/preflight/opportunities/seo/readability.md)
+        + [Canonical](/help/documentation/preflight/opportunities/seo/canonical.md)
+        + [Body size](/help/documentation/preflight/opportunities/seo/body-size.md)
+        + [Lorem ipsum](/help/documentation/preflight/opportunities/seo/lorem-ipsum.md)
   + [Settings](/help/documentation/settings.md)
   + [Release notes](/help/documentation/release-notes.md)
