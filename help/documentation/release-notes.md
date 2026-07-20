@@ -13,11 +13,13 @@ topic_v2:
 
 This page documents the latest updates, new features, and improvements in Adobe Experience Manager Sites Optimizer.
 
+Features marked **(Early Access)** are available on request — contact your account team or Customer Success Engineer to enable them for your organization.
+
 ## May 11–22, 2026
 
 ### New Features
 
-- **Site Alerts Report** — A new 90-day Site Alerts Report provides a quarterly view of your site's health, using color-coded daily blocks to highlight periods of elevated alerts so you can quickly identify and investigate trends over time.
+- **Site Alerts Report (Early Access)** — A new 90-day Site Alerts Report provides a quarterly view of your site's health, using color-coded daily blocks to highlight periods of elevated alerts so you can quickly identify and investigate trends over time.
 - **Operational Telemetry Onboarding** — Sites that have not yet connected operational telemetry data now receive a persistent banner on the home page and a guided onboarding dialog to complete setup, ensuring you get full visibility into real-user performance.
 - **Alt Text: Multi-Site Manager Awareness** — When generating Alt Text fixes for sites that use AEM Multi-Site Manager or Language Copy, Sites Optimizer now checks whether fixes can be safely applied to each language variant before suggesting them.
 
@@ -54,7 +56,7 @@ This page documents the latest updates, new features, and improvements in Adobe 
 - **Trials Onboarding** — New trial users now experience a guided setup flow: enter your domain, wait for analysis, then explore your first opportunities — no configuration required to get started.
 - **Trial Opportunities Page** — Trial users can search, sort, and filter opportunities, with three suggestions unlocked and remaining suggestions shown in a locked preview with an upgrade prompt.
 - **Monthly Optimization Progress** — A progress bar on the home page tracks how many optimization actions you have taken this month, helping you stay on top of your site health goals.
-- **Audit Target URLs** — Under Settings, you can now specify up to 100 custom URLs to ensure those pages are always included in audits.
+- **Audit Target URLs (Early Access)** — Under Settings, you can now specify up to 100 custom URLs to ensure those pages are always included in audits.
 - **Delivery Type Configuration** — Settings now lets you specify your site's delivery type (Edge Delivery Services, AEM Cloud Service, or AEM Managed Services) and connect your content provider.
 - **Core Web Vitals Redesign** — The Core Web Vitals opportunity has been redesigned with Jira linking, CSV download, and multi-select support for batch actions.
 - **Broken Backlinks Unified Table** — Broken backlinks from all sources are now shown in a single unified table, with the ability to export CDN redirect rules directly.
@@ -100,7 +102,7 @@ This page documents the latest updates, new features, and improvements in Adobe 
 - **Maintenance Mode** — Sites Optimizer now handles planned maintenance windows gracefully, displaying a clear status message instead of incomplete or misleading data during downtime.
 - **Deployed View for Broken Backlinks** — Fixed backlinks are now tracked in a Deployed tab, grouped by date so you can see your remediation history at a glance.
 - **No CTA Above the Fold Opportunity** — A new opportunity type surfaces pages where no clear call-to-action is visible above the fold, helping you identify and improve pages with low conversion potential.
-- **Jira Integration for Accessibility & Color Contrast** — Forms and Color Contrast accessibility opportunities can now be linked directly to Jira tickets for streamlined issue tracking within your existing workflow.
+- **Jira Integration for Accessibility & Color Contrast (Early Access)** — Forms and Color Contrast accessibility opportunities can now be linked directly to Jira tickets for streamlined issue tracking within your existing workflow.
 
 ### Enhancements
 

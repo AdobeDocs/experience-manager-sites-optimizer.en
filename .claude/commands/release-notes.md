@@ -39,6 +39,8 @@ Invoke this skill, then paste the internal release notes content when prompted. 
 
 5. **Accurate scope.** Only include changes a customer will see in the product UI or experience in their workflows. Infrastructure, tooling, and developer-experience changes are excluded.
 
+6. **Flag Early Access features.** If a feature ships behind a feature flag that is off by default (opt-in per org/site, e.g. via LaunchDarkly `FeatureGate`/`isEnabledByDefault={false}`), append `(Early Access)` to the bold feature name — mirroring the existing `(General Availability)` convention used for graduated features. When in doubt, check whether the feature is on by default for all customers; if not, it's Early Access. Verify against the feature flag default in code — do not guess.
+
 ### Page Structure Template
 
 Each release entry follows this structure:
@@ -48,7 +50,7 @@ Each release entry follows this structure:
 
 ### New Features
 
-- **[Feature Name]** — [One-sentence benefit statement. One sentence of business context if needed.]
+- **[Feature Name]** — [One-sentence benefit statement. One sentence of business context if needed.] (append `(Early Access)` or `(General Availability)` to the feature name when the feature's availability status is notable)
 
 ### Enhancements
 
