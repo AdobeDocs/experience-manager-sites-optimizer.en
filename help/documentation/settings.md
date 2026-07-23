@@ -144,7 +144,7 @@ Click **Validate Connection** to confirm access, then click **Save**.
 
 1. In Google Drive, right-click the folder that backs your EDS site and select **Share**.
 2. In the **Add people and groups** field, enter the service account email shown in the **Connect to AEM Sites** dialog:
-   `experience-success-studio@helix-225321.iam.gserviceaccount.com`
+   `aem-sites-optimizer@adbe-gcp0843.iam.gserviceaccount.com`
 3. Set the permission level to **Editor**.
 4. Uncheck **Notify people** and click **Share**.
 
