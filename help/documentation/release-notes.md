@@ -13,6 +13,26 @@ topic_v2:
 
 This page documents the latest updates, new features, and improvements in Adobe Experience Manager Sites Optimizer.
 
+## July 1–19, 2026
+
+### New Features
+
+- **Permissions Management** — Users with the Manage users capability can now control site access from a new Permissions tab — search people by name or email and grant or revoke specific capabilities. Actions a user isn't allowed to perform appear disabled with a tooltip explaining how to request access.
+- **Deployment Status Badges** — Fixes marked as deployed manually now display a distinct "Marked as deployed" badge in the Deployed view, making it easy to tell manual updates apart from automatic deployments.
+
+### Enhancements
+
+- **Auto-Fix for GitHub (Cloud Manager)** — Code-patch autofix for opportunities like Core Web Vitals, Security, and Form Accessibility can now raise pull requests on Cloud Manager bring-your-own-git repositories hosted on GitHub, matching existing support for GitLab, Bitbucket, and Azure DevOps. A new Settings toggle lets you control the one-time setup confirmation for your site.
+- **Auto-Fix via Branch (Cloud Manager Standard)** — Auto-fix via branch is now available for Cloud Manager standard repositories when enabled for your site.
+- **Deployed View: Performed By** — The Deployed view now shows who marked each fix as deployed and when its status was last updated, via new "Performed by" and "Status last updated" columns.
+- **Google Ads Disconnect Feedback** — Disconnecting a Google Ads account in Settings now shows a "Disconnecting…" status, with a dismissible error message if the disconnect fails so you can retry.
+
+### Bug Fixes
+
+- The Fix ARIA Labels opportunity now shows the correct page URL in the Details dialog when a fix spans multiple pages.
+- The Skip dialog's info message now displays correctly, with properly aligned text, in Korean, Simplified Chinese, and Traditional Chinese.
+- Related-pages dialogs for Alt Text and Invalid or Missing Metadata now load reliably, and the Invalid or Missing Metadata Deployed view and meta-tag fixes now work correctly with the latest suggestion format.
+
 ## May 11–22, 2026
 
 ### New Features
