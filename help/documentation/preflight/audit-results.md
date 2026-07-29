@@ -7,13 +7,20 @@ description: Learn how to interpret Preflight audit results, the readiness meter
 
 When the audits complete, Preflight displays the results in the readiness dashboard. The dashboard shows an overall readiness meter and the opportunities it found, grouped by audit category. Within each category, individual audits identify specific items to review or fix.
 
+## Toolbar
+
+The toolbar at the top of the readiness dashboard provides actions for the current run. The **More actions** (**...**) menu offers:
+
+* **Reanalyze** – Start a brand-new audit run on the current page. Reanalyze always discards the displayed results and runs every audit again, so use it whenever you want fresh results — for example, after editing the page.
+* **Export (CSV)** – Download the current results as a CSV file, including the opportunities and metadata from the current audit run.
+
 ## Readiness meter
 
 At the top of the dashboard, the readiness meter reflects the overall audit results. It shows a readiness score as a percentage, based on the proportion of audits that finished without opportunities, along with the total number of opportunities found across all audits. The readiness meter helps you gauge overall page health at a glance.
 
 ![The readiness meter and audit categories in the Preflight dashboard](./assets/overview/hero.png){align="center"}
 
-While the audits are still running, the readiness meter shows a progress bar with a status such as **Running audits** or the number of audits still running. When the audits complete, the meter shows the final readiness percentage and opportunity count.
+While the audits are still running, the readiness meter shows a progress bar with a short status beneath it that shows the current step. When the audits complete, the meter shows the final readiness percentage and opportunity count.
 
 ## Audit categories
 
