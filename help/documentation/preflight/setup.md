@@ -115,7 +115,23 @@ To set up Preflight for Document-based authoring, follow these steps:
 
 >[!TAB AEM Sites Page Editor]
 
-To use Preflight in the AEM Sites Page Editor, you can create a bookmarklet in your web browser. Follow these steps:
+If your author environment is running [AEM 2026.7.0 (release 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) or later, Preflight is built into the AEM Sites Page Editor and no bookmarklet is required. Follow these steps:
+
+1. Open the page you want to audit in the **AEM Sites Page Editor**.
+1. In the editor toolbar, select the **Preflight** icon (the play button, highlighted below) to open the Preflight panel for the current page.
+
+   ![The Preflight icon in the AEM Sites Page Editor toolbar](./assets/setup/toolbar-preflight-button.png){align="center"}
+
+>[!NOTE]
+>
+>Don't see the **Preflight** icon in the toolbar? Check the following:
+>
+>* **Supported release** — The integrated button requires AEM 2026.7.0 (release 27083) or later. On earlier releases, use the bookmarklet method below.
+>* **Rollout** — The integrated button is being enabled for organizations in stages, so it may not have reached your organization yet, even on a supported release. Until it does, use the bookmarklet method below, or reach out to Adobe or your administrator.
+>* **Page access** — The button appears only when you have edit access to the page.
+>* **User access** — Confirm your user is assigned the **AEM Sites Optimizer - Auto-Suggest User** or **AEM Sites Optimizer - Auto-Optimize User** profile. See [Enable user access](#enable-user-access).
+
+To use Preflight in the AEM Sites Page Editor on earlier AEM releases, you can create a bookmarklet in your web browser. Follow these steps:
 
 1. Show your **Bookmarks Bar** in your Web browser:
 
