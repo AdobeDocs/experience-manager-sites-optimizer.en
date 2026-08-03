@@ -17,6 +17,12 @@ To run Preflight audits for a page:
 
 To understand the preview results and identify optimization opportunities, see [Audit results in Preflight](./audit-results.md).
 
+## Use the integrated Preflight button
+
+If your author environment is running [AEM 2026.7.0 (release 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) or later, Preflight is built into the AEM Sites Page Editor toolbar. Select the **Preflight** icon (the play button) to open the panel for the current page, then select **Analyze page** to run the audits.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496629?learn=on&enablevpops)
+
 ## Continue a previous session
 
 Preflight remembers your most recent run, so you don't have to rerun the audits if you leave and come back.

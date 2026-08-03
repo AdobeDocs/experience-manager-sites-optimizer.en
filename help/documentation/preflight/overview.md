@@ -15,6 +15,10 @@ topic_v2:
 
 ![The Preflight readiness dashboard](./assets/overview/hero.png){align="center"}
 
+>[!NOTE]
+>
+>Starting with [AEM 2026.7.0 (release 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083), Preflight is built into the AEM Sites Page Editor toolbar. See [Preflight setup](./setup.md) for details.
+
 Preflight in AEM Sites Optimizer helps you validate and optimize pages before they go live by analyzing content and structure and surfacing opportunities with actionable recommendations. It is designed for authors, marketers, and developers who want to ensure pages are high quality, performant, and ready to publish while reducing rework.
 
 You start Preflight from your authoring environment and select **Analyze page** to run its audits. An audit evaluates one aspect of your page, such as its metadata or heading structure, and Preflight groups related audits into categories, such as **SEO** and **Accessibility**. Preflight then reports a readiness score for the page, along with the opportunities it finds — the specific things you can improve, each with an actionable recommendation.
