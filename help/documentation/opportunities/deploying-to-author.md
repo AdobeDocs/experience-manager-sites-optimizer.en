@@ -16,7 +16,9 @@ After AEM Sites Optimizer identifies an opportunity and suggests optimizations, 
 
 ## Deploy to author
 
-Select one or more suggestions from an opportunity's list, then click **Deploy to Author** (or **Deploy all to author**). AEM Sites Optimizer applies the selected optimizations into the authoring environment only — it does not publish changes to your live site. The AEM author can then review and publish the changes from the Content Management System (CMS), consistent with each opportunity's own [Auto-optimize](/help/documentation/opportunities/missing-alt-text.md#auto-optimize) workflow.
+Select one or more suggestions from an opportunity's list, then click **Deploy to Author** to deploy your selection, or **Deploy all to author** to deploy every available suggestion at once. AEM Sites Optimizer applies the selected optimizations into the authoring environment only — it does not publish changes to your live site. The AEM author can then review and publish the changes from the Content Management System (CMS), consistent with each opportunity's own [Auto-optimize](/help/documentation/opportunities/missing-alt-text.md#auto-optimize) workflow.
+
+This action is disabled when you don't have permission to deploy, or when the site isn't fully configured for deployment (for example, a code repository hasn't been connected yet). In either case, Sites Optimizer explains why next to the disabled button.
 
 ## Track deployed optimizations
 
