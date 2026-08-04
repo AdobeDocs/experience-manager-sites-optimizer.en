@@ -1,6 +1,6 @@
 ---
-title: Deploying to Author
-description: Learn how AEM Sites Optimizer deploys selected optimizations to your AEM Author instance and how to track them afterward.
+title: Deploying to Author Documentation
+description: Learn how AEM Sites Optimizer deploys selected optimizations to the authoring environment and how to track them afterward.
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
@@ -8,19 +8,15 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
 ---
-# Deploying to Author
+# Deploying to author documentation
 
-<!--![Deploying to Author](./assets/deploying-to-author/hero.png){align="center"}-->
+<!--![Deploying to author](./assets/deploying-to-author/hero.png){align="center"}-->
 
-After AEM Sites Optimizer identifies an opportunity and suggests optimizations, you can deploy the selected optimizations to your AEM Author instance for review.
+After AEM Sites Optimizer identifies an opportunity and suggests optimizations, you can review and deploy the selected optimizations for further action.
 
-## Deploy to Author
+## Deploy to author
 
-Select one or more suggestions from an opportunity's list, then click **Deploy to Author** (or **Deploy all to author**) to deploy them.
-
->[!NOTE]
->
->Deploying to Author applies the selected optimizations to the AEM Author instance only. It does not publish changes to your live site. This lets your team review the changes in Author before they publish, consistent with each opportunity's own [Auto-optimize](/help/documentation/opportunities/missing-alt-text.md#auto-optimize) workflow.
+Select one or more suggestions from an opportunity's list, then click **Deploy to Author** (or **Deploy all to author**). AEM Sites Optimizer applies the selected optimizations into the authoring environment only — it does not publish changes to your live site. The AEM author can then review and publish the changes from the Content Management System (CMS), consistent with each opportunity's own [Auto-optimize](/help/documentation/opportunities/missing-alt-text.md#auto-optimize) workflow.
 
 ## Track deployed optimizations
 

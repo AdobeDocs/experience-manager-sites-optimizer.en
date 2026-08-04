@@ -23,7 +23,7 @@ user-guide-description: This is a description for the user guide that will be di
     + [Onboard users](/help/documentation/setup/onboard-users.md)
   + Opportunities{#opportunities}
     + [Overview](/help/documentation/opportunities/overview.md)
-    + [Deploying to Author](/help/documentation/opportunities/deploying-to-author.md)
+    + [Deploying to author](/help/documentation/opportunities/deploying-to-author.md)
     + [Accessibility issues](/help/documentation/opportunities/accessibility-issues.md)
     + [Broken internal links](/help/documentation/opportunities/broken-internal-links.md)
     + [Broken backlinks](/help/documentation/opportunities/broken-backlinks.md)
