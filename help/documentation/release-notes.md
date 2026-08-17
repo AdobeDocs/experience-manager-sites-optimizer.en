@@ -19,7 +19,7 @@ Features marked **(Early Access)** are available on request — contact your acc
 
 ### New Features
 
-- **Permissions Management** — Users with the Manage users capability can now control site access from a new Permissions tab — search people by name or email and grant or revoke specific capabilities. Actions a user isn't allowed to perform appear disabled with a tooltip explaining how to request access.
+- **Permissions Management (Early Access)** — Users with the Manage users capability can now control site access from a new Permissions tab — search people by name or email and grant or revoke specific capabilities. Actions a user isn't allowed to perform appear disabled with a tooltip explaining how to request access.
 - **Deployment Status Badges** — Fixes marked as deployed manually now display a distinct "Marked as deployed" badge in the Deployed view, making it easy to tell manual updates apart from automatic deployments.
 
 ### Enhancements
