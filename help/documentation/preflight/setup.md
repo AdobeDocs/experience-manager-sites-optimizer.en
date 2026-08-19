@@ -133,7 +133,7 @@ If your author environment is running [AEM 2026.7.0 (release 27083)](https://exp
 
 To use Preflight in the AEM Sites Page Editor on earlier AEM releases, you can create a bookmarklet in your web browser. Follow these steps:
 
-1. Show your **Bookmarks Bar** in your Web browser:
+1. Show your **Bookmarks Bar** in your web browser:
 
    * Press **Ctrl+Shift+B** (Windows) or **Cmd+Shift+B** (Mac).
 
@@ -156,7 +156,18 @@ To use Preflight in the AEM Sites Page Editor on earlier AEM releases, you can c
 >
 >Only Adobe Managed Services (AMS) environments that use Adobe's Identity Provider (IMS) for authentication on AEM Author are supported. Preflight does not work if your organization uses any other identity provider for AMS authentication.
 
-To use Preflight in the AEM Sites Page Editor on an AMS environment, create a bookmarklet in your web browser, following these steps:
+When Preflight is built into the AEM Sites Page Editor toolbar, no bookmarklet is required. Contact Adobe to get it installed for your organization. After it is installed, follow these steps:
+
+1. Open the page you want to audit in the **AEM Sites Page Editor**.
+1. In the editor toolbar, select the **Preflight** icon (the play button, highlighted below) to open the Preflight panel for the current page.
+
+   ![The Preflight icon in the AEM Sites Page Editor toolbar](./assets/setup/toolbar-preflight-button.png){align="center"}
+
+>[!NOTE]
+>
+>Don't see the **Preflight** icon in the toolbar? The integrated button may not be installed for your organization yet. Contact Adobe to have it installed, or use the bookmarklet method below.
+
+To use Preflight in the AEM Sites Page Editor on an AMS environment without the toolbar icon, create a bookmarklet in your web browser, following these steps:
 
 1. Show your **Bookmarks Bar** in your web browser:
 
