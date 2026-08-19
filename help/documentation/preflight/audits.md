@@ -32,5 +32,7 @@ Preflight remembers your most recent run, so you don't have to rerun the audits 
 
 Preflight tracks the most recent run separately for each page, so **Continue last session** always reloads the last run for the page you are on.
 
+When you reload a previous run, the header shows how long ago that run was performed — for example, *2 minutes ago* or *yesterday* — so you can tell at a glance how current the results are. The label updates as time passes and stays visible as you move between the readiness dashboard and the audit detail pages.
+
 Once the audits finish and results are displayed, select **Reanalyze** from the **More actions** (**...**) menu in the toolbar to discard the results and run every audit again. See [Audit results in Preflight](./audit-results.md#toolbar).
 
