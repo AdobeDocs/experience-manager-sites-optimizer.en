@@ -7,9 +7,14 @@ description: Get started with the AEM Sites Optimizer trial for existing AEM Sit
 
 Get started with Sites Optimizer using this trial for existing **AEM Sites customers (Edge Delivery Services, Cloud Services and Managed Services)**. Your domain data is already pre-onboarded, so you can begin optimizing right away. The video below walks you through the trial experience and shows you how to get started.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->AEM Sites Optimizer trial does not currently support headless websites. To use the trial, onboard a website that uses AEM Sites frontend delivery.
+>Before you start, make sure your site:
+>
+>* Is built on AEM Sites (Edge Delivery Services, Cloud Service, or Managed Services).
+>* Is a production site — not dev, QA, staging, author, or preview.
+>* Is publicly accessible — not behind a login.
+>* Uses AEM Sites frontend delivery — headless is not currently supported.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
 
