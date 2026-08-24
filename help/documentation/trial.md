@@ -9,12 +9,12 @@ Get started with Sites Optimizer using this trial for existing **AEM Sites custo
 
 >[!IMPORTANT]
 >
->Before you start, make sure your site:
+>Before you start, make sure your site meets these requirements:
 >
->* Is built on AEM Sites (Edge Delivery Services, Cloud Service, or Managed Services).
->* Is a production site — not dev, QA, staging, author, or preview.
->* Is publicly accessible — not behind a login.
->* Uses AEM Sites frontend delivery — headless is not currently supported.
+>* It is built on AEM Sites (Edge Delivery Services, Cloud Service, or Managed Services).
+>* It is a production site, not a development, QA, staging, author, or preview environment.
+>* It is publicly accessible and not behind a login.
+>* It uses AEM Sites frontend delivery. Headless delivery is not currently supported.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
 
