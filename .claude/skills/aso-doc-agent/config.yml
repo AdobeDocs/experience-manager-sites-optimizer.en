@@ -6,6 +6,9 @@ jira:
   epic: SITES-49539                 # [ASO] Improve ExperienceLeague documentation coverage
   open_status: "New"                # statuses eligible to be picked
   picked_label: aso-doc-agent-picked
+  # Applied at publish time (pipeline.md Step 6.10), once a branch+PR exist —
+  # not at pick time — so a crashed run between picking and publishing leaves
+  # the ticket unlabeled and safely eligible to be picked again.
   # Order of selection: priority DESC (Critical first), then key ASC.
   # Tickets whose status is not `open_status` (e.g. Closed, Qualification Required) are skipped.
   # No assignee filter — the agent may write docs for any assignee's ticket.
@@ -26,7 +29,9 @@ pr:
   max_open: 3
   # If open PR count (label=pr_label, state=open) >= max_open, skip picking a
   # new ticket this run. Still runs the reconcile step (merged-PR cleanup +
-  # review check + media follow-up on existing open PRs).
+  # review check + media follow-up on existing open PRs). A CHANGES_REQUESTED
+  # PR older than stale_after_hours is excluded from this count (see below) so
+  # it can't permanently block new picks.
   check_reviews_every_run: true
   # Every run, for every open aso-doc-agent PR: fetch reviewDecision
   # (gh pr view --json reviewDecision,reviews). APPROVED -> merge now
@@ -34,6 +39,10 @@ pr:
   # CHANGES_REQUESTED -> leave open, log it in the run summary (no auto-fix
   # in this version). No timeout-based auto-merge — an unreviewed PR just
   # stays open until a human reviews it.
+  stale_after_hours: 336   # 14 days
+  # A CHANGES_REQUESTED PR open longer than this with no update is still left
+  # open (a human still owns it) but stops counting toward max_open, so a
+  # stalled review can't stall the whole backlog.
 
 media:
   # Who to ask for screenshots/video, in order. First ask contacts_in_order[0].

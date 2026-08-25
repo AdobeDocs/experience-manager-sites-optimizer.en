@@ -4,12 +4,19 @@ Referenced from `SKILL.md`. This is the source of truth for execution order; SKI
 the summary. Read `config.yml` before starting — every value in `{braces}` below is a
 config key.
 
+**Error handling (applies to every step below).** A tool/API call that errors (auth
+failure, timeout, malformed query, unexpected schema) is never the same thing as a
+legitimate empty result, and must never be allowed to fall through silently into an
+"empty" or "nothing to do" branch (e.g. Step 1.2's "nothing to do here", Step 3.3's
+"epic backlog fully covered or all in flight"). When a call errors, stop and log the
+actual error in the run summary instead of continuing as if it returned cleanly.
+
 ## Step 0 — Preflight
 
 1. `pwd` and check `guidelines.md` + `.claude/skills/aso-doc-agent/config.yml` both exist. If not, stop — wrong directory.
-2. `gh auth status` — confirm `github.com` account `{github.reviewers}`'s org account (`sandsinh_adobe`) is active. If not active, `gh auth switch --user sandsinh_adobe` before any `gh` write.
+2. `gh auth status` — confirm the `sandsinh_adobe` account has a valid token on this host. **Never run `gh auth switch`** — it flips the machine-wide active `gh` account as a side effect, which can silently strand any other terminal/process on this machine on the wrong account for an unattended daily run. Instead scope this run only: `export GH_TOKEN=$(gh auth token --user sandsinh_adobe)` once at the start, so every `gh` call below uses that token via the `GH_TOKEN` env var regardless of which account is globally active.
 3. `mkdir -p {state_dir}` if missing.
-4. Read `{state_dir}/run-state.json` if it exists (else treat as `{"runs_completed": 0, "media_requests": {}}`). This file is the only durable local state — GitHub and Jira are the source of truth for everything else (PR status, ticket status).
+4. Read `{state_dir}/run-state.json` if it exists (else treat as `{"runs_completed": 0, "tracked_prs": []}`). `tracked_prs` is this agent's own list of `{number, headRefName, key}` for PRs it opened — used only to detect a PR that closed without merging (Step 1.5), since `gh pr list --state open` alone can't see it once it's gone. Media-request timing lives in a separate file, `{state_dir}/media-requests.json` (Step 5) — GitHub and Jira remain the source of truth for everything else (PR status, ticket status).
 5. `--ticket KEY` present -> skip Step 3's auto-pick, use KEY directly (still runs Steps 4-7). Otherwise auto-pick in Step 3.
 
 ## Step 1 — Reconcile previous runs
@@ -19,20 +26,21 @@ Run this every time, even on a cap-gated or otherwise empty run.
 1. `gh pr list --repo {github.repo} --label {github.pr_label} --state open --json number,url,isDraft,headRefName,title,reviewDecision`
 2. **Review check — every open PR, every run** (`pr.check_reviews_every_run`):
    - `gh pr view <number> --repo {github.repo} --json reviewDecision,reviews,comments`
-   - `reviewDecision == "APPROVED"` -> merge now: `gh pr merge <number> --repo {github.repo} --merge` (this is a normal human-approved merge, not a timeout-based one). Comment on the linked Jira ticket that it merged, drop the PR from local tracking.
-   - `reviewDecision == "CHANGES_REQUESTED"` -> do **not** auto-fix the PR in this version. Read the review comments (`gh api repos/{github.repo}/pulls/<number>/comments` for inline comments, plus the top-level review body from the `reviews` field) and run **Learn from feedback** below. Log the PR as awaiting author action in the run summary.
+   - `reviewDecision == "APPROVED"` -> merge now: `gh pr merge <number> --repo {github.repo} --merge`. Verify the merge actually landed (`gh pr view <number> --json state,mergedAt` — `state == "MERGED"`) before treating it as done; a protected-branch rejection or a still-pending required check can leave the PR open even after `gh pr merge` is called, and that must be logged as a failure, not reported to Jira as merged (this is a normal human-approved merge, not a timeout-based one). On confirmed merge: comment on the linked Jira ticket that it merged, drop the PR from `tracked_prs`.
+   - `reviewDecision == "CHANGES_REQUESTED"` -> do **not** auto-fix the PR in this version. Read the review comments (`gh api repos/{github.repo}/pulls/<number>/comments` for inline comments, plus the top-level review body from the `reviews` field) and run **Learn from feedback** below. Log the PR as awaiting author action in the run summary. If this PR has been `CHANGES_REQUESTED` for longer than `pr.stale_after_hours` with no update, flag it stale for the Step 2 cap gate — it stays open for a human but no longer occupies a cap slot.
    - Anything else (no reviews yet, `REVIEW_REQUIRED` with no submitted review) -> nothing to do here.
 3. **Learn from feedback.** For each review comment or review body that reads as a *generalizable* note about tone, structure, or content — not a one-off fix specific to that PR (compare "always mention the Ignored tab for opportunities with ignore support" vs. "typo on line 12") — append a dated, ticket-linked entry to `references/review-learnings.md`. Skip purely mechanical feedback (typos, broken links, lint) — fix those in the PR itself, they don't need a durable lesson. Exact entry format is documented in that file.
 4. For each **draft** PR in that list, extract the Jira key from the branch name (`{github.branch_prefix}<KEY>-...`).
    - `mcp__Corp-Jira__list_attachments` + `mcp__Corp-Jira__get_jira_comments` on that key.
    - Look for: a new image attachment matching the requested capture, OR a comment containing a `video.tv.adobe.com` URL.
    - If found: `git fetch`/`checkout` the branch, add the image to `help/**/assets/` (if it's an image attachment, download via `download_attachment`) or fill the `>[!VIDEO](...)` placeholder (if a video URL comment), validate against `experience-league-markdown`, commit, push, `gh pr ready <number>`, comment on the PR "Media added — ready for review.", update `{state_dir}/media-requests.json` entry to `resolved`.
-   - If not found: check elapsed time since the request in `{state_dir}/media-requests.json`. Apply the escalate/give-up logic from Step 5 here too (a draft PR left open across runs still needs its media chased).
-5. For each **merged** or **closed** PR that was previously tracked in `run-state.json`, drop it from local tracking (GitHub is authoritative — nothing further to do).
+   - If not found: check elapsed time since the request in `{state_dir}/media-requests.json`. Apply the escalate/give-up logic from Step 5 here too (a draft PR left open across runs still needs its media chased) — including the give-up path's `gh pr ready` call, so a given-up-on draft still becomes reviewable instead of staying stuck.
+5. **Detect PRs closed without merging.** Compare this run's open-PR list (step 1) against `tracked_prs` from `run-state.json`. Any tracked PR missing from the open list, and not confirmed merged in step 2, was closed without merging — before dropping it, fetch its final state (`gh pr view <number> --repo {github.repo} --json reviews,comments`) and run **Learn from feedback** on it one last time, so a human's rejection reasoning isn't lost. Then drop it from tracking. No further action is needed on the ticket itself: since the claim label is only applied at publish time (Step 6.10), a closed-not-merged ticket already has no label, and Step 3.2's checks (no open/merged PR) make it naturally eligible to be picked again on a future run.
+6. Set `tracked_prs` in `run-state.json` to the current open-PR list (`number`, `headRefName`, and the Jira key parsed from the branch name), for the next run's step 5 to diff against.
 
 ## Step 2 — PR cap gate
 
-1. Count open PRs from Step 1's `gh pr list` output.
+1. Count open PRs from Step 1's `gh pr list` output, excluding any PR flagged in Step 1.2 as stale-`CHANGES_REQUESTED` (open longer than `pr.stale_after_hours` with no update) — those stay open for a human but no longer occupy a cap slot.
 2. If count >= `{pr.max_open}` (3): log `"cap reached ({count}/{pr.max_open} open) — skipping new ticket this run"`, jump to Step 7.
 3. Else continue to Step 3.
 
@@ -50,8 +58,8 @@ JQL: "Epic Link" = {jira.epic} AND status = "{jira.open_status}"
    - already has the `{jira.picked_label}` label, OR
    - already has an existing branch `{github.branch_prefix}<KEY>-*` on the remote (`git ls-remote --heads origin '{github.branch_prefix}<KEY>-*'`), OR
    - already has an open or merged PR (cross-check against Step 1's list / `gh pr list --state all --search <KEY>`).
-3. First ticket that passes all three checks is the pick. If none pass, log `"epic backlog fully covered or all in flight"` and go to Step 7.
-4. Add `{jira.picked_label}` to the ticket immediately (`update_jira_issue`, merge with existing labels) — this is the "claim" so a second concurrent run (or a human re-running the same day) doesn't double-pick.
+3. First ticket that passes all three checks is the pick. If none pass **because the search genuinely returned zero eligible tickets**, log `"epic backlog fully covered or all in flight"` and go to Step 7. If the search itself failed (auth error, timeout, malformed JQL), that is not this case — log the actual error instead (see Error handling above).
+4. Do **not** label the ticket yet — the claim label is applied in Step 6.10, only once a branch and PR actually exist. Steps 4-5 (research/draft/media) can fail or crash without leaving any trace on the ticket; the only in-progress signals before Step 6 are the branch-existence/PR-existence checks above, which is sufficient given this runs from a single machine with no real concurrency to guard against.
 
 ## Step 4 — Research + draft
 
@@ -87,23 +95,26 @@ as `<!-- CONFIRM -->` when they can't be resolved.
 
 ## Step 5 — Media gate
 
-Only runs when Step 4 set `mediaNeeded: true`.
+Only runs when Step 4 set `mediaNeeded: true`. All timestamps in
+`{state_dir}/media-requests.json` are UTC ISO-8601 (`date -u +%Y-%m-%dT%H:%M:%SZ`) —
+always write and compare in this format so the elapsed-time math below is unambiguous
+across runs.
 
 1. Check `{state_dir}/media-requests.json` for an existing entry for this ticket key. If none, this is a fresh request.
 2. **Fresh request:**
    - `mcp__Slack__slack_lookup_user` on `media.contacts_in_order[0].email` (sandsinh) to get the Slack user ID.
    - `mcp__Slack__slack_send_dm` with a message containing: the Jira ticket key + link, exactly what to capture (`captureSteps`), the URL(s) to use, and where the answer should go ("reply on the Jira ticket — attach the screenshot directly, or for video, upload via the usual Experience League video form and paste the resulting `video.tv.adobe.com` link as a comment").
-   - Write `{state_dir}/media-requests.json[KEY] = {requestedTo: "sandsinh", requestedAt: now, escalated: false}`.
-3. **Existing request:** compare `now - requestedAt` (or `escalatedAt` if already escalated) against `media.escalate_after_hours` / `media.give_up_after_hours`:
-   - Not yet elapsed -> do nothing this run, proceed to publish with media still pending (draft PR).
-   - Elapsed escalate threshold, not yet escalated -> DM `media.contacts_in_order[1]` (kanishka), message notes sandsinh was already asked N hours ago with no response. Update entry: `escalated: true, escalatedAt: now`.
-   - Elapsed give-up threshold -> set `mediaNeeded: false` for publishing purposes, insert an inline note in the draft: `>[!TIP]\n>\n>A screenshot for this step is being added in a follow-up update.` Mark entry `gaveUp: true`.
+   - Write `{state_dir}/media-requests.json[KEY] = {requestedTo: "sandsinh", requestedAt: <UTC ISO-8601 now>, escalated: false}`.
+3. **Existing request:** both thresholds below are measured from the original `requestedAt` — escalating does not reset the clock:
+   - `now - requestedAt` < `media.escalate_after_hours` -> do nothing this run, proceed to publish with media still pending (draft PR).
+   - `now - requestedAt` >= `media.escalate_after_hours` and not yet escalated -> DM `media.contacts_in_order[1]` (kanishka), message notes sandsinh was already asked N hours ago with no response. Update entry: `escalated: true, escalatedAt: <UTC ISO-8601 now>`.
+   - `now - requestedAt` >= `media.give_up_after_hours` (regardless of escalation state) -> set `mediaNeeded: false` for publishing purposes, insert an inline note in the draft: `>[!TIP]\n>\n>A screenshot for this step is being added in a follow-up update.` If a PR already exists for this ticket and is still a draft (reached here via Step 1.4, not a fresh Step 6 publish), `git fetch`/checkout the branch, apply the note, commit, push, and call `gh pr ready <number>` — a given-up-on draft must still become reviewable, not stay stuck indefinitely. Mark entry `gaveUp: true`.
 
 ## Step 6 — Publish
 
 Skip if the ticket was fully skipped in Step 3 (nothing to publish).
 
-1. `git checkout -b {github.branch_prefix}<KEY>-<short-slug>` from the default branch (fetch+reset first if the default branch has moved).
+1. `git fetch origin` and `git checkout -B {github.branch_prefix}<KEY>-<short-slug> origin/main` — `-B` (not `-b`) so a leftover local branch from a crashed prior run is reset rather than blocking the checkout; branching directly from `origin/main` also discards any dirty local state from a prior crash instead of failing on it.
 2. Write the Step 4 draft to the target file decided in Step 4.3. Re-verify against `experience-league-markdown`'s "Before Committing Markdown Changes" checklist line by line.
 3. If a markdown linter is configured (`markdownlint_custom.json` at repo root) and `markdownlint-cli`/`npx markdownlint` is available, run it against the changed file(s) and fix any violations before committing.
 4. Commit: `docs(aso): <ticket summary, lowercase, no trailing period>\n\nSITES-XXXXX`.
@@ -124,7 +135,7 @@ Skip if the ticket was fully skipped in Step 3 (nothing to publish).
    ```
 8. `gh pr create --repo {github.repo} --title "<ticket summary>" --body "<above>" --label {github.pr_label} --reviewer <chosen-github-handle> --draft` if media is still pending, else omit `--draft`.
 9. `gh pr edit <number> --add-label {github.pr_label}` if the label flag didn't take (belt and suspenders, matches the pattern used elsewhere in this org's tooling).
-10. Jira: `add_jira_comment` linking the PR URL. Do not transition ticket status — leave that to the docs team's own triage; the `{jira.picked_label}` label is the only status signal this agent writes.
+10. Jira: `add_jira_comment` linking the PR URL, and now — for the first time in this run — add `{jira.picked_label}` (`update_jira_issue`, merge with existing labels). This is the claim, deliberately applied only once a branch and PR both exist: a crash anywhere in Steps 3-5 leaves the ticket completely unlabeled and safely re-pickable, instead of permanently stuck. Do not transition ticket status — leave that to the docs team's own triage; `{jira.picked_label}` is the only status signal this agent writes.
 
 ## Step 7 — Run summary
 

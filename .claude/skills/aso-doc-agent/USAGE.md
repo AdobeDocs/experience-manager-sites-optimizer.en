@@ -84,8 +84,9 @@ Edit `.claude/skills/aso-doc-agent/config.yml` (tracked in git — changes affec
 future run, on this machine or anyone else's who clones the repo):
 
 - `pr.max_open` — how many open PRs before the agent pauses picking new tickets (default 3)
+- `pr.stale_after_hours` — how long a `CHANGES_REQUESTED` PR can sit before it stops counting toward `pr.max_open` (default 336 = 14 days); it stays open, this only unblocks new picks
 - `github.reviewers` — who gets assigned, and in what balance
-- `media.contacts_in_order` / `escalate_after_hours` (default 120 = 5 days) / `give_up_after_hours` (default 240 = 10 days) — who's asked, in what order, and how patiently
+- `media.contacts_in_order` / `escalate_after_hours` (default 120 = 5 days) / `give_up_after_hours` (default 240 = 10 days) — who's asked, in what order, and how patiently; both are measured from the original request, so escalating doesn't push out the give-up date
 - `pr.check_reviews_every_run` — turn off the review-check step (not recommended; this is how merges and learnings happen)
 
 ## If it stalls on a permission prompt
@@ -100,5 +101,6 @@ this agent needs their own copy with their own scoped allowlist).
 
 Check, in order:
 1. `gh pr list --repo Adobe-Enterprise-Docs/experience-manager-sites-optimizer.en --label aso-doc-agent --state open` — if this shows 3, it's waiting on reviews, not stuck.
-2. Jira: is there an eligible `New` ticket left under SITES-49539 that isn't already `aso-doc-agent-picked`? If the label got applied to something that never actually got a branch/PR (a crashed run), remove the label manually to make it eligible again.
+2. Jira: is there an eligible `New` ticket left under SITES-49539 that isn't already `aso-doc-agent-picked`? The label is only ever applied once a branch+PR exist (pipeline.md Step 6.10), so a crashed run shouldn't leave a labeled-but-unpublished ticket — if you still find one (e.g. a label added by hand), remove it manually to make the ticket eligible again.
 3. `.claude/skills/aso-doc-agent/state/launchd.err.log` for the most recent run's error.
+4. If a run's summary shows "epic backlog fully covered" or "nothing to do here" but you know there should be eligible work, treat that as suspicious — those messages are reserved for genuinely empty results. An actual Jira/GitHub/Slack error is logged separately and should show up as its own line in `launchd.err.log` instead of hiding behind one of those messages.
