@@ -1,0 +1,72 @@
+# ASO Doc Agent — team-specific configuration.
+# Tracked in git (no secrets here). Local-only overrides go in .claude/settings.local.json (gitignored).
+
+jira:
+  project: SITES
+  epic: SITES-49539                 # [ASO] Improve ExperienceLeague documentation coverage
+  open_status: "New"                # statuses eligible to be picked
+  picked_label: aso-doc-agent-picked
+  # Applied at publish time (pipeline.md Step 6.10), once a branch+PR exist —
+  # not at pick time — so a crashed run between picking and publishing leaves
+  # the ticket unlabeled and safely eligible to be picked again.
+  # Order of selection: priority DESC (Critical first), then key ASC.
+  # Tickets whose status is not `open_status` (e.g. Closed, Qualification Required) are skipped.
+  # No assignee filter — the agent may write docs for any assignee's ticket.
+
+github:
+  repo: Adobe-Enterprise-Docs/experience-manager-sites-optimizer.en
+  pr_label: aso-doc-agent
+  branch_prefix: aso-doc/
+  reviewers:
+    - github: sandsinh_adobe
+      email: sandsinh@adobe.com
+    - github: kanishka_adobe
+      email: kanishka@adobe.com
+  # Reviewer chosen per PR = whichever of the two has fewer currently-open
+  # aso-doc-agent-labeled PRs assigned to them as reviewer. Tie -> sandsinh_adobe.
+
+pr:
+  max_open: 3
+  # If open PR count (label=pr_label, state=open) >= max_open, skip picking a
+  # new ticket this run. Still runs the reconcile step (merged-PR cleanup +
+  # review check + media follow-up on existing open PRs). A CHANGES_REQUESTED
+  # PR older than stale_after_hours is excluded from this count (see below) so
+  # it can't permanently block new picks.
+  check_reviews_every_run: true
+  # Every run, for every open aso-doc-agent PR: fetch reviewDecision
+  # (gh pr view --json reviewDecision,reviews). APPROVED -> merge now
+  # (human approved it — this is a normal merge, not an autonomous one).
+  # CHANGES_REQUESTED -> leave open, log it in the run summary (no auto-fix
+  # in this version). No timeout-based auto-merge — an unreviewed PR just
+  # stays open until a human reviews it.
+  stale_after_hours: 336   # 14 days
+  # A CHANGES_REQUESTED PR open longer than this with no update is still left
+  # open (a human still owns it) but stops counting toward max_open, so a
+  # stalled review can't stall the whole backlog.
+
+media:
+  # Who to ask for screenshots/video, in order. First ask contacts_in_order[0].
+  # "Not available" = no Jira attachment/comment with the asset within
+  # escalate_after_hours of the request -> escalate to the next contact.
+  contacts_in_order:
+    - name: sandsinh
+      email: sandsinh@adobe.com
+    - name: kanishka
+      email: kanishka@adobe.com
+  escalate_after_hours: 120   # 5 days
+  give_up_after_hours: 240    # 10 days
+  # After give_up_after_hours with no asset from anyone: ship the doc without
+  # media, with an inline note that a screenshot/video follow-up is pending.
+  # (No auto-merge tied to this clock — PR still waits for human review.)
+
+research:
+  # Repos searched for source-code ground truth (adapters/hooks/l10n) and merged-PR
+  # history/screenshots during Step 4. Sibling paths, same convention as orca-fix.
+  code_repos:
+    - repo: OneAdobe/experience-success-studio-ui
+      local: ../experience-success-studio-ui
+  # Optional: narrow Slack search to specific channels (without #). Empty = search
+  # every channel the connected account can see.
+  slack_channels: []
+
+state_dir: .claude/skills/aso-doc-agent/state
