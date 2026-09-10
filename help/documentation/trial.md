@@ -43,6 +43,40 @@ The following is included in the trial:
   * **Auto-suggest** — Provides prescriptive, AI-generated recommendations for each issue.
   * **Auto-optimize** — After approval, deploy fixes directly into your authoring environment. Updates follow your existing workflows, allowing your team to review and publish through AEM.
 
+## Enable auto-fix for Edge Delivery trial sites
+
+Learn how trial customers enable the **Deploy to author** action for auto-fix suggestions on Edge Delivery Services (EDS) sites authored in Google Drive or SharePoint.
+
+>[!NOTE]
+>
+>This requirement applies only to trial organizations whose sites are authored in Google Drive or SharePoint. Paid customers, and sites authored in Crosswalk or Dark Alley, are not affected.
+
+Trial customers must be part of the **ASO-EDS-Autofix-Users** IMS group. If the group doesn't exist, your organization's Admin can create it and add you.
+
+1. Sign in to the [Adobe Admin Console](https://adminconsole.adobe.com/).
+1. Select **Users** > **User groups**.
+1. Select **Add User Group**.
+1. For **User group name**, enter exactly:
+
+   ```
+   ASO-EDS-Autofix-Users
+   ```
+
+   >[!IMPORTANT]
+   >
+   > The group name must match exactly, including capitalization. It is matched case-sensitively, so a different spelling or casing (for example, `ASO-EDS-Autofix-users`) does not work. Don't rename the group after you create it.
+
+1. Select **Save**.
+
+   ![Create a new user group dialog in the Adobe Admin Console, with the User group name field set to ASO-EDS-Autofix-Users](./assets/trial/create-user-group.png){align="center"}
+
+1. Open the new group and select **Add users**.
+1. Enter the email address or username of each person who should be able to deploy auto-fixes, then select **Save**.
+
+   ![Add users to this user group dialog in the Adobe Admin Console](./assets/trial/add-users-to-group.png){align="center"}
+
+If you're a member of the group, the **Deploy to author** button is enabled. If you're not yet a member, **Deploy to author** is disabled with a tooltip asking you to contact your administrator to add you to the group. After your Admin adds you to the group, sign out and sign back in to Sites Optimizer so your session picks up the new group membership.
+
 ## Frequently asked questions
 
 Read the following for answers to frequently asked questions about the AEM Sites Optimizer trial.
@@ -79,6 +113,16 @@ Sites Optimizer continuously identifies issues impacting your performance. On th
 +++How do I access more opportunities?
 
 Use the upgrade or contact sales CTAs available through the product experience, or email [siteoptimizer-now@adobe.com](mailto:siteoptimizer-now@adobe.com).
+
++++
++++I'm in the ASO-EDS-Autofix-Users group, but Deploy to author is still disabled. What should I check?
+
+Sign out and sign back in — group membership is read when you sign in. Also confirm the group name is spelled and capitalized exactly `ASO-EDS-Autofix-Users`, and that it was created in the same organization the site belongs to.
+
++++
++++Does the ASO-EDS-Autofix-Users group requirement apply to all Edge Delivery Services sites?
+
+No. It only applies to trial sites authored in **Google Drive** or **SharePoint**. Sites authored in **Crosswalk** or **Dark Alley**, and all **paid** sites, are not affected.
 
 +++
 
