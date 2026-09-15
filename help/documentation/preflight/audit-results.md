@@ -68,7 +68,7 @@ Highlighting isn't possible for every opportunity — for example, when an oppor
 
 In the Universal Editor, highlighting is not yet supported for **Accessibility** opportunities; the **Highlight on page** button is dimmed, and you can hover over it to see why.
 
-In the Universal Editor, Preflight can only highlight editable content. If the affected element isn't part of the editable content, the **Highlight on page** button is dimmed; hover over it to see why. If the element itself isn't directly editable but its nearest editable block is, Preflight highlights that block instead and shows a note that the nearest editable block is highlighted.
+In the Universal Editor, Preflight can only highlight editable content. If the affected element isn't part of the editable content, the **Highlight on page** button is dimmed; hover over it to see why. If the element itself isn't directly editable but its nearest editable block is, Preflight highlights that block instead and adds a note explaining why.
 
 In the AEM Sites Page Editor and Adobe Managed Services (AMS), highlighting also requires **Edit mode**. In **Preview mode**, Preflight shows a **Highlighting issues not available** notice; switch to **Edit mode** to highlight elements on the page.
 
