@@ -43,6 +43,25 @@ The following is included in the trial:
   * **Auto-suggest** — Provides prescriptive, AI-generated recommendations for each issue.
   * **Auto-optimize** — After approval, deploy fixes directly into your authoring environment. Updates follow your existing workflows, allowing your team to review and publish through AEM.
 
+## Allow Sites Optimizer to access your site
+
+Sites Optimizer scans your site to identify optimization opportunities. If your site sits behind a firewall, content delivery network (CDN), or other security configuration that blocks unrecognized clients, the scanner can't reach your pages. When this happens, onboarding shows an **Action required** message that Sites Optimizer can't access your website, and scanning is paused until you allow access.
+
+![Onboarding dialog stating that Sites Optimizer cannot access the website, listing the User-Agent and scanner IP addresses to allowlist, each with a Copy button, and a Refresh button to recheck access](./assets/trial/ip-allowlist-action-required.png){align="center"}
+
+To let the scanner through, allowlist both of the following in your firewall, hosting provider, or security configuration. For AEM Cloud Service sites, add an allow rule for the scanner to your [CDN traffic filter rules](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf) in Cloud Manager, which can match on both the User-Agent and IP address. If you restrict access using [Cloud Manager IP allow lists](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction), add the scanner's IP addresses to the applied allow list as well.
+
+* **User-Agent** — The scanner identifies itself with a User-Agent that contains the token `Spacecat/1.0`. Allowlist this token, ideally as a "contains" match, so it keeps working even if the full User-Agent string changes.
+* **Scanner IP addresses** — Allowlist the scanner's outbound IP addresses.
+
+The onboarding screen displays the exact User-Agent and IP addresses to allowlist, each with a **Copy** button, so you can copy the current values directly into your configuration.
+
+After you allowlist the scanner, select **Refresh** on the onboarding screen. Once access is granted, scanning resumes automatically and surfaces your optimization opportunities.
+
+>[!NOTE]
+>
+>These IP addresses are used only to analyze your site. Allowlisting them does not grant any other access.
+
 ## Enable auto-fix for Edge Delivery trial sites
 
 Learn how trial customers enable the **Deploy to author** action for auto-fix suggestions on Edge Delivery Services (EDS) sites authored in Google Drive or SharePoint.
@@ -123,6 +142,11 @@ Sign out and sign back in — group membership is read when you sign in. Also co
 +++Does the ASO-EDS-Autofix-Users group requirement apply to all Edge Delivery Services sites?
 
 No. It only applies to trial sites authored in **Google Drive** or **SharePoint**. Sites authored in **Crosswalk** or **Dark Alley**, and all **paid** sites, are not affected.
+
++++
++++Sites Optimizer says it can't access my site. What should I do?
+
+Your site is likely behind a firewall, CDN, or security configuration that blocks the scanner. Allowlist the scanner's User-Agent (the `Spacecat/1.0` token) and IP addresses in your security configuration, or, for AEM Cloud Service sites, in the Cloud Manager CDN allow lists. Then select **Refresh**. See [Allow Sites Optimizer to access your site](#allow-sites-optimizer-to-access-your-site).
 
 +++
 
