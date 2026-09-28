@@ -21,6 +21,7 @@ user-guide-description: This is a description for the user guide that will be di
   + [Trial](/help/documentation/trial.md)
   + Set up{#set-up}
     + [Onboard users](/help/documentation/setup/onboard-users.md)
+    + [Manage permissions](/help/documentation/manage-permissions.md)
   + Opportunities{#opportunities}
     + [Overview](/help/documentation/opportunities/overview.md)
     + [Deploying to author](/help/documentation/opportunities/deploying-to-author.md)

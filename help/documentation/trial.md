@@ -43,6 +43,59 @@ The following is included in the trial:
   * **Auto-suggest** — Provides prescriptive, AI-generated recommendations for each issue.
   * **Auto-optimize** — After approval, deploy fixes directly into your authoring environment. Updates follow your existing workflows, allowing your team to review and publish through AEM.
 
+## Allow Sites Optimizer to access your site
+
+Sites Optimizer scans your site to identify optimization opportunities. If your site sits behind a firewall, content delivery network (CDN), or other security configuration that blocks unrecognized clients, the scanner can't reach your pages. When this happens, onboarding shows an **Action required** message that Sites Optimizer can't access your website, and scanning is paused until you allow access.
+
+![Onboarding dialog stating that Sites Optimizer cannot access the website, listing the User-Agent and scanner IP addresses to allowlist, each with a Copy button, and a Refresh button to recheck access](./assets/trial/ip-allowlist-action-required.png){align="center"}
+
+To let the scanner through, allowlist both of the following in your firewall, hosting provider, or security configuration. For AEM Cloud Service sites, add an allow rule for the scanner to your [CDN traffic filter rules](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf) in Cloud Manager, which can match on both the User-Agent and IP address. If you restrict access using [Cloud Manager IP allow lists](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction), add the scanner's IP addresses to the applied allow list as well.
+
+* **User-Agent** — The scanner identifies itself with a User-Agent that contains the token `Spacecat/1.0`. Allowlist this token, ideally as a "contains" match, so it keeps working even if the full User-Agent string changes.
+* **Scanner IP addresses** — Allowlist the scanner's outbound IP addresses.
+
+The onboarding screen displays the exact User-Agent and IP addresses to allowlist, each with a **Copy** button, so you can copy the current values directly into your configuration.
+
+After you allowlist the scanner, select **Refresh** on the onboarding screen. Once access is granted, scanning resumes automatically and surfaces your optimization opportunities.
+
+>[!NOTE]
+>
+>These IP addresses are used only to analyze your site. Allowlisting them does not grant any other access.
+
+## Enable auto-fix for Edge Delivery trial sites
+
+Learn how trial customers enable the **Deploy to author** action for auto-fix suggestions on Edge Delivery Services (EDS) sites authored in Google Drive or SharePoint.
+
+>[!NOTE]
+>
+>This requirement applies only to trial organizations whose sites are authored in Google Drive or SharePoint. Paid customers, and sites authored in Crosswalk or Dark Alley, are not affected.
+
+Trial customers must be part of the **ASO-EDS-Autofix-Users** IMS group. If the group doesn't exist, your organization's Admin can create it and add you.
+
+1. Sign in to the [Adobe Admin Console](https://adminconsole.adobe.com/).
+1. Select **Users** > **User groups**.
+1. Select **Add User Group**.
+1. For **User group name**, enter exactly:
+
+   ```
+   ASO-EDS-Autofix-Users
+   ```
+
+   >[!IMPORTANT]
+   >
+   > The group name must match exactly, including capitalization. It is matched case-sensitively, so a different spelling or casing (for example, `ASO-EDS-Autofix-users`) does not work. Don't rename the group after you create it.
+
+1. Select **Save**.
+
+   ![Create a new user group dialog in the Adobe Admin Console, with the User group name field set to ASO-EDS-Autofix-Users](./assets/trial/create-user-group.png){align="center"}
+
+1. Open the new group and select **Add users**.
+1. Enter the email address or username of each person who should be able to deploy auto-fixes, then select **Save**.
+
+   ![Add users to this user group dialog in the Adobe Admin Console](./assets/trial/add-users-to-group.png){align="center"}
+
+If you're a member of the group, the **Deploy to author** button is enabled. If you're not yet a member, **Deploy to author** is disabled with a tooltip asking you to contact your administrator to add you to the group. After your Admin adds you to the group, sign out and sign back in to Sites Optimizer so your session picks up the new group membership.
+
 ## Frequently asked questions
 
 Read the following for answers to frequently asked questions about the AEM Sites Optimizer trial.
@@ -79,6 +132,21 @@ Sites Optimizer continuously identifies issues impacting your performance. On th
 +++How do I access more opportunities?
 
 Use the upgrade or contact sales CTAs available through the product experience, or email [siteoptimizer-now@adobe.com](mailto:siteoptimizer-now@adobe.com).
+
++++
++++I'm in the ASO-EDS-Autofix-Users group, but Deploy to author is still disabled. What should I check?
+
+Sign out and sign back in — group membership is read when you sign in. Also confirm the group name is spelled and capitalized exactly `ASO-EDS-Autofix-Users`, and that it was created in the same organization the site belongs to.
+
++++
++++Does the ASO-EDS-Autofix-Users group requirement apply to all Edge Delivery Services sites?
+
+No. It only applies to trial sites authored in **Google Drive** or **SharePoint**. Sites authored in **Crosswalk** or **Dark Alley**, and all **paid** sites, are not affected.
+
++++
++++Sites Optimizer says it can't access my site. What should I do?
+
+Your site is likely behind a firewall, CDN, or security configuration that blocks the scanner. Allowlist the scanner's User-Agent (the `Spacecat/1.0` token) and IP addresses in your security configuration, or, for AEM Cloud Service sites, in the Cloud Manager CDN allow lists. Then select **Refresh**. See [Allow Sites Optimizer to access your site](#allow-sites-optimizer-to-access-your-site).
 
 +++
 
