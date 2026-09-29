@@ -15,6 +15,33 @@ This page documents the latest updates, new features, and improvements in Adobe 
 
 Features marked **(Early Access)** are available on request — contact your account team or Customer Success Engineer to enable them for your organization.
 
+## August 20–27, 2026
+
+### New Features
+
+- **Alerts View** — Review a 90-day timeline of automatically detected site-health incidents, correlate changes with deployments and content updates, and inspect affected pages and performance metrics in one place.
+- **Reports and Wins** — Use the Reports section to review optimization history, performance trends, and before-and-after wins that help you communicate the impact of your optimization work.
+- **What's New and Help Center** — Discover recently released capabilities, open product documentation, and access the release notes directly from the in-app Help Center.
+- **Google Ads Connection (Early Access)** — Connect a Google Ads account to bring paid-traffic performance data into Sites Optimizer opportunities and recommendations.
+
+### Enhancements
+
+- **Opportunity List Controls** — Filter and sort opportunities by URL, starred status, priority, or recency, save views in the URL for sharing, and export suggestion data to CSV.
+- **Suggestion Workflow Controls** — Edit AI-generated suggestions before deployment, ignore individual suggestions, skip complete opportunities, and restore skipped opportunities when they become relevant again.
+- **Deployment History** — Review deployment history by date, distinguish automatic deployments from changes marked as deployed manually, and follow pull-request links for code-based fixes.
+- **Brand and Slack Integrations** — Select an Adobe GenStudio brand for on-brand content generation and share relevant optimization updates with a configured Slack channel.
+
+## August 6–19, 2026
+
+### New Features
+
+- **Preflight in AEM Sites Page Editor** — If your authoring environment runs AEM 2026.7.0 or later, you can open Preflight directly from the Page Editor toolbar to analyze the current page without leaving your authoring workflow.
+- **Preflight Export Options** — Export Preflight results as a CSV or PDF, with options to include run metadata and audits that passed, making it easier to share findings and track readiness.
+
+### Enhancements
+
+- **Preflight Session Details** — When you continue a previous audit session, Preflight shows when the run was performed and makes affected elements easier to identify by displaying readable text or a CSS selector.
+
 ## July 1–19, 2026
 
 ### New Features
