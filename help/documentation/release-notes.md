@@ -15,7 +15,43 @@ This page documents the latest updates, new features, and improvements in Adobe 
 
 Features marked **(Early Access)** are available on request — contact your account team or Customer Success Engineer to enable them for your organization.
 
-## August 28–September 29, 2026
+## September 28–29, 2026
+
+### Enhancements
+
+- **Broken Internal Link Deployment (Early Access)** — Provide a replacement URL for a link that cannot be fixed automatically and deploy the validated update.
+- **Published Deployment Status** — See when a deployed change is confirmed live on the published page while retaining clear failure and re-detection states.
+
+### Bug Fixes
+
+- Forms Accessibility opportunities now support creating Jira issues.
+- Deployment follow-up links now open the configured code repository.
+
+## September 21–27, 2026
+
+### Enhancements
+
+- **FAQ Structured Data Deployment (Early Access)** — For pages managed with AEM Multi-Site Manager, choose whether to apply structured data updates to the source page or only the local page.
+- **Form Deployment** — Deploy the fix associated with the selected form variation reliably.
+- **Localized Experiences** — Permission labels and truncated table content are clearer across supported languages.
+
+### Bug Fixes
+
+- Core Web Vitals patch downloads are available whenever a patch exists.
+- CSV exports now preserve localized characters in Excel.
+- Performance metrics no longer remain stuck loading when source data is incomplete.
+
+## September 14–20, 2026
+
+### Enhancements
+
+- **Granular Permissions** — Administrators can grant members access to selected opportunity types while managing site-wide permissions separately.
+
+### Bug Fixes
+
+- Metadata deployment now restores the warning shown when fixing a local page breaks inheritance.
+
+## September 7–13, 2026
 
 ### New Features
 
@@ -23,27 +59,27 @@ Features marked **(Early Access)** are available on request — contact your acc
 
 ### Enhancements
 
-- **Granular Permissions** — Administrators can grant members access to selected opportunity types while managing site-wide permissions separately.
-- **FAQ Structured Data Deployment (Early Access)** — For pages managed with AEM Multi-Site Manager, choose whether to apply structured data updates to the source page or only the local page.
-- **Broken Internal Link Deployment (Early Access)** — Provide a replacement URL for a link that cannot be fixed automatically and deploy the validated update.
-- **Form Deployment** — Deploy the fix associated with the selected form variation reliably.
-- **Published Deployment Status** — See when a deployed change is confirmed live on the published page while retaining clear failure and re-detection states.
 - **Deployment Failure Guidance** — Failure messages now explain whether a content update needs connection access, a rescan, or support.
-- **AEM Content Connections** — Settings now recognize AEM-authored Edge Delivery Services configurations, preserve their source details, and block unsupported source URLs before saving.
-- **Trial Onboarding** — Domain entry now explains the supported production-site requirements before a trial site is added.
-- **Localized Experiences** — Permission labels, Accessibility report values, Paid Traffic month labels and selectors, and truncated table content are clearer across supported languages.
 
 ### Bug Fixes
 
-- CSV exports now preserve localized characters in Excel and use each accessibility issue's correct page URL.
+- Accessibility report values and layouts now display more clearly across supported languages.
 - Paid Traffic channel and platform totals now include previously unclassified traffic.
-- Forms Accessibility opportunities now support creating Jira issues.
-- Core Web Vitals patch downloads are available whenever a patch exists.
-- Deployment follow-up links now open the configured code repository.
 - Broken backlink deployed counts now match the rows shown, including rolled-back and backfilled deployment states.
-- Eligible Edge Delivery Services sites are no longer incorrectly blocked from Alt Text and broken-link deployment.
-- Performance metrics no longer remain stuck loading when source data is incomplete.
-- Metadata deployment now restores the warning shown when fixing a local page breaks inheritance.
+- Eligible Edge Delivery Services sites are no longer incorrectly blocked from broken-link deployment.
+
+## August 31–September 6, 2026
+
+### Enhancements
+
+- **AEM Content Connections** — Settings now recognize AEM-authored Edge Delivery Services configurations, preserve their source details, and block unsupported source URLs before saving.
+- **Trial Onboarding** — Domain entry now explains the supported production-site requirements before a trial site is added.
+
+### Bug Fixes
+
+- Paid Traffic month labels and selectors now display correctly across supported languages.
+- CSV exports now use each accessibility issue's correct page URL.
+- Eligible Edge Delivery Services sites are no longer incorrectly blocked from Alt Text deployment.
 
 ## August 20–27, 2026
 
