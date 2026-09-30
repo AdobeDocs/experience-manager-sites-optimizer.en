@@ -15,7 +15,7 @@ The SEO category includes the following audits:
 * [Metatags](./seo/metatags.md) – Reviews the page title and meta description tags.
 * [Headings](./seo/headings.md) – Reviews the page's heading structure and order.
 * [H1 count](./seo/h1-count.md) – Reviews the number of H1 headings on the page.
-* [Links](./seo/links.md) – Reviews the links on the page.
+* [Internal Links](./seo/internal-links.md) – Reviews the links on the page that point back to your own site.
 * [Readability](./seo/readability.md) – Reviews how easy the page content is to read.
 * [Canonical](./seo/canonical.md) – Reviews the page's canonical link.
 * [Body size](./seo/body-size.md) – Reviews the amount of body content on the page.
