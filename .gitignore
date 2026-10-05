@@ -2,8 +2,6 @@
 .Trashes
 .Spotlight-V100
 settings.json
-!.claude/settings.json
-.claude/settings.local.json
 .history
 Thumbs.db
 .vscode/
