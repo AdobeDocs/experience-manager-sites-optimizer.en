@@ -15,17 +15,26 @@ This page documents the latest updates, new features, and improvements in Adobe 
 
 Features marked **(Early Access)** are available on request — contact your account team or Customer Success Engineer to enable them for your organization.
 
-## September 28–29, 2026
+## September 28–October 4, 2026 {#september-28-october-4-2026}
+
+### New Features
+
+- **Personal AI Agent Opportunities (Early Access)** — Filter opportunities that help personal AI agents read and interact with your site, with badges and guidance explaining the benefits.
 
 ### Enhancements
 
 - **Broken Internal Link Deployment (Early Access)** — Provide a replacement URL for a link that cannot be fixed automatically and deploy the validated update.
-- **Published Deployment Status** — See when a deployed change is confirmed live on the published page while retaining clear failure and re-detection states.
+- **Alt Text Published Status** — See when an alt text change is confirmed live on the published page while retaining clear failure and re-detection states.
+- **Core Web Vitals Code Patches** — Review patches file by file with line numbers and highlighted additions and deletions.
+- **Core Web Vitals Code Deployment (Early Access)** — Submit eligible code patches as a pull request in your configured code repository.
 
 ### Bug Fixes
 
 - Forms Accessibility opportunities now support creating Jira issues.
 - Deployment follow-up links now open the configured code repository.
+- Detailed accessibility reports now open and display their content instead of redirecting to the home page or appearing blank.
+- Alt Text deployed counts and date groups now match the displayed fixes, without empty failed-deployment groups.
+- Restoring skipped Sitemap and Core Web Vitals suggestions now updates their status reliably.
 
 ## September 21–27, 2026
 
