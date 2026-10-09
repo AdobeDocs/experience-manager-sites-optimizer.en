@@ -1,6 +1,9 @@
 ---
 title: Run Audits in Preflight
 description: Learn how to start a Preflight audit on your page.
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 
 # Audits in Preflight

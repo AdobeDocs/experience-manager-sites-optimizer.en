@@ -1,6 +1,9 @@
 ---
 title: Audit results in Preflight
 description: Learn how to interpret Preflight audit results, the readiness meter, and audit categories, and navigate to opportunities in the preview.
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 
 # Audit results in Preflight

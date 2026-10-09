@@ -1,6 +1,9 @@
 ---
 title: Access Preflight
 description: Learn where Preflight appears in your authoring environment.
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 
 # Access Preflight
