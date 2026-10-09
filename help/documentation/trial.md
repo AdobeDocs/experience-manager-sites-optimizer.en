@@ -1,6 +1,9 @@
 ---
 title: Sites Optimizer Trial
 description: Get started with the AEM Sites Optimizer trial for existing AEM Sites customers.
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 
 # Sites Optimizer trial

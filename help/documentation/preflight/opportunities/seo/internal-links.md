@@ -1,6 +1,9 @@
 ---
 title: Preflight Internal Links Audit
 description: Learn about the Internal Links audit in Preflight for AEM Sites Optimizer.
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 # Internal Links audit
 
