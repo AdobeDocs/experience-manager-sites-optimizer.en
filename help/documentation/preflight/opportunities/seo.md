@@ -15,7 +15,7 @@ In the readiness dashboard, expand the **SEO** category to see each audit, wheth
 
 The SEO category includes the following audits:
 
-* [Metatags](./seo/metatags.md) – Reviews the page title and meta description tags.
+* [Metatags](./seo/metatags.md) – Reviews the page title, meta description, and H1 heading.
 * [Headings](./seo/headings.md) – Reviews the page's heading structure and order.
 * [Internal Links](./seo/internal-links.md) – Reviews the links on the page that point back to your own site.
 * [External Links](./seo/external-links.md) – Reviews the links on the page that point to other sites.
