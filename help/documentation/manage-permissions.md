@@ -1,6 +1,6 @@
 ---
 title: Manage User Permissions
-description: Learn how to manage user access and capabilities in AEM Sites Optimizer.
+description: Learn how to manage access and capabilities for users and user groups in AEM Sites Optimizer.
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
@@ -10,7 +10,7 @@ topic_v2:
 ---
 # Manage user permissions
 
-Control who can access a site in Sites Optimizer and what they can do with it. Access is built from a small set of independent *capabilities* — View, Edit, Deploy, Configure, and Manage users — that you grant to each person.
+Control who can access a site in Sites Optimizer and what they can do with it. Access is built from a small set of independent *capabilities* — View, Edit, Deploy, Configure, and Manage users — that you grant to individual people or to user groups.
 
 Access is **additive**: a person's permissions are the sum of everything they've been granted. There's no "deny", so grants never conflict or cancel each other out. To give someone less access, remove a grant rather than trying to override it.
 
@@ -87,11 +87,26 @@ Each scoped grant appears as its own row for the member, with an **Applies to** 
 >
 >Scoping only limits what *that* grant gives — it never removes access another grant provides. If a person also has organization-wide access or an **All**-types grant, that broader access still applies. So to truly limit someone to specific opportunity types, make sure they don't also hold a broader role or an **All**-types grant.
 
+## Grant access to user groups
+
+Besides individual people, you can grant site-level access to a **user group** from your organization's [Adobe Admin Console](https://adminconsole.adobe.com/). Everyone in the group gets the capabilities you grant to the group on that site, so you can manage access for a whole team with a single grant.
+
+- User groups are created and maintained in the Admin Console, under **Users** > **User groups**. Sites Optimizer lists the groups that already exist in your organization; you can't create a group from the **Permissions** tab.
+- When people join or leave the group in the Admin Console, their access on the site changes with it. You don't need to update anything in Sites Optimizer.
+- A group is granted capabilities and opportunity types exactly like a person, and appears in the **Members** table with a **Group** label. You edit or remove it the same way.
+- Group access adds to everything else a person holds. A person who belongs to a group and also has their own grant gets the combination of both.
+
+>[!NOTE]
+>
+>If a group's name can't be loaded, its row in the **Members** table shows a shortened group ID instead. Hover over or focus on the ID to see it in full. The grant still applies.
+
 ## Add a member
+
+A member is either a person or a user group.
 
 1. Open the **Permissions** tab (the lock icon in the left navigation) and select the site.
 1. Click **Add members**.
-1. Search by name or email, and select one or more people.
+1. In **People and groups**, search for people by name or email, or for user groups by name. Select one or more people or groups — groups are marked with a **Group** label.
 1. Choose the **opportunity type(s)** the access applies to (or **All**), then select the capabilities to grant.
 1. Click **Add**.
 
@@ -101,6 +116,8 @@ In the **Members** table:
 
 - Click **Edit capabilities** on a member's row to change what they can do. When you edit an existing grant, its opportunity type stays fixed — you change only the capabilities, and at least one capability must stay selected.
 - Click **Remove** to revoke that member's access to the site entirely.
+
+A person who is no longer part of your organization, for example someone who left, appears in the **Members** table with an **Inactive User** label and their ID in place of a name. You can't edit their access, but you can remove the member to clean up the entry.
 
 >[!NOTE]
 >
@@ -152,6 +169,10 @@ Creating an organization-wide role is an Admin Console action. A member with **M
 **How do I revoke a person's access to a site?**
 
 Remove their grant on the **Permissions** tab. This is different from editing capabilities, which must always leave at least one capability.
+
+**Can I grant access to a whole team at once?**
+
+Yes. Add an Admin Console user group as a member on the **Permissions** tab. Everyone in the group gets the group's capabilities on that site, and access follows the group's membership in the Admin Console. See [Grant access to user groups](#grant-access-to-user-groups).
 
 **Can I limit a person to specific opportunity types?**
 
