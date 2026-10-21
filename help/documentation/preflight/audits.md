@@ -16,7 +16,8 @@ To run Preflight audits for a page:
 
 1. Open the page that you want to audit in your [authoring environment](./access-preflight.md) (Universal Editor, Document-based authoring, or AEM Sites Page Editor).
 1. Open the [Preflight panel](./access-preflight.md). Preflight opens to the **Run performance readiness audit** landing screen.
-1. Select **Analyze page**. Preflight runs all of its audits on the current page and opens the readiness dashboard, where it displays a readiness score and the opportunities it finds, grouped by category.
+1. If needed, open **Settings** (the gear icon) to include site navigation links in the Internal Links audit. This setting is off by default and is not available in the Universal Editor. Depending on your environment, **Settings** appears in the header or in **More actions** (**...**). See [Include site navigation links](./opportunities/seo/internal-links.md#include-site-navigation-links).
+1. Select **Analyze page**. Preflight runs all of its audits on the current page and opens the readiness dashboard, where it displays the percentage of audits that passed and the opportunities it finds, grouped by category.
 
 To understand the preview results and identify optimization opportunities, see [Audit results in Preflight](./audit-results.md).
 
@@ -37,5 +38,4 @@ Preflight tracks the most recent run separately for each page, so **Continue las
 
 When you reload a previous run, the header shows how long ago that run was performed — for example, *2 minutes ago* or *yesterday* — so you can tell at a glance how current the results are. The label updates as time passes and stays visible as you move between the readiness dashboard and the audit detail pages.
 
-Once the audits finish and results are displayed, select **Reanalyze** from the **More actions** (**...**) menu in the toolbar to discard the results and run every audit again. See [Audit results in Preflight](./audit-results.md#toolbar).
-
+Once the audits finish and results are displayed, select **Reanalyze** in the toolbar to discard the results and run every audit again. See [Audit results in Preflight](./audit-results.md#toolbar).

@@ -15,6 +15,23 @@ This page documents the latest updates, new features, and improvements in Adobe 
 
 Features marked **(Early Access)** are available on request — contact your account team or Customer Success Engineer to enable them for your organization.
 
+## October 5–20, 2026 {#october-5-20-2026}
+
+### New Features
+
+- **Preflight Site Navigation Links Setting** — Choose whether the Internal Links audit checks links inside site navigation menus. The setting is off by default so audits finish faster, and **Reanalyze** shows when a changed setting has not been applied yet.
+
+### Enhancements
+
+- **Preflight Audit Progress** — The readiness meter now shows the percentage of audits that passed, and each category shows when its audits are still running, with a "passed so far" count until its results are final.
+- **Preflight Internal Links Coverage** — The Internal Links audit now checks every eligible same-host link on the page, including links in repeated components such as card lists. Site navigation links are included only when **Show site navigation links** is selected. Links outside site navigation are listed first, and Preflight clearly reports when a page has too many links to check in time.
+- **Preflight Link Details** — Broken links flagged by AEM's link checker now show the link's visible text instead of a CSS selector.
+- **Preflight Header Actions** — **Reanalyze** and **Close** always stay visible in the Preflight header, and **Export** and **Settings** move into the **More actions** menu when space is limited.
+- **Preflight Site Matching** — When a page matches more than one onboarded site, Preflight explains the problem and lets you continue with one of the matching sites.
+- **Preflight Alt Text Suggestions** — Alt Text opportunities show the suggested alt text as a ready-to-use suggestion, followed by the reason for the suggestion when one is available.
+- **Preflight Lorem Ipsum Details** — When placeholder text is found in an attribute, such as an image's alt text, the opportunity shows which attribute matched.
+- **Preflight in the Universal Editor** — Audits in the Universal Editor now use the page's rendered content, making them faster and more reliable.
+
 ## September 28–October 4, 2026 {#september-28-october-4-2026}
 
 ### New Features

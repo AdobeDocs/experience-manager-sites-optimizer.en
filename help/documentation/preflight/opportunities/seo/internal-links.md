@@ -33,6 +33,28 @@ Links that AEM's link checker has already marked as invalid are included in the 
 
 One opportunity is reported for every place a link appears, so a bad link used in three spots gives you three instances to fix, each highlighting its own spot on the page. When one of those spots has more than one problem, Preflight shows them together on one card.
 
+## Include site navigation links
+
+By default, the Internal Links audit skips site navigation links. These links are neither checked nor reported. A link in the page body is still checked even if the same URL also appears in a menu.
+
+A link counts as navigation if the link itself or any ancestor is a `<nav>` element or has a `role="navigation"` attribute.
+
+To include navigation links in the next audit run:
+
+1. Before starting an audit or after a run finishes, open **Settings** (the gear icon) in the Preflight header. If the gear icon is not visible, open **More actions** (**...**) and select **Settings**.
+1. Select **Show site navigation links**.
+1. Select **Analyze page** to start a run, or **Reanalyze** if results are already displayed.
+
+![The Preflight Settings menu with the Show site navigation links option](./assets/internal-links/settings-menu.png){align="center"}
+
+**Show site navigation links** controls which links the audit checks, not just which results it displays (currently Internal Links only).
+
+Changing the setting does not start an audit or change the results already on screen. When those results used a different setting, a dot appears on **Reanalyze**, with the label **Reanalyze to apply new settings**. Run the audits again to apply the change, or restore the previous setting to clear the dot.
+
+Preflight saves the setting in your browser and retains it after you sign out. Tabs on the same site share the setting. To skip navigation links again, clear **Show site navigation links** before the next run.
+
+The setting is not available while audits are running or in the Universal Editor.
+
 ## Known limitations
 
 The audit runs in the AEM Sites Page Editor, in Adobe Managed Services (AMS), and in document-based authoring through the Sidekick. It is not currently available in the Universal Editor.

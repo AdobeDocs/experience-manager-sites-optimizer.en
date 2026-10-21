@@ -14,8 +14,11 @@ When the audits complete, Preflight displays the results in the readiness dashbo
 
 The toolbar at the top of the readiness dashboard provides actions for the current run:
 
-* **Reanalyze** – Start a brand-new audit run on the current page. Reanalyze always discards the displayed results and runs every audit again, so use it whenever you want fresh results — for example, after editing the page. Reanalyze is in the **More actions** (**...**) menu.
+* **Reanalyze** – Start a brand-new audit run on the current page. Reanalyze always discards the displayed results and runs every audit again, so use it whenever you want fresh results — for example, after editing the page. Select **Reanalyze** in the toolbar.
 * **Export** – Download the current run as a **CSV** (spreadsheet-friendly) or **PDF** (a formatted document) file. Depending on your environment, select **Export** from the toolbar or from the **More actions** (**...**) menu.
+* **Settings** – Use **Show site navigation links** to include site navigation links (currently Internal Links only). Select the gear icon or open **More actions** (**...**) and select **Settings**. Settings is available before a run or after it finishes, but not while audits are running or in the Universal Editor. See [Include site navigation links](./opportunities/seo/internal-links.md#include-site-navigation-links).
+
+If you change a setting after a run, a dot on **Reanalyze** and the label **Reanalyze to apply new settings** indicate that the displayed results used a different setting. Select **Reanalyze** to apply the saved setting to a new run.
 
 When you export, you can also choose what to include:
 
@@ -28,19 +31,21 @@ When you export, you can also choose what to include:
 
 ## Readiness meter
 
-At the top of the dashboard, the readiness meter reflects the overall audit results. It shows a readiness score as a percentage, based on the proportion of audits that finished without opportunities, along with the total number of opportunities found across all audits. The readiness meter helps you gauge overall page health at a glance.
+At the top of the dashboard, the readiness meter reflects the overall audit results. It shows the percentage of audits that finished without opportunities, labeled **% passed**, along with the total number of opportunities found across all audits. For example, **85% passed** means that 85% of the completed audits found no opportunities. This percentage describes audit results, not progress through the run.
 
 ![The readiness meter and audit categories in the Preflight dashboard](./assets/overview/hero.png){align="center"}
 
 When you are viewing a run that was reloaded from a previous session, the header shows how long ago it was performed — for example, *yesterday*. For more information, see [Continue a previous session](./audits.md#continue-a-previous-session).
 
-While the audits are still running, the readiness meter shows a progress bar with a short status beneath it that shows the current step. When the audits complete, the meter shows the final readiness percentage and opportunity count.
+While the audits are still running, the dashboard shows **Analyzing page** with a short status beneath it. A progress bar appears initially, before named audit categories arrive. Once categories appear, their individual processing indicators show which categories still have work in progress. When all audits complete, the meter shows the final percentage passed and opportunity count.
 
 ## Audit categories
 
 Preflight groups related audits into categories, such as **SEO** and **Accessibility**. Each category appears as a card that shows the number of opportunities found, or indicates that all its audits passed with no opportunities.
 
 Expand a category to see its individual audits. Each audit shows whether it passed or found opportunities, a short description, and a count of the opportunities found. Select an audit that found opportunities to open its detail page.
+
+A category can show results while some of its audits are still running. Its icon shows a processing indicator, and its status says, for example, **3/3 audits passed so far**. This count includes only the audits that have returned results, so it can change as more results arrive. Expand the category to see individual audits that are still processing. A category with no opportunities shows its all-clear checkmark only after its pending work finishes.
 
 For the complete list of audit categories and the audits in each, see [Preflight audit categories](./overview.md#preflight-audit-categories).
 
@@ -52,7 +57,7 @@ For audits that identify a specific URL on the page, the **Element** section app
 
 When more than one opportunity affects the same item — for example, several problems with the same link — Preflight shows them together on one card, each in its own section titled with its instance number, such as **Instance 3**. The navigator then shows a range instead of a single position, for example *3–5 of 12 instances found*.
 
-![The detail page for an audit, showing an opportunity and its suggestion](./assets/audit-results/audit-detail.png){align="center"}
+![The detail page for the Internal Links audit, showing an opportunity and the Current URL section](./assets/audit-results/audit-detail.png){align="center"}
 
 Each opportunity includes:
 
