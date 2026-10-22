@@ -15,6 +15,22 @@ This page documents the latest updates, new features, and improvements in Adobe 
 
 Features marked **(Early Access)** are available on request — contact your account team or Customer Success Engineer to enable them for your organization.
 
+## October 21–22, 2026 {#october-21-22-2026}
+
+### New Features
+
+- **Preflight Instance Filters** — On the Internal Links and External Links detail pages, filter instances by **Broken** or **Needs verification**.
+
+### Enhancements
+
+- **Preflight Internal Links Retries** — The Internal Links audit now retries links that fail temporarily, so a short outage is less likely to be reported as a broken link.
+- **Preflight Progress Indicators** — Processing indicators now appear only on the audits that are still running, not on their categories.
+- **Preflight Opportunity Details** — Opportunities no longer show severity badges, and CSV and PDF exports no longer include severity.
+
+### Bug Fixes
+
+- Long URLs in Preflight opportunity details now wrap instead of widening the card.
+
 ## October 5–20, 2026 {#october-5-20-2026}
 
 ### New Features

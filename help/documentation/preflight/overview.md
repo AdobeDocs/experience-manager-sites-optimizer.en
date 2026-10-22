@@ -13,7 +13,7 @@ topic_v2:
 ---
 # AEM Sites Optimizer Preflight
 
-![The Preflight readiness dashboard](./assets/overview/hero.png){align="center"}
+![The Preflight results dashboard](./assets/overview/hero.png){align="center"}
 
 >[!NOTE]
 >

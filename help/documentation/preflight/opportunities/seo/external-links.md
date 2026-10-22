@@ -19,7 +19,7 @@ The audit reports an opportunity for each external link that has one of the foll
 
 * **Broken link:** the link returns `Status 404` or `Status 410`, or its site cannot be reached at all, for example because the domain no longer exists. A link that reaches the error after a redirect is reported the same way.
 * **Insecure link:** the link uses `http://` and the site does not redirect it to `https://`. A link that starts as `http://` but is redirected to a secure `https://` page is not flagged. Update the link to use `https://`.
-* **Unverified link:** Preflight could not confirm that the link works, for example because the site requires sign-in, blocks automated checks, keeps returning a server error, does not respond in time, or redirects too many times. Some social networks, such as LinkedIn and Instagram, report pages that exist as missing to automated checks, so missing-page errors from those sites are also reported as unverified. These links very likely work in a browser, so Preflight does not report them as broken. Instead, it asks you to open the link and confirm it yourself, and reports it at a low impact.
+* **Unverified link:** Preflight could not confirm that the link works, for example because the site requires sign-in, blocks automated checks, keeps returning a server error, does not respond in time, or redirects too many times. Some social networks, such as LinkedIn and Instagram, report pages that exist as missing to automated checks, so missing-page errors from those sites are also reported as unverified. These links very likely work in a browser, so Preflight does not report them as broken. Instead, it asks you to open the link and confirm it yourself.
 
 A link can be both insecure and broken, or both insecure and unverified, in which case both opportunities are reported. A link that resolves successfully is not flagged, even when it has redirects on the way.
 
@@ -30,6 +30,18 @@ Every external link on the page is checked. An external link is any link whose h
 Each link is reported once, even if it appears several times on the page or with different anchors, such as `#pricing` and `#features`. The opportunity highlights the first place the link appears.
 
 Links that AEM's link checker has already marked as invalid are included in the audit, even though the editor removes the clickable link from the page. They are rechecked rather than taken on trust, so a link that has since started working is not reported.
+
+## Filter the results
+
+On the detail page, use the filter beside the **Instances** heading to show only some of the opportunities:
+
+| Filter | Opportunities shown |
+|---|---|
+| **All** (default) | Every opportunity |
+| **Broken** | Broken links |
+| **Needs verification** | Unverified links and insecure links |
+
+If a link has more than one opportunity, such as an insecure link that is also broken, each opportunity appears under its own filter. For more information, see [Filter instances](../../audit-results.md#filter-instances).
 
 ## Known limitations
 

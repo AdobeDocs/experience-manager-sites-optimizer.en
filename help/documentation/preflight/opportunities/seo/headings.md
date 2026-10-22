@@ -20,8 +20,6 @@ The audit reports an opportunity for each of the following problems:
 * **Empty heading:** an H2, H3, H4, H5, or H6 that has no text. A heading that contains only spaces, or only an image, counts as empty.
 * **Skipped heading level:** a heading that is more than one level deeper than the heading just before it, for example an H2 followed by an H4, or an H1 followed by an H3. The opportunity is reported on the deeper heading.
 
-Both are reported at moderate impact.
-
 H1 headings are reviewed by the [Metatags](./metatags.md) audit, which checks for a missing, empty, or overly long H1 and for more than one H1 on a page.
 
 ## How headings are read

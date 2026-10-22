@@ -31,12 +31,6 @@ A value a few characters over the ideal length is reported as **above ideal leng
 
 These ranges are recommended guidelines, not search engine requirements. Preflight uses them to decide when to report an opportunity.
 
-Each opportunity is reported at one of three impact levels:
-
-* **High:** a missing or empty tag.
-* **Moderate:** a page title or meta description that is too short, a meta description or H1 that is too long, or a page with more than one H1.
-* **Low:** a value that is above the ideal length but not too long, including any page title longer than 60 characters.
-
 ## How the values are read
 
 The audit reads the page you are editing: the text of the `<title>` element, the content of the `<meta name="description">` tag, and the visible text of the first `<h1>` element, including any bold or italic text inside it.
