@@ -15,38 +15,77 @@ This page documents the latest updates, new features, and improvements in Adobe 
 
 Features marked **(Early Access)** are available on request — contact your account team or Customer Success Engineer to enable them for your organization.
 
-## October 21–22, 2026 {#october-21-22-2026}
+## October 26–28, 2026 {#october-26-28-2026}
 
 ### New Features
 
+- **Audit Coverage in Settings** — Settings now includes an **Audit coverage** section that lists the audits running for your site, grouped by category such as SEO, Accessibility, Security, and Conversion & engagement.
+- **Estimated Value (Early Access)** — Core Web Vitals, Alt Text, accessibility, Color Contrast, Form Accessibility, and security opportunities now show an estimated value, such as labor saved or risk avoided, to help you prioritize fixes. Labor saved for accessibility and security fixes is shown as a one-time value, and Sitemap and Hreflang opportunities show how many issues were flagged.
+
+### Enhancements
+
+- **Jira Tickets for Alt Text (Early Access)** — Create Jira tickets for one or more Alt Text issues, with the page URL, image URL, and suggested alt text included in each ticket.
+
+## October 19–25, 2026 {#october-19-25-2026}
+
+### New Features
+
+- **Unified Accessibility Report (Early Access)** — The accessibility report now brings all findings together in one report, with an issues overview and a drill-down by issue type, page group, and page. Open a side panel for element-level fix guidance, and export the report as a CSV file.
+- **Preflight Site Navigation Links Setting** — Choose whether the Internal Links audit checks links inside site navigation menus. The setting is off by default so audits finish faster, and **Reanalyze** shows when a changed setting has not been applied yet.
 - **Preflight Instance Filters** — On the Internal Links and External Links detail pages, filter instances by **Broken** or **Needs verification**.
 
 ### Enhancements
 
+- **Broken Backlinks Dispatcher Redirects (Early Access)** — On AEM as a Cloud Service sites where Sites Optimizer deploys redirects through Dispatcher, broken backlink fixes are now labeled as deployed to Dispatcher instead of AEM Author, and you can roll back a deployed redirect.
+- **Site Health Monitor Audit Status** — Health scores now reflect the audits enabled for your site. Disabled audits are hidden, audits that need setup are shown with an explanation, and neither counts toward category scores.
+- **No CTA Above the Fold Proposals** — No CTA Above the Fold suggestions now show a structured call-to-action proposal with side-by-side **Control** and **Proposal** screenshots, and opportunities appear only when both screenshots are available.
+- **Group Permissions (Early Access)** — Grant site access to user groups in your organization, not just individual people, and see an **Inactive User** badge for members who are no longer in your organization's directory.
+- **Restorable Structured Data Skips** — Skipped Structured Data issues now appear in a **Skipped** tab, where you can restore them.
+- **FAQ Structured Data Suggestions** — FAQ suggestions now show exactly the question-and-answer pairs that will be deployed. Individual pairs can no longer be deleted from the table.
+- **Preflight Audit Progress** — The readiness meter now shows the percentage of audits that passed, and each category shows when its audits are still running, with a "passed so far" count until its results are final.
+- **Preflight Internal Links Coverage** — The Internal Links audit now checks every eligible same-host link on the page, including links in repeated components such as card lists. Site navigation links are included only when **Show site navigation links** is selected. Links outside site navigation are listed first, and Preflight clearly reports when a page has too many links to check in time.
+- **Preflight Header Actions** — **Reanalyze** and **Close** always stay visible in the Preflight header, and **Export** and **Settings** move into the **More actions** menu when space is limited.
 - **Preflight Internal Links Retries** — The Internal Links audit now retries links that fail temporarily, so a short outage is less likely to be reported as a broken link.
 - **Preflight Progress Indicators** — Processing indicators now appear only on the audits that are still running, not on their categories.
 - **Preflight Opportunity Details** — Opportunities no longer show severity badges, and CSV and PDF exports no longer include severity.
 
 ### Bug Fixes
 
+- Opportunity search now returns consistent results regardless of letter case, accents, dashes, or extra spaces, including when you paste an opportunity name.
+- Site Health Monitor no longer lists PDF documents as pages.
+- **Learn more** links in the Connect to AEM Sites dialog, compound severity labels, and trial Home metric cards now display correctly in all supported languages.
 - Long URLs in Preflight opportunity details now wrap instead of widening the card.
 
-## October 5–20, 2026 {#october-5-20-2026}
-
-### New Features
-
-- **Preflight Site Navigation Links Setting** — Choose whether the Internal Links audit checks links inside site navigation menus. The setting is off by default so audits finish faster, and **Reanalyze** shows when a changed setting has not been applied yet.
+## October 12–18, 2026 {#october-12-18-2026}
 
 ### Enhancements
 
-- **Preflight Audit Progress** — The readiness meter now shows the percentage of audits that passed, and each category shows when its audits are still running, with a "passed so far" count until its results are final.
-- **Preflight Internal Links Coverage** — The Internal Links audit now checks every eligible same-host link on the page, including links in repeated components such as card lists. Site navigation links are included only when **Show site navigation links** is selected. Links outside site navigation are listed first, and Preflight clearly reports when a page has too many links to check in time.
-- **Preflight Link Details** — Broken links flagged by AEM's link checker now show the link's visible text instead of a CSS selector.
-- **Preflight Header Actions** — **Reanalyze** and **Close** always stay visible in the Preflight header, and **Export** and **Settings** move into the **More actions** menu when space is limited.
+- **Bulk Jira Tickets for Accessibility (Early Access)** — Select multiple Accessibility, Color Contrast, and Form Accessibility issues and create a Jira ticket with a grouped title and a single combined code-fix attachment.
+- **Site Health Monitor Metrics** — Site Health Monitor no longer uses the retired click-through rate (CTR) metric in its health logic or dashboard.
 - **Preflight Site Matching** — When a page matches more than one onboarded site, Preflight explains the problem and lets you continue with one of the matching sites.
 - **Preflight Alt Text Suggestions** — Alt Text opportunities show the suggested alt text as a ready-to-use suggestion, followed by the reason for the suggestion when one is available.
 - **Preflight Lorem Ipsum Details** — When placeholder text is found in an attribute, such as an image's alt text, the opportunity shows which attribute matched.
+
+### Bug Fixes
+
+- Opportunities with outdated suggestions now show a consistent status on the opportunities list and detail pages.
+
+## October 5–11, 2026 {#october-5-11-2026}
+
+### New Features
+
+- **FAQ Structured Data Deployed View (Early Access)** — A **Deployed** view lists deployed FAQ structured data fixes, showing the page where each fix was applied with a link to open it in AEM.
+
+### Enhancements
+
+- **Site Alerts and Core Web Vitals (Early Access)** — Move between Site Alerts and Core Web Vitals suggestions in one click. Alert incidents link to available fixes, and Core Web Vitals rows show an **Alert** badge when the page has a site alert.
 - **Preflight in the Universal Editor** — Audits in the Universal Editor now use the page's rendered content, making them faster and more reliable.
+- **Preflight Link Details** — Broken links flagged by AEM's link checker now show the link's visible text instead of a CSS selector.
+
+### Bug Fixes
+
+- Connecting a Google Ads account from within Experience Cloud now completes reliably, the account picker no longer reopens after you save your selection, and the connection card updates after you disconnect.
+- **Deploy** on an individual FAQ structured data row now opens the Multi-Site Manager dialog so you can choose whether to update the source page or only the local page.
 
 ## September 28–October 4, 2026 {#september-28-october-4-2026}
 
