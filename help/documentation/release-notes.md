@@ -26,17 +26,12 @@ Features marked **(Early Access)** are available on request — contact your acc
 
 - **Jira Tickets for Alt Text (Early Access)** — Create Jira tickets for one or more Alt Text issues, with the page URL, image URL, and suggested alt text included in each ticket.
 - **Color Contrast Fix Details** — On supported sites, review a separate row for each page and root cause, with a shared fix for the affected elements and an explanation of each element's user impact.
-- **AI Suggestion Guidance** — Open the information popover beside an AI-generated suggestion badge to learn about AI-generated content and access Adobe's AI User Guidelines.
 - **Cloud Manager Deployment Context** — The Site Alerts timeline now identifies **Cloud Manager Deployments** and explains which production deployments appear.
 - **Meta Tag Deployment** — When page relationship information is available, the deployment dialog opens without an additional connection to AEM Author, making it more reliable to choose whether to fix the source page or a local copy in AEM Multi-Site Manager.
 
 ### Bug Fixes
 
-- Site Alerts event history now displays the correct Core Web Vitals metric and value for each incident, and suggestion links open an available suggestion instead of an outdated one.
-- Site Alerts now labels performance declines as **Degradation** consistently across the timeline, incident cards, and event history.
-- ARIA Labels opportunities no longer display an internal draft label.
-- The Audit coverage section now uses a readable background in both light and dark themes.
-- Restricted-action explanations now support translation into the selected language.
+- Site Alerts event history now displays the correct Core Web Vitals metric and value for each incident, performance declines are labeled **Degradation** consistently across Site Alerts, and suggestion links open an available suggestion instead of an outdated one.
 - Fixed an issue that could prevent rolling back deployed opportunity fixes.
 
 ## October 19–25, 2026 {#october-19-25-2026}
