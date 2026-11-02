@@ -7,7 +7,7 @@ product_v2:
 ---
 # External Links audit
 
-The **External Links** audit reviews the links on your page that point to other sites. The audit checks each external link from the page you are editing and flags the ones that are broken, insecure, or that could not be verified automatically.
+The **External Links** audit reviews the links on your page that point to other sites. The audit checks each external link from the page you are editing and flags the ones that are broken, insecure, or could not be verified automatically.
 
 ## Why it matters
 
@@ -15,13 +15,31 @@ A broken external link is a dead end for the reader and a signal to search engin
 
 ## What the audit checks
 
+The audit sorts problems into three groups:
+
+* **Broken:** the link fails for every visitor right now and is not expected to recover.
+* **Unverified:** the link fails for some visitors, may fail only temporarily, or could not be checked.
+* **Best practice:** the link works, but it should not be authored that way, such as an insecure `http://` link.
+
 The audit reports an opportunity for each external link that has one of the following problems:
 
-* **Broken link:** the link returns `Status 404` or `Status 410`, or its site cannot be reached at all, for example because the domain no longer exists. A link that reaches the error after a redirect is reported the same way.
-* **Insecure link:** the link uses `http://` and the site does not redirect it to `https://`. A link that starts as `http://` but is redirected to a secure `https://` page is not flagged. Update the link to use `https://`.
-* **Unverified link:** Preflight could not confirm that the link works, for example because the site requires sign-in, blocks automated checks, keeps returning a server error, does not respond in time, or redirects too many times. Some social networks, such as LinkedIn and Instagram, report pages that exist as missing to automated checks, so missing-page errors from those sites are also reported as unverified. These links very likely work in a browser, so Preflight does not report them as broken. Instead, it asks you to open the link and confirm it yourself.
+* **Broken link:** the link does not work for anyone who opens it. Preflight reports a link as broken when:
+  * its site cannot be reached at all, for example because the domain no longer exists.
+  * it returns `Status 404` or `Status 410`.
+  * it returns `Status 405`, meaning the site rejects normal page requests.
+  * it redirects in a loop or more than 20 times. Browsers use the same limit and show a "too many redirects" error.
 
-A link can be both insecure and broken, or both insecure and unverified, in which case both opportunities are reported. A link that resolves successfully is not flagged, even when it has redirects on the way.
+  A link that reaches one of these errors after a redirect is reported the same way.
+* **Insecure link:** the link uses `http://` and Preflight did not see it redirect to `https://`, including when the site did not respond. A link that starts as `http://` but is redirected to a secure `https://` page is not flagged. Update the link to use `https://`.
+* **Unverified link:** Preflight could not confirm whether the link works, so it asks you to open the link and check it yourself. The opportunity explains which case applies:
+  * **Requires sign-in:** the link returns `Status 401`. Visitors without an account cannot open it, so confirm that this is intended.
+  * **Blocks automated checks:** the link returns `Status 403` or `Status 429`, or the site blocks automated requests in another way, as LinkedIn does. Confirm that the link opens in a browser.
+  * **Social and sign-in-walled sites:** LinkedIn, Instagram, Facebook, X (Twitter), TikTok, and Threads return misleading errors to anonymous requests, so a `Status 404`, `Status 410`, `Status 405`, or redirect loop from these sites is reported as unverified rather than broken.
+  * **Server error:** the link returns a server error (`Status 5xx`) that persists when Preflight checks it again. Preflight retries once before reporting it. The error may be temporary, so confirm the link works before you publish.
+  * **Unavailable for legal reasons:** the link returns `Status 451` in the region Preflight checks from. Confirm that it works for your audience.
+  * **No response in time:** the site did not respond in time, even after Preflight retried once. The site may be slow or temporarily down.
+
+A link can be both insecure and broken, or both insecure and unverified, in which case both opportunities are reported. A redirect chain alone is not flagged if it reaches a working page within 20 redirects.
 
 ## Which links are checked
 
@@ -46,8 +64,16 @@ If a link has more than one opportunity, such as an insecure link that is also b
 ## Known limitations
 
 * **Private addresses:** links to private or internal network addresses, such as an intranet site, are not checked and are not reported.
+* **Time limits:** each link has its own time limit, so a slow site does not prevent other links from being checked. Every link on the page gets a result. A link that does not respond in time, even after one retry, is reported as **Unverified link** rather than broken.
+* **Excluded domains:** your site's configuration can exclude specific domains from checking. Links to an excluded domain, or to any of its subdomains, are not checked and are not reported.
 * **Server-side view:** Preflight checks external links from Adobe's servers rather than from your browser. A site that behaves differently based on location, sign-in, or bot detection may return a different result than you see in your browser. Such links are usually reported as **Unverified link** rather than broken.
 
 ## How to resolve
 
-When the audit finds opportunities, each one describes the problem and the recommended change, and identifies the link involved. Use **Highlight on page** to jump to the link in your content, and open the URL in a new tab to confirm the problem for yourself. For a broken link, update it to the page's new location or remove it. For an unverified link, confirm it opens correctly in your browser. To learn how to review and resolve opportunities, see [Audit results in Preflight](../../audit-results.md).
+When the audit finds opportunities, each one describes the problem and the recommended change, and identifies the link involved. Use **Highlight on page** to jump to the link in your content, and open the URL in a new tab to confirm the problem for yourself. Then act on the opportunity:
+
+* **Broken link:** update the link to the page's new location, or replace or remove it. For a redirect loop, contact the other site's owner or link to a different source.
+* **Insecure link:** change the link to use `https://`, after confirming that the secure version works.
+* **Unverified link:** open the link in your browser and confirm it shows the expected page. For a link that requires sign-in, confirm that your readers are expected to have an account. For a server error, check the link again before you publish. If the link does not work, treat it as broken.
+
+To learn how to review and resolve opportunities, see [Audit results in Preflight](../../audit-results.md).

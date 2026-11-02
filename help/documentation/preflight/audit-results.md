@@ -25,6 +25,8 @@ When you export, you can also choose what to include:
 * **Include metadata table** – Add a table of run details, such as the host, content path, and generation details.
 * **Include passed audits** – Include the audits that passed with no opportunities, not only the opportunities that were found.
 
+Audits that could not be completed are always included, whatever you choose. For more information, see [Audits that could not be completed](#audits-that-could-not-be-completed).
+
 >[!NOTE]
 >
 >PDF exports are always generated in English, regardless of the interface language. CSV exports follow your interface language as closely as possible.
@@ -46,6 +48,15 @@ Preflight groups related audits into categories, such as **SEO** and **Accessibi
 Expand a category to see its individual audits. Each audit shows whether it passed or found opportunities, a short description, and a count of the opportunities found. Select an audit that found opportunities to open its detail page.
 
 A category can show results while some of its audits are still running. Its status says, for example, **3/3 audits passed so far**. This count includes only the audits that have returned results, so it can change as more results arrive. Expand the category to see which audits are still running. A category with no opportunities shows its all-clear checkmark only after its pending work finishes.
+
+### Audits that could not be completed
+
+Occasionally an audit cannot be completed for a page, for example because the check could not evaluate the page or ran into an error. Preflight does not show such an audit as passed. Instead:
+
+* The audit's row shows a neutral icon and the reason the audit could not be completed, in place of its usual description. When the reason suggests it, run Preflight again to retry.
+* The audit counts as not passed in the **% passed** figure and in its category's count of audits passed.
+* Its category does not show the all-clear checkmark.
+* The exported report always lists the audit and its reason, even when **Include passed audits** is not selected. The report's summary never says that all checks passed.
 
 For the complete list of audit categories and the audits in each, see [Preflight audit categories](./overview.md#preflight-audit-categories).
 
