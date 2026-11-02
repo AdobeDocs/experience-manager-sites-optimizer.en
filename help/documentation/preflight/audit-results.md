@@ -88,15 +88,15 @@ The filter does not change the opportunity counts on the results dashboard or th
 
 After the audits complete, you can quickly locate and understand an opportunity by highlighting it directly on the page.
 
-Preflight highlights the affected element in context, connecting the result in the panel to the exact location in your content. This makes it easier to review and resolve opportunities without manually searching through the page.
+Preflight highlights the affected element in context, connecting the result in the panel to its location in your content. In the Universal Editor, Preflight uses the editor's selection outline. In other authoring environments, the highlight uses contrasting outline rings to stay visible against the page background.
 
 1. Open the Preflight panel in the context of the page to audit, and select **Analyze page** to run the audits.
 1. Select an audit from the results dashboard, then select an opportunity to review.
-1. Select **Highlight on page**. The preview automatically scrolls to the relevant area and highlights the corresponding element, so you can easily identify and optimize the opportunity in context.
+1. Select **Highlight on page**. The preview automatically scrolls to the relevant area and highlights the corresponding element, so you can easily identify and optimize the opportunity in context. Select **Highlight on page** again to remove the highlight without leaving the opportunity.
 
 Highlighting isn't possible for every opportunity — for example, when an opportunity isn't tied to a specific element, the element is hidden, or it is no longer on the page. In those cases the **Highlight on page** button is dimmed; hover over it to see why.
 
-In the Universal Editor, highlighting is not yet supported for **Accessibility** opportunities; the **Highlight on page** button is dimmed, and you can hover over it to see why.
+In the Universal Editor, highlighting is supported for **SEO** opportunities and **Alt text** opportunities in the **Accessibility** category. Other **Accessibility** opportunities are not yet supported. In those cases, the **Highlight on page** button is dimmed; hover over it to see why.
 
 In the Universal Editor, Preflight can only highlight editable content. If the affected element isn't part of the editable content, the **Highlight on page** button is dimmed; hover over it to see why. If the element itself isn't directly editable but its nearest editable block is, Preflight highlights that block instead and adds a note explaining why.
 

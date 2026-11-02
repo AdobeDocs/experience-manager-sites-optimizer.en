@@ -12,10 +12,7 @@ Running Preflight requires setting it up in your authoring environment. You can 
 
 ## Enable user access
 
-To use Preflight, ensure that your user is assigned to at least one of the following AEM Sites Optimizer product profiles in [Adobe Admin Console](https://adminconsole.adobe.com):
-
-* AEM Sites Optimizer - Auto-Suggest User
-* AEM Sites Optimizer - Auto-Optimize User
+To use Preflight, users must be assigned the **Adobe Experience Manager Sites Optimizer** product in [Adobe Admin Console](https://adminconsole.adobe.com).
 
 ## Enable Preflight
 
