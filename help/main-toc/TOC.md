@@ -59,7 +59,6 @@ user-guide-description: This is a description for the user guide that will be di
           + [Headings](/help/documentation/preflight/opportunities/seo/headings.md)
           + [Internal Links](/help/documentation/preflight/opportunities/seo/internal-links.md)
           + [External Links](/help/documentation/preflight/opportunities/seo/external-links.md)
-          + [Readability](/help/documentation/preflight/opportunities/seo/readability.md)
           + [Canonical](/help/documentation/preflight/opportunities/seo/canonical.md)
           + [Body size](/help/documentation/preflight/opportunities/seo/body-size.md)
           + [Lorem ipsum](/help/documentation/preflight/opportunities/seo/lorem-ipsum.md)
