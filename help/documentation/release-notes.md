@@ -15,20 +15,28 @@ This page documents the latest updates, new features, and improvements in Adobe 
 
 Features marked **(Early Access)** are available on request — contact your account team or Customer Success Engineer to enable them for your organization.
 
-## October 26–28, 2026 {#october-26-28-2026}
+## October 26–November 1, 2026 {#october-26-november-1-2026}
 
 ### New Features
 
-- **Audit Coverage in Settings** — Settings now includes an **Audit coverage** section that lists the audits running for your site, grouped by category such as SEO, Accessibility, Security, and Conversion & engagement.
+- **Audit Coverage in Settings** — Settings now includes an **Audit coverage** section that lists the audits running for your site, grouped by category such as SEO, Accessibility, Security, and Conversion & engagement, including enabled checks for 404 error pages, cross-site scripting, and cookie consent.
 - **Estimated Value (Early Access)** — Core Web Vitals, Alt Text, accessibility, Color Contrast, Form Accessibility, and security opportunities now show an estimated value, such as labor saved or risk avoided, to help you prioritize fixes. Labor saved for accessibility and security fixes is shown as a one-time value, and Sitemap and Hreflang opportunities show how many issues were flagged.
 
 ### Enhancements
 
 - **Jira Tickets for Alt Text (Early Access)** — Create Jira tickets for one or more Alt Text issues, with the page URL, image URL, and suggested alt text included in each ticket.
+- **Color Contrast Fix Details** — On supported sites, review a separate row for each page and root cause, with a shared fix for the affected elements and an explanation of each element's user impact.
+- **Cloud Manager Deployment Context** — The Site Alerts timeline now identifies **Cloud Manager Deployments** and explains which production deployments appear.
+- **Meta Tag Deployment** — When page relationship information is available, the deployment dialog opens without an additional connection to AEM Author, making it more reliable to choose whether to fix the source page or a local copy in AEM Multi-Site Manager.
 - **Preflight Audits That Could Not Be Completed** — An audit that could not be completed now shows its reason instead of appearing as passed. It counts as not passed in the **% passed** figure, and CSV and PDF exports always list it.
 - **Preflight Alt Text Progress** — While the AI check for an image is still running, its Alt Text opportunity appears with a **Generating suggestion** indicator. The opportunity detail view also stays on the opportunity you are viewing when the results change.
 - **Preflight External Links Reasons** — The External Links audit now explains more failure types, including server errors, redirect loops, links that require sign-in, and links unavailable for legal reasons. Links that time out or block automated checks now ask you to confirm them manually.
 - **Preflight Page Capture** — Preflight now waits up to 30 seconds for a slow page to load before it analyzes the page, outside the Universal Editor.
+
+### Bug Fixes
+
+- Site Alerts event history now displays the correct Core Web Vitals metric and value for each incident, performance declines are labeled **Degradation** consistently across Site Alerts, and suggestion links open an available suggestion instead of an outdated one.
+- Fixed an issue that could prevent rolling back deployed opportunity fixes.
 
 ## October 19–25, 2026 {#october-19-25-2026}
 
