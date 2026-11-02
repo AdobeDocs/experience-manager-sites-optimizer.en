@@ -28,6 +28,10 @@ Features marked **(Early Access)** are available on request — contact your acc
 - **Color Contrast Fix Details** — On supported sites, review a separate row for each page and root cause, with a shared fix for the affected elements and an explanation of each element's user impact.
 - **Cloud Manager Deployment Context** — The Site Alerts timeline now identifies **Cloud Manager Deployments** and explains which production deployments appear.
 - **Meta Tag Deployment** — When page relationship information is available, the deployment dialog opens without an additional connection to AEM Author, making it more reliable to choose whether to fix the source page or a local copy in AEM Multi-Site Manager.
+- **Preflight Audits That Could Not Be Completed** — An audit that could not be completed now shows its reason instead of appearing as passed. It counts as not passed in the **% passed** figure, and CSV and PDF exports always list it.
+- **Preflight Alt Text Progress** — While the AI check for an image is still running, its Alt Text opportunity appears with a **Generating suggestion** indicator. The opportunity detail view also stays on the opportunity you are viewing when the results change.
+- **Preflight External Links Reasons** — The External Links audit now explains more failure types, including server errors, redirect loops, links that require sign-in, and links unavailable for legal reasons. Links that time out or block automated checks now ask you to confirm them manually.
+- **Preflight Page Capture** — Preflight now waits up to 30 seconds for a slow page to load before it analyzes the page, outside the Universal Editor.
 
 ### Bug Fixes
 

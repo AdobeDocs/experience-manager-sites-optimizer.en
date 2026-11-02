@@ -25,6 +25,8 @@ When you export, you can also choose what to include:
 * **Include metadata table** – Add a table of run details, such as the host, content path, and generation details.
 * **Include passed audits** – Include the audits that passed with no opportunities, not only the opportunities that were found.
 
+Audits that could not be completed are always included, whatever you choose. For more information, see [Audits that could not be completed](#audits-that-could-not-be-completed).
+
 >[!NOTE]
 >
 >PDF exports are always generated in English, regardless of the interface language. CSV exports follow your interface language as closely as possible.
@@ -46,6 +48,15 @@ Preflight groups related audits into categories, such as **SEO** and **Accessibi
 Expand a category to see its individual audits. Each audit shows whether it passed or found opportunities, a short description, and a count of the opportunities found. Select an audit that found opportunities to open its detail page.
 
 A category can show results while some of its audits are still running. Its status says, for example, **3/3 audits passed so far**. This count includes only the audits that have returned results, so it can change as more results arrive. Expand the category to see which audits are still running. A category with no opportunities shows its all-clear checkmark only after its pending work finishes.
+
+### Audits that could not be completed
+
+Occasionally an audit cannot be completed for a page, for example because the check could not evaluate the page or ran into an error. Preflight does not show such an audit as passed. Instead:
+
+* The audit's row shows a neutral icon and the reason the audit could not be completed, in place of its usual description. When the reason suggests it, run Preflight again to retry.
+* The audit counts as not passed in the **% passed** figure and in its category's count of audits passed.
+* Its category does not show the all-clear checkmark.
+* The exported report always lists the audit and its reason, even when **Include passed audits** is not selected. The report's summary never says that all checks passed.
 
 For the complete list of audit categories and the audits in each, see [Preflight audit categories](./overview.md#preflight-audit-categories).
 
@@ -77,15 +88,15 @@ The filter does not change the opportunity counts on the results dashboard or th
 
 After the audits complete, you can quickly locate and understand an opportunity by highlighting it directly on the page.
 
-Preflight highlights the affected element in context, connecting the result in the panel to the exact location in your content. This makes it easier to review and resolve opportunities without manually searching through the page.
+Preflight highlights the affected element in context, connecting the result in the panel to its location in your content. In the Universal Editor, Preflight uses the editor's selection outline. In other authoring environments, the highlight uses contrasting outline rings to stay visible against the page background.
 
 1. Open the Preflight panel in the context of the page to audit, and select **Analyze page** to run the audits.
 1. Select an audit from the results dashboard, then select an opportunity to review.
-1. Select **Highlight on page**. The preview automatically scrolls to the relevant area and highlights the corresponding element, so you can easily identify and optimize the opportunity in context.
+1. Select **Highlight on page**. The preview automatically scrolls to the relevant area and highlights the corresponding element, so you can easily identify and optimize the opportunity in context. Select **Highlight on page** again to remove the highlight without leaving the opportunity.
 
 Highlighting isn't possible for every opportunity — for example, when an opportunity isn't tied to a specific element, the element is hidden, or it is no longer on the page. In those cases the **Highlight on page** button is dimmed; hover over it to see why.
 
-In the Universal Editor, highlighting is not yet supported for **Accessibility** opportunities; the **Highlight on page** button is dimmed, and you can hover over it to see why.
+In the Universal Editor, highlighting is supported for **SEO** opportunities and **Alt text** opportunities in the **Accessibility** category. Other **Accessibility** opportunities are not yet supported. In those cases, the **Highlight on page** button is dimmed; hover over it to see why.
 
 In the Universal Editor, Preflight can only highlight editable content. If the affected element isn't part of the editable content, the **Highlight on page** button is dimmed; hover over it to see why. If the element itself isn't directly editable but its nearest editable block is, Preflight highlights that block instead and adds a note explaining why.
 
