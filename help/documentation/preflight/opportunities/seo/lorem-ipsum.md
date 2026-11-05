@@ -33,8 +33,12 @@ The audit looks for the phrase "lorem ipsum" in any combination of uppercase and
 ## Known limitations
 
 * **Only "lorem ipsum":** other placeholder text, such as "TBD" or other Latin filler words without "lorem ipsum", isn't detected.
-* **Highlight on page:** isn't available for the page title or metadata, because they don't appear on the page. Use the text shown in the opportunity to find them.
+* **Highlight on page:** isn't available for the page title or metadata, because they don't appear on the page. Use **Details** and the **Element** box to find the text.
 
 ## How to resolve
 
-When the audit finds opportunities, each one identifies where the placeholder text appears. Where it's available, use **Highlight on page** to jump to the text in your content. Replace the placeholder with real content, or remove it. For alt text and accessibility labels, write a description of the image or control. To learn how to review and resolve opportunities, see [Audit results in Preflight](../../audit-results.md).
+Check **Details** for the text's location, such as a page title, alt text, or heading. **Recommendation** explains how to fix it, and the **Element** box shows the text inside its tag.
+
+Use **Highlight on page** where available. A hidden element may appear at other screen sizes or in a menu or dialog.
+
+Replace or remove the placeholder text. For alt text and accessibility labels, describe the image or control. See [Audit results in Preflight](../../audit-results.md) for more guidance.
