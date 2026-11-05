@@ -15,6 +15,30 @@ This page documents the latest updates, new features, and improvements in Adobe 
 
 Features marked **(Early Access)** are available on request — contact your account team or Customer Success Engineer to enable them for your organization.
 
+## November 2–4, 2026 {#november-2-4-2026}
+
+### New Features
+
+- **ARIA Label Code Fixes (Early Access)** — Review and download component-level code patches for supported ARIA label issues, see which labels require a code change first, and identify issues that need a developer.
+
+### Enhancements
+
+- **Estimated Value Coverage (Early Access)** — Estimated value is now available for Broken Backlinks, Broken Internal Links, Canonical, Structured Data, Meta Tags, Cookie Consent, and form conversion opportunities when supporting data is available. Hreflang opportunities can also show estimated one-time labor savings.
+- **Estimated Value Details (Early Access)** — Opportunity cards and detail pages now show a single headline estimate, with ranges and clearer explanations in the breakdown. Core Web Vitals labor savings are identified as one-time savings rather than monthly savings.
+- **Jira Tickets for Core Web Vitals (Early Access)** — Create Jira tickets for selected pages with desktop and mobile issues, recommendations, and available code patches, even when a page has no deployable patch.
+- **Jira Tickets for Trial Users (Early Access)** — Trial users can create Jira tickets for Alt Text, Broken Backlinks, Broken Internal Links, Core Web Vitals, Accessibility, Color Contrast, and Form Accessibility issues.
+- **Trial Opportunity States** — Alt Text, Broken Backlinks, and Core Web Vitals cards remain available when no current issues are found, and their detail pages distinguish an empty issue list from a completed monthly optimization quota.
+- **Accessibility Suggestions** — Suggestions with downloadable code patches appear first, making ready-to-use fixes easier to find.
+- **Third-Party Form Deployment Guidance** — High Form Views, Low Conversions opportunities now explain when a form is not authored in AEM and cannot be deployed automatically, and disable deployment for those forms.
+
+### Bug Fixes
+
+- Mobile accessibility reports now use findings from the mobile scan rather than desktop fixes in their issue details and CSV exports. Unified reports also no longer link to a superseded in-depth report.
+- Fixed an issue that could hide Core Web Vitals recommendations for paid-traffic pages.
+- Site Speed and average load time cards on Home and Site Health Monitor now display the seconds unit in the selected language.
+- Generic errors when adding members in Permissions now display in the selected language.
+- Hreflang opportunity cards no longer display a redundant subtype label.
+
 ## October 26–November 1, 2026 {#october-26-november-1-2026}
 
 ### New Features
