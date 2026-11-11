@@ -15,6 +15,12 @@ This page documents the latest updates, new features, and improvements in Adobe 
 
 Features marked **(Early Access)** are available on request — contact your account team or Customer Success Engineer to enable them for your organization.
 
+## November 11, 2026 {#november-11-2026}
+
+### Enhancements
+
+- **Preflight Element Panel** — The **Element** section now shows an image thumbnail or readable text instead of a CSS selector when it can, and lets you copy the element's text or CSS selector.
+
 ## October 26–November 1, 2026 {#october-26-november-1-2026}
 
 ### New Features
