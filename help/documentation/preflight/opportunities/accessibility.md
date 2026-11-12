@@ -1,11 +1,12 @@
 ---
 title: Preflight Accessibility Audits
 description: Learn about the Accessibility audits that Preflight runs on your page in AEM Sites Optimizer.
+badgePreflightAccessibility: label="Preflight - Accessibility" type="Caution" url="./accessibility.md" tooltip="Preflight - Accessibility"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 ---
-# Accessibility audits
+# Preflight - Accessibility audits
 
 ![Accessibility audits in the Preflight results dashboard](./assets/accessibility/hero.png){align="center"}
 

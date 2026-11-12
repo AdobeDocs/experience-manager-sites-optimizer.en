@@ -1,11 +1,12 @@
 ---
 title: Preflight SEO Audits
 description: Learn about the SEO audits that Preflight runs on your page in AEM Sites Optimizer.
+badgePreflightSEO: label="Preflight - SEO" type="Caution" url="./seo.md" tooltip="Preflight - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 ---
-# SEO audits
+# Preflight - SEO audits
 
 ![SEO audits in the Preflight results dashboard](./assets/seo/hero.png){align="center"}
 
