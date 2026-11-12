@@ -1,11 +1,12 @@
 ---
 title: Preflight Headings Audit
 description: Learn about the Headings audit in Preflight for AEM Sites Optimizer.
+badgePreflightSEO: label="Preflight - SEO" type="Caution" url="../seo.md" tooltip="Preflight - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 ---
-# Headings audit
+# Preflight - Headings audit
 
 The **Headings** audit reviews the subheadings on your page (H2 to H6). It flags headings that have no text and headings that skip a level, such as an H2 followed directly by an H4.
 

@@ -1,11 +1,12 @@
 ---
 title: Preflight Lorem Ipsum Audit
 description: Learn about the Lorem ipsum audit in Preflight for AEM Sites Optimizer.
+badgePreflightSEO: label="Preflight - SEO" type="Caution" url="../seo.md" tooltip="Preflight - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 ---
-# Lorem ipsum audit
+# Preflight - Lorem ipsum audit
 
 The **Lorem ipsum** audit detects placeholder text that has been left in your page content.
 

@@ -1,11 +1,12 @@
 ---
 title: Preflight Canonical Audit
 description: Learn about the Canonical audit in Preflight for AEM Sites Optimizer.
+badgePreflightSEO: label="Preflight - SEO" type="Caution" url="../seo.md" tooltip="Preflight - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 ---
-# Canonical audit
+# Preflight - Canonical audit
 
 The **Canonical** audit reviews the canonical link on your page. The canonical link is a `<link rel="canonical">` tag in the page's `<head>` that names the preferred URL for the page's content. The audit flags canonical links that are missing, set up incorrectly, or that point somewhere other than the page itself.
 
@@ -21,7 +22,7 @@ The audit checks for problems in three areas:
 
 * **Whether the page has one canonical link:** the canonical link is missing, or the page has more than one. Several canonical links that point to different URLs are reported separately, because search engines may ignore all of them.
 * **Whether the tag is set up correctly:** the tag is outside the `<head>`, has no `href` attribute or an empty one, or carries an attribute such as `hreflang`, `media`, or `type` that can cause search engines to ignore it.
-* **Whether the URL is correct:** the canonical URL is relative instead of absolute, contains uppercase letters in the path or query string, uses a different protocol (`http://` or `https://`) from the page, or points to a different page from the one you are editing.
+* **Whether the URL is correct:** the canonical URL is relative instead of absolute, contains uppercase letters in the path or query string, uses `http://` instead of `https://`, or points to a different page from the one you are editing.
 
 ## How the canonical URL is compared
 
@@ -34,4 +35,4 @@ Preflight runs on preview pages, whose host is usually different from your produ
 
 ## How to resolve
 
-When the audit finds opportunities, each one describes the problem and the recommended change. In most cases the page should have exactly one canonical link, in the `<head>`, with an absolute URL with a lowercase path that points to the page itself. If the page intentionally points to another page as its canonical version, for example a duplicate or printer-friendly copy, you can leave it as is. The audit will still report it. To learn how to review and resolve opportunities, see [Audit results in Preflight](../../audit-results.md).
+When the audit finds opportunities, each one describes the problem and the recommended change. In most cases the page should have exactly one canonical link, in the `<head>`, with an absolute `https://` URL with a lowercase path that points to the page itself. If the page intentionally points to another page as its canonical version, for example a duplicate or printer-friendly copy, you can leave it as is. The audit will still report it. To learn how to review and resolve opportunities, see [Audit results in Preflight](../../audit-results.md).

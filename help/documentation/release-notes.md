@@ -20,6 +20,7 @@ Features marked **(Early Access)** are available on request — contact your acc
 ### Enhancements
 
 - **Preflight Element Panel** — The **Element** section now shows an image thumbnail or readable text instead of a CSS selector when it can, and lets you copy the element's text or CSS selector.
+- **Preflight Canonical HTTPS Check** — The Canonical audit now flags a canonical URL that uses `http://` instead of `https://`, instead of flagging a canonical URL whose protocol differs from the page's.
 
 ## October 26–November 1, 2026 {#october-26-november-1-2026}
 

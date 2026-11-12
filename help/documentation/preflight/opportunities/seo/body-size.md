@@ -1,11 +1,12 @@
 ---
 title: Preflight Body Size Audit
 description: Learn about the Body size audit in Preflight for AEM Sites Optimizer.
+badgePreflightSEO: label="Preflight - SEO" type="Caution" url="../seo.md" tooltip="Preflight - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 ---
-# Body size audit
+# Preflight - Body size audit
 
 The **Body size** audit reviews the amount of body content on your page. Pages with very little content can be less useful to readers and may rank poorly in search results. The audit flags pages that appear to have too little text.
 
