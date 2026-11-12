@@ -15,6 +15,12 @@ This page documents the latest updates, new features, and improvements in Adobe 
 
 Features marked **(Early Access)** are available on request — contact your account team or Customer Success Engineer to enable them for your organization.
 
+## November 11, 2026 {#november-11-2026}
+
+### Enhancements
+
+- **Preflight Element Panel** — The **Element** section now shows an image thumbnail or readable text instead of a CSS selector when it can, and lets you copy the element's text or CSS selector.
+
 ## November 2–4, 2026 {#november-2-4-2026}
 
 ### New Features
@@ -55,6 +61,7 @@ Features marked **(Early Access)** are available on request — contact your acc
 - **Preflight Audits That Could Not Be Completed** — An audit that could not be completed now shows its reason instead of appearing as passed. It counts as not passed in the **% passed** figure, and CSV and PDF exports always list it.
 - **Preflight Alt Text Progress** — While the AI check for an image is still running, its Alt Text opportunity appears with a **Generating suggestion** indicator. The opportunity detail view also stays on the opportunity you are viewing when the results change.
 - **Preflight External Links Reasons** — The External Links audit now explains more failure types, including server errors, redirect loops, links that require sign-in, and links unavailable for legal reasons. Links that time out or block automated checks now ask you to confirm them manually.
+- **Preflight Lorem Ipsum Details** — Lorem Ipsum findings now identify where placeholder text appears, explain how to fix it, and show the text inside its HTML tag.
 - **Preflight Page Capture** — Preflight now waits up to 30 seconds for a slow page to load before it analyzes the page, outside the Universal Editor.
 
 ### Bug Fixes
