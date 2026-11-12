@@ -1,11 +1,12 @@
 ---
 title: Preflight Internal Links Audit
 description: Learn about the Internal Links audit in Preflight for AEM Sites Optimizer.
+badgePreflightSEO: label="Preflight - SEO" type="Caution" url="../seo.md" tooltip="Preflight - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 ---
-# Internal Links audit
+# Preflight - Internal Links audit
 
 The **Internal Links** audit reviews the links on your page that point back to your own site. The audit checks each internal link from the page you are editing and flags the ones that are broken, insecure, or pointed somewhere a visitor cannot follow.
 

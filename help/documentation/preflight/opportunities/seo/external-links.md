@@ -1,11 +1,12 @@
 ---
 title: Preflight External Links Audit
 description: Learn about the External Links audit in Preflight for AEM Sites Optimizer.
+badgePreflightSEO: label="Preflight - SEO" type="Caution" url="../seo.md" tooltip="Preflight - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 ---
-# External Links audit
+# Preflight - External Links audit
 
 The **External Links** audit reviews the links on your page that point to other sites. The audit checks each external link from the page you are editing and flags the ones that are broken, insecure, or could not be verified automatically.
 

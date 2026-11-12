@@ -1,11 +1,12 @@
 ---
 title: Preflight Metatags Audit
 description: Learn about the Metatags audit in Preflight for AEM Sites Optimizer.
+badgePreflightSEO: label="Preflight - SEO" type="Caution" url="../seo.md" tooltip="Preflight - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 ---
-# Metatags audit
+# Preflight - Metatags audit
 
 The **Metatags** audit reviews the page title, the meta description, and the main (H1) heading. It flags any of them that are missing, empty, or outside the recommended length, and flags pages with more than one H1 heading.
 
