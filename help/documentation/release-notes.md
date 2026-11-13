@@ -15,12 +15,54 @@ This page documents the latest updates, new features, and improvements in Adobe 
 
 Features marked **(Early Access)** are available on request — contact your account team or Customer Success Engineer to enable them for your organization.
 
-## November 11, 2026 {#november-11-2026}
+## November 9–12, 2026 {#november-9-12-2026}
+
+### New Features
+
+- **Additional Accessibility Opportunities (Early Access)** — Find keyboard access, page language and title, data table, media and motion, and spacing and target size issues as separate accessibility opportunities, each with its own details page.
 
 ### Enhancements
 
 - **Preflight Element Panel** — The **Element** section now shows an image thumbnail or readable text instead of a CSS selector when it can, and lets you copy the element's text or CSS selector.
 - **Preflight Canonical HTTPS Check** — The Canonical audit now flags a canonical URL that uses `http://` instead of `https://`, instead of flagging a canonical URL whose protocol differs from the page's.
+- **Core Web Vitals Fix Prioritization** — The **Current** tab now lists Core Web Vitals issues with the most thoroughly tested code patches first, so you can start with the most reliable fixes.
+
+### Bug Fixes
+
+- Fixed an issue that could hide an opportunity from both the **Current** and **Deployed** tabs.
+- The AI User Guidelines link in the AI disclosure now opens in the selected language.
+- What's New announcements now display in Simplified and Traditional Chinese instead of English.
+
+## November 2–8, 2026 {#november-2-8-2026}
+
+### New Features
+
+- **ARIA Label Code Fixes (Early Access)** — Review and download component-level code patches for supported ARIA label issues, see which labels require a code change first, and identify issues that need a developer.
+- **Agentic Opportunities (Early Access)** — See how well your site serves AI agents that browse on behalf of visitors, with opportunities for agent tools, agent-readable accessibility, and site stability and discoverability.
+
+### Enhancements
+
+- **Estimated Value Coverage (Early Access)** — Estimated value is now available for Broken Backlinks, Broken Internal Links, Canonical, Structured Data, Meta Tags, Cookie Consent, and form conversion opportunities when supporting data is available. Hreflang opportunities can also show estimated one-time labor savings.
+- **Estimated Value Details (Early Access)** — Opportunity cards and detail pages now show a single headline estimate, with ranges and clearer explanations in the breakdown. Core Web Vitals labor savings are identified as one-time savings rather than monthly savings.
+- **Jira Tickets for Core Web Vitals (Early Access)** — Create Jira tickets for selected pages with desktop and mobile issues, recommendations, and available code patches, even when a page has no deployable patch.
+- **Jira Tickets for Trial Users** — Trial users can connect Jira and create tickets for Alt Text, Broken Backlinks, Broken Internal Links, Core Web Vitals, Accessibility, Color Contrast, and Form Accessibility issues.
+- **Image-First Alt Text Review** — The Alt Text **Current** tab now lists suggestions by image, shows every affected page, and adds a details panel for editing and deploying. For AEM Multi-Site Manager sites, choose whether to apply a fix at the source or locally in the same deployment flow.
+- **Code Fix Deployment Confirmation (Early Access)** — Confirm from an ARIA label code fix card whether your deployed change is live.
+- **Trial Opportunity States** — Alt Text, Broken Backlinks, and Core Web Vitals cards remain available when no current issues are found, and their detail pages distinguish an empty issue list from a completed monthly optimization quota.
+- **Accessibility Suggestions** — Suggestions with downloadable code patches appear first, making ready-to-use fixes easier to find.
+- **Third-Party Form Deployment Guidance** — High Form Views, Low Conversions opportunities now explain when a form is not authored in AEM and cannot be deployed automatically, and disable deployment for those forms.
+- **Focused Form Recommendations** — Form opportunities no longer show incomplete recommendations, such as those without a usable variation or deployable fix, or their linked test variations.
+
+### Bug Fixes
+
+- Mobile accessibility reports now use findings from the mobile scan rather than desktop fixes in their issue details and CSV exports. Unified reports also no longer link to a superseded in-depth report.
+- Fixed an issue that could hide Core Web Vitals recommendations for paid-traffic pages.
+- Site Speed and average load time cards on Home and Site Health Monitor now display the seconds unit in the selected language.
+- Generic errors when adding members in Permissions now display in the selected language.
+- Hreflang opportunity cards no longer display a redundant subtype label.
+- Trial onboarding now explains why a domain can't be added instead of showing a generic error.
+- Alt Text opportunities no longer list images identified as decorative.
+- The "NA" placeholder on the Home page now displays in the selected language.
 
 ## October 26–November 1, 2026 {#october-26-november-1-2026}
 
