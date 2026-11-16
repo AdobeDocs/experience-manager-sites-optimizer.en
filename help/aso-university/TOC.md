@@ -1,6 +1,7 @@
 ---
 user-guide-title: Sites Optimizer University
 user-guide-description: Sites Optimizer University learning hub
+hide: true
 ---
 
 # Sites Optimizer University {#aso-university}

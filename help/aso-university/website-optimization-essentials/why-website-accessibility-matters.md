@@ -5,6 +5,7 @@ role: Admin, Leader, User
 level: Beginner
 doc-type: Feature Video
 last-substantial-update: 2026-11-16
+hide: true
 ---
 # Why Website Accessibility Matters
 
