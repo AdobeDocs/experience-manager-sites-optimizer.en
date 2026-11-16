@@ -15,23 +15,34 @@ This page documents the latest updates, new features, and improvements in Adobe 
 
 Features marked **(Early Access)** are available on request — contact your account team or Customer Success Engineer to enable them for your organization.
 
-## November 9–12, 2026 {#november-9-12-2026}
+## November 9–15, 2026 {#november-9-15-2026}
 
 ### New Features
 
 - **Additional Accessibility Opportunities (Early Access)** — Find keyboard access, page language and title, data table, media and motion, and spacing and target size issues as separate accessibility opportunities, each with its own details page.
+- **Personal Agent Traffic (Early Access)** — Review estimated traffic from personal AI agents, including daily activity and the pages they request most, when traffic measurements are available for your site.
 
 ### Enhancements
 
 - **Preflight Element Panel** — The **Element** section now shows an image thumbnail or readable text instead of a CSS selector when it can, and lets you copy the element's text or CSS selector.
 - **Preflight Canonical HTTPS Check** — The Canonical audit now flags a canonical URL that uses `http://` instead of `https://`, instead of flagging a canonical URL whose protocol differs from the page's.
 - **Core Web Vitals Fix Prioritization** — The **Current** tab now lists Core Web Vitals issues with the most thoroughly tested code patches first, so you can start with the most reliable fixes.
+- **Core Web Vitals Guidance** — Guidance-only suggestions now identify the affected metric and fix type, making it easier to understand the recommended changes when no code patch is available.
+- **Broken Internal Links in AEM Multi-Site Manager (Early Access)** — When deploying a fix for an inherited broken internal link to AEM Author, choose whether to fix the source page or the local copy.
+- **Personal Agent Optimization Actions (Early Access)** — Linked opportunities now distinguish ready-to-deploy fixes from code patches that need review, and show counts of ready and deployed fixes when available.
+- **Accessibility Report Exclusions** — Reports now identify how many skipped issues they exclude when that information is available. Skip and revert messages explain that changes apply to the next accessibility report.
+- **Adobe Analytics Paid Traffic Reports (Early Access)** — Switch between real user monitoring and Adobe Analytics in the Paid Traffic Report when Adobe Analytics paid-traffic data is available for the selected period.
 
 ### Bug Fixes
 
 - Fixed an issue that could hide an opportunity from both the **Current** and **Deployed** tabs.
 - The AI User Guidelines link in the AI disclosure now opens in the selected language.
 - What's New announcements now display in Simplified and Traditional Chinese instead of English.
+- Fixed an issue that prevented users with the Auto-Suggest role from editing broken link, alt text, and metadata suggestions.
+- Core Web Vitals now disables **Select all** when no suggestions can be selected and explains why, including when patches are available only for download.
+- Deployment dialogs now remain open while a deployment request is processing, instead of closing immediately.
+- Alt Text deployment now explains when the original page cannot be determined and the **Source** target is unavailable.
+- Audit coverage in Settings now lists enabled redirect chain checks instead of 404 error page checks, and describes the section as a read-only view of available audits.
 
 ## November 2–8, 2026 {#november-2-8-2026}
 
