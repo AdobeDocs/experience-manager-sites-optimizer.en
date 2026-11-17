@@ -47,34 +47,37 @@ Sites Optimizer creates Jira tickets on behalf of the account that authorizes th
 
 ### Invite the account to your Jira site {#invite-to-jira}
 
-1. Go to [admin.atlassian.com](https://admin.atlassian.com), select your organization, and select **Users**.
-1. Select **Invite users**.
+1. Go to [admin.atlassian.com](https://admin.atlassian.com), select your organization, and select **Invite users**.
 
-   <!-- SCREENSHOT TODO: ![Atlassian Administration Users page with the Invite users button](./assets/jira-integration/atlassian-invite-users.png){align="center"} -->
+   ![Atlassian Administration overview page with the Invite users quick action](./assets/jira-integration/atlassian-invite-users.png){align="center"}
 
-1. In the **Apps** list, find **Jira** and set **Role** to **User**.
+1. Enter the account's email address.
+1. In the **Apps** list, find **Jira** and set **Role** to **User**. Don't use **Guest**, which gives access to only one assigned space.
 
-   <!-- SCREENSHOT TODO: ![Invite users dialog with the Jira role set to User](./assets/jira-integration/atlassian-invite-role-user.png){align="center"} -->
+   ![Invite users dialog with the Jira role set to User](./assets/jira-integration/atlassian-invite-role-user.png){align="center"}
 
 1. Set **Group membership** to `jira-users-<site>`, the default Jira group. This grants product access and the built-in **Member** project role.
 
-   <!-- SCREENSHOT TODO: ![Invite users dialog with group membership set to the default Jira users group](./assets/jira-integration/atlassian-invite-group-membership.png){align="center"} -->
+   ![Group membership list with the default jira-users group highlighted](./assets/jira-integration/atlassian-invite-group-membership.png){align="center"}
 
-1. Enter the account's email address, confirm the role and group, and select **Send invite**.
-
-   <!-- SCREENSHOT TODO: ![Invite users dialog ready to send with the account email, Jira role, and group selected](./assets/jira-integration/atlassian-send-invite.png){align="center"} -->
+1. Confirm that the role is **User** and the group is `jira-users-<site>`, then select **Send invite**.
 
 The invited account accepts the invitation and signs in with, or creates, an Atlassian account.
+
+>[!IMPORTANT]
+>
+>The account must be allowed to create issues in every Jira project where you want Sites Optimizer to create tickets. If your projects use custom permission schemes, ask your Jira administrator to grant the account the **Create issues** permission.
 
 ### Give the account access to Sites Optimizer {#grant-aso-access}
 
 The account that authorizes the Jira connection must also have access to AEM Sites Optimizer in your Adobe organization.
 
 1. Go to [adminconsole.adobe.com](https://adminconsole.adobe.com) and select **Products** > **Adobe Experience Manager Sites Optimizer**.
-1. Select the product profile the account needs. The Jira integration is available in all product profiles.
-1. Select the **Users** tab, select **Add User**, enter the account's email address, and select **Save**.
+1. Select the product profile the account needs. The Jira integration is available in all Sites Optimizer product profiles.
 
-   <!-- SCREENSHOT TODO: ![Adobe Admin Console product profile with the Add User dialog for the Jira account](./assets/jira-integration/admin-console-add-user.png){align="center"} -->
+   ![Adobe Admin Console showing the Sites Optimizer product profiles](./assets/jira-integration/admin-console-product-profiles.png){align="center"}
+
+1. Select the **Users** tab, select **Add User**, enter the account's email address, and select **Save**.
 
 >[!IMPORTANT]
 >
@@ -102,7 +105,7 @@ When you return to Sites Optimizer, the status changes to **Connected** and the 
 
 >[!NOTE]
 >
->The connection applies to your entire organization. It is shared by all sites and users, and any change made in **Settings** applies to everyone.
+>The connection applies to your entire organization. It is shared by all sites and users, and any change made in **Settings** applies to everyone. You can connect one Jira site at a time. To use a different Jira site, disconnect the current one first.
 
 ### Set ticket creation defaults {#ticket-defaults}
 
@@ -201,7 +204,7 @@ Sites Optimizer creates the ticket and shows "Jira ticket created". The ticket's
 
 >[!NOTE]
 >
->When you select more than one issue, Sites Optimizer creates **one grouped ticket** that lists every selected issue. It doesn't create a separate ticket for each issue. **Create ticket** is disabled when no issues are selected, or when every selected issue already has a ticket.
+>When you select more than one issue, Sites Optimizer creates **one grouped ticket** that lists every selected issue. It doesn't create a separate ticket for each issue. Each issue can belong to only one ticket. **Create ticket** is disabled when no issues are selected, or when any selected issue already has a ticket. Clear the issues that already show a ticket link, then select **Create ticket**.
 
 <!-- CONFIRM: the Accessibility dialog uses a single Title and Description editor (with Preview) instead of per-issue Issue Name/Issue Description cards. Decide whether to call this out. Also confirm the accessibility code-fix attachment wording: it is attached only when the code-patch auto-fix is enabled. -->
 
@@ -305,7 +308,11 @@ When Sites Optimizer suggests a code patch for the selected issues, the patch is
 
 1. Select **Create**.
 
-If a code patch is suggested for the selected pages, it is attached to the ticket as a single `.diff` file. A ticket carries at most one attachment. If no patch is suggested, Sites Optimizer still creates the ticket with the details and recommendations, but without an attachment.
+If a code patch is suggested for the selected pages, it is attached to the ticket as a single `.diff` file. A ticket carries at most one attachment, of up to 3 MB. If no patch is suggested, Sites Optimizer still creates the ticket with the details and recommendations, but without an attachment.
+
+>[!NOTE]
+>
+>If the combined code patch for your selection is larger than 3 MB, the ticket can't be created. Select fewer pages and create the ticket again.
 
 ![Jira ticket created from core web vitals with the combined code patch file in the Attachments section](./assets/jira-integration/cwv-jira-ticket-attachment.png){align="center"}
 
@@ -324,6 +331,16 @@ Review the changes before you merge them. For more guidance, see [Preparing code
 | Broken internal links | Referring pages and, for each link, the broken target URL and the suggested redirect. When available, the AI rationale. |
 | Core web vitals | Affected pages and, for each page, the desktop issues, mobile issues, and recommendations. A suggested code patch is attached to the ticket. |
 | Accessibility issues (Fix ARIA labels), Color contrast, and Forms accessibility issues | Affected URLs, issue descriptions, the location of the faulty HTML, and suggested fixes. When a code fix is available, it is attached to the ticket. |
+
+## Troubleshoot ticket creation {#ticket-errors}
+
+If Sites Optimizer shows "Failed to create Jira ticket", check the following:
+
+* **Project and issue type**: The selected project and issue type still exist in Jira, and the connected account can create issues in that project.
+* **Required fields**: The Jira project doesn't require extra fields that Sites Optimizer doesn't fill in, such as a custom required field. Choose a project or issue type without extra required fields, or ask your Jira administrator to make those fields optional.
+* **Priority and parent**: **Priority** and **Epic (parent)** match values that exist in your Jira site exactly, including capitalization.
+* **Attachment size**: For tickets with a code patch, the combined patch is 3 MB or smaller. Select fewer issues and try again.
+* **Connection status**: In **Settings**, the **Connect to Jira** status is **Connected**. If it shows **Re-authorization required**, select **Reconnect to Jira**.
 
 ## Frequently asked questions {#faq}
 
