@@ -63,4 +63,5 @@ user-guide-description: This is a description for the user guide that will be di
           + [Body size](/help/documentation/preflight/opportunities/seo/body-size.md)
           + [Lorem ipsum](/help/documentation/preflight/opportunities/seo/lorem-ipsum.md)
   + [Settings](/help/documentation/settings.md)
+  + [Jira integration](/help/documentation/jira-integration-guide.md)
   + [Release notes](/help/documentation/release-notes.md)
