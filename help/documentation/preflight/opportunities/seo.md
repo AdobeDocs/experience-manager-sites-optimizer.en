@@ -1,0 +1,25 @@
+---
+title: Preflight SEO Audits
+description: Learn about the SEO audits that Preflight runs on your page in AEM Sites Optimizer.
+badgePreflightSEO: label="Preflight - SEO" type="Caution" url="./seo.md" tooltip="Preflight - SEO"
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+---
+# Preflight - SEO audits
+
+![SEO audits in the Preflight results dashboard](./assets/seo/hero.png){align="center"}
+
+The **SEO** category in Preflight groups the audits that evaluate how well a page is optimized for search engines. When you run a Preflight audit, these audits evaluate the page's metadata, heading structure, links, and content, and surface opportunities you can review and resolve before publishing.
+
+In the results dashboard, expand the **SEO** category to see each audit, whether it passed, and the number of opportunities it found. Select an audit to open its detail page and work through the opportunities. To learn how to interpret results and resolve opportunities, see [Audit results in Preflight](../audit-results.md).
+
+The SEO category includes the following audits:
+
+* [Metatags](./seo/metatags.md) – Reviews the page title, meta description, and H1 heading.
+* [Headings](./seo/headings.md) – Reviews the page's heading structure and order.
+* [Internal Links](./seo/internal-links.md) – Reviews the links on the page that point back to your own site.
+* [External Links](./seo/external-links.md) – Reviews the links on the page that point to other sites.
+* [Canonical](./seo/canonical.md) – Reviews the page's canonical link.
+* [Body size](./seo/body-size.md) – Reviews the amount of body content on the page.
+* [Lorem ipsum](./seo/lorem-ipsum.md) – Detects placeholder text left in the content.

@@ -1,8 +1,20 @@
 ---
 title: Sites Optimizer Opportunity Types
 description: Learn about the key opportunity types in Sites Optimizer and how they can help you improve your site's performance.
+TQID: https://experienceleague.adobe.com/mtma4uEArQQJu4C3kpdWZy0GR9ySS1TIgx0L9GUrlY4
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
-
 # Opportunity types
 
 ![Opportunities types](./assets/overview/hero.png){align="center"}

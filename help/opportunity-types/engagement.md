@@ -1,8 +1,18 @@
 ---
 title: Optimize Engagement with Sites Optimizer
 description: Learn how to improve engagement with Sites Optimizer.
+TQID: https://experienceleague.adobe.com/pMjcvadt20vx4MlC7JdlYz-GCaJgKmaNIYF2WxBUuB0
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
-
 # Engagement opportunities
 
 ![Engagement opportunities](./assets/engagement/hero.png){align="center"}

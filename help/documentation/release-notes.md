@@ -1,0 +1,394 @@
+---
+title: Release Notes
+description: Learn about the latest new features, improvements, and bug fixes in Adobe Experience Manager Sites Optimizer.
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+---
+
+# Release Notes
+
+This page documents the latest updates, new features, and improvements in Adobe Experience Manager Sites Optimizer.
+
+Features marked **(Early Access)** are available on request — contact your account team or Customer Success Engineer to enable them for your organization.
+
+## November 9–12, 2026 {#november-9-12-2026}
+
+### New Features
+
+- **Additional Accessibility Opportunities (Early Access)** — Find keyboard access, page language and title, data table, media and motion, and spacing and target size issues as separate accessibility opportunities, each with its own details page.
+
+### Enhancements
+
+- **Preflight Element Panel** — The **Element** section now shows an image thumbnail or readable text instead of a CSS selector when it can, and lets you copy the element's text or CSS selector.
+- **Preflight Canonical HTTPS Check** — The Canonical audit now flags a canonical URL that uses `http://` instead of `https://`, instead of flagging a canonical URL whose protocol differs from the page's.
+- **Core Web Vitals Fix Prioritization** — The **Current** tab now lists Core Web Vitals issues with the most thoroughly tested code patches first, so you can start with the most reliable fixes.
+
+### Bug Fixes
+
+- Fixed an issue that could hide an opportunity from both the **Current** and **Deployed** tabs.
+- The AI User Guidelines link in the AI disclosure now opens in the selected language.
+- What's New announcements now display in Simplified and Traditional Chinese instead of English.
+
+## November 2–8, 2026 {#november-2-8-2026}
+
+### New Features
+
+- **ARIA Label Code Fixes (Early Access)** — Review and download component-level code patches for supported ARIA label issues, see which labels require a code change first, and identify issues that need a developer.
+- **Agentic Opportunities (Early Access)** — See how well your site serves AI agents that browse on behalf of visitors, with opportunities for agent tools, agent-readable accessibility, and site stability and discoverability.
+
+### Enhancements
+
+- **Estimated Value Coverage (Early Access)** — Estimated value is now available for Broken Backlinks, Broken Internal Links, Canonical, Structured Data, Meta Tags, Cookie Consent, and form conversion opportunities when supporting data is available. Hreflang opportunities can also show estimated one-time labor savings.
+- **Estimated Value Details (Early Access)** — Opportunity cards and detail pages now show a single headline estimate, with ranges and clearer explanations in the breakdown. Core Web Vitals labor savings are identified as one-time savings rather than monthly savings.
+- **Jira Tickets for Core Web Vitals (Early Access)** — Create Jira tickets for selected pages with desktop and mobile issues, recommendations, and available code patches, even when a page has no deployable patch.
+- **Jira Tickets for Trial Users** — Trial users can connect Jira and create tickets for Alt Text, Broken Backlinks, Broken Internal Links, Core Web Vitals, Accessibility, Color Contrast, and Form Accessibility issues.
+- **Image-First Alt Text Review** — The Alt Text **Current** tab now lists suggestions by image, shows every affected page, and adds a details panel for editing and deploying. For AEM Multi-Site Manager sites, choose whether to apply a fix at the source or locally in the same deployment flow.
+- **Code Fix Deployment Confirmation (Early Access)** — Confirm from an ARIA label code fix card whether your deployed change is live.
+- **Trial Opportunity States** — Alt Text, Broken Backlinks, and Core Web Vitals cards remain available when no current issues are found, and their detail pages distinguish an empty issue list from a completed monthly optimization quota.
+- **Accessibility Suggestions** — Suggestions with downloadable code patches appear first, making ready-to-use fixes easier to find.
+- **Third-Party Form Deployment Guidance** — High Form Views, Low Conversions opportunities now explain when a form is not authored in AEM and cannot be deployed automatically, and disable deployment for those forms.
+- **Focused Form Recommendations** — Form opportunities no longer show incomplete recommendations, such as those without a usable variation or deployable fix, or their linked test variations.
+
+### Bug Fixes
+
+- Mobile accessibility reports now use findings from the mobile scan rather than desktop fixes in their issue details and CSV exports. Unified reports also no longer link to a superseded in-depth report.
+- Fixed an issue that could hide Core Web Vitals recommendations for paid-traffic pages.
+- Site Speed and average load time cards on Home and Site Health Monitor now display the seconds unit in the selected language.
+- Generic errors when adding members in Permissions now display in the selected language.
+- Hreflang opportunity cards no longer display a redundant subtype label.
+- Trial onboarding now explains why a domain can't be added instead of showing a generic error.
+- Alt Text opportunities no longer list images identified as decorative.
+- The "NA" placeholder on the Home page now displays in the selected language.
+
+## October 26–November 1, 2026 {#october-26-november-1-2026}
+
+### New Features
+
+- **Audit Coverage in Settings** — Settings now includes an **Audit coverage** section that lists the audits running for your site, grouped by category such as SEO, Accessibility, Security, and Conversion & engagement, including enabled checks for 404 error pages, cross-site scripting, and cookie consent.
+- **Estimated Value (Early Access)** — Core Web Vitals, Alt Text, accessibility, Color Contrast, Form Accessibility, and security opportunities now show an estimated value, such as labor saved or risk avoided, to help you prioritize fixes. Labor saved for accessibility and security fixes is shown as a one-time value, and Sitemap and Hreflang opportunities show how many issues were flagged.
+
+### Enhancements
+
+- **Jira Tickets for Alt Text (Early Access)** — Create Jira tickets for one or more Alt Text issues, with the page URL, image URL, and suggested alt text included in each ticket.
+- **Color Contrast Fix Details** — On supported sites, review a separate row for each page and root cause, with a shared fix for the affected elements and an explanation of each element's user impact.
+- **Cloud Manager Deployment Context** — The Site Alerts timeline now identifies **Cloud Manager Deployments** and explains which production deployments appear.
+- **Meta Tag Deployment** — When page relationship information is available, the deployment dialog opens without an additional connection to AEM Author, making it more reliable to choose whether to fix the source page or a local copy in AEM Multi-Site Manager.
+- **Preflight Audits That Could Not Be Completed** — An audit that could not be completed now shows its reason instead of appearing as passed. It counts as not passed in the **% passed** figure, and CSV and PDF exports always list it.
+- **Preflight Alt Text Progress** — While the AI check for an image is still running, its Alt Text opportunity appears with a **Generating suggestion** indicator. The opportunity detail view also stays on the opportunity you are viewing when the results change.
+- **Preflight External Links Reasons** — The External Links audit now explains more failure types, including server errors, redirect loops, links that require sign-in, and links unavailable for legal reasons. Links that time out or block automated checks now ask you to confirm them manually.
+- **Preflight Lorem Ipsum Details** — Lorem Ipsum findings now identify where placeholder text appears, explain how to fix it, and show the text inside its HTML tag.
+- **Preflight Page Capture** — Preflight now waits up to 30 seconds for a slow page to load before it analyzes the page, outside the Universal Editor.
+
+### Bug Fixes
+
+- Site Alerts event history now displays the correct Core Web Vitals metric and value for each incident, performance declines are labeled **Degradation** consistently across Site Alerts, and suggestion links open an available suggestion instead of an outdated one.
+- Fixed an issue that could prevent rolling back deployed opportunity fixes.
+
+## October 19–25, 2026 {#october-19-25-2026}
+
+### New Features
+
+- **Unified Accessibility Report (Early Access)** — The accessibility report now brings all findings together in one report, with an issues overview and a drill-down by issue type, page group, and page. Open a side panel for element-level fix guidance, and export the report as a CSV file.
+- **Preflight Site Navigation Links Setting** — Choose whether the Internal Links audit checks links inside site navigation menus. The setting is off by default so audits finish faster, and **Reanalyze** shows when a changed setting has not been applied yet.
+- **Preflight Instance Filters** — On the Internal Links and External Links detail pages, filter instances by **Broken** or **Needs verification**.
+
+### Enhancements
+
+- **Broken Backlinks Dispatcher Redirects (Early Access)** — On AEM as a Cloud Service sites where Sites Optimizer deploys redirects through Dispatcher, broken backlink fixes are now labeled as deployed to Dispatcher instead of AEM Author, and you can roll back a deployed redirect.
+- **Site Health Monitor Audit Status** — Health scores now reflect the audits enabled for your site. Disabled audits are hidden, audits that need setup are shown with an explanation, and neither counts toward category scores.
+- **No CTA Above the Fold Proposals** — No CTA Above the Fold suggestions now show a structured call-to-action proposal with side-by-side **Control** and **Proposal** screenshots, and opportunities appear only when both screenshots are available.
+- **Group Permissions (Early Access)** — Grant site access to user groups in your organization, not just individual people, and see an **Inactive User** badge for members who are no longer in your organization's directory.
+- **Restorable Structured Data Skips** — Skipped Structured Data issues now appear in a **Skipped** tab, where you can restore them.
+- **FAQ Structured Data Suggestions** — FAQ suggestions now show exactly the question-and-answer pairs that will be deployed. Individual pairs can no longer be deleted from the table.
+- **Preflight Audit Progress** — The readiness meter now shows the percentage of audits that passed, and each category shows when its audits are still running, with a "passed so far" count until its results are final.
+- **Preflight Internal Links Coverage** — The Internal Links audit now checks every eligible same-host link on the page, including links in repeated components such as card lists. Site navigation links are included only when **Show site navigation links** is selected. Links outside site navigation are listed first, and Preflight clearly reports when a page has too many links to check in time.
+- **Preflight Header Actions** — **Reanalyze** and **Close** always stay visible in the Preflight header, and **Export** and **Settings** move into the **More actions** menu when space is limited.
+- **Preflight Internal Links Retries** — The Internal Links audit now retries links that fail temporarily, so a short outage is less likely to be reported as a broken link.
+- **Preflight Progress Indicators** — Processing indicators now appear only on the audits that are still running, not on their categories.
+- **Preflight Opportunity Details** — Opportunities no longer show severity badges, and CSV and PDF exports no longer include severity.
+
+### Bug Fixes
+
+- Opportunity search now returns consistent results regardless of letter case, accents, dashes, or extra spaces, including when you paste an opportunity name.
+- Site Health Monitor no longer lists PDF documents as pages.
+- **Learn more** links in the Connect to AEM Sites dialog, compound severity labels, and trial Home metric cards now display correctly in all supported languages.
+- Long URLs in Preflight opportunity details now wrap instead of widening the card.
+
+## October 12–18, 2026 {#october-12-18-2026}
+
+### Enhancements
+
+- **Bulk Jira Tickets for Accessibility (Early Access)** — Select multiple Accessibility, Color Contrast, and Form Accessibility issues and create a Jira ticket with a grouped title and a single combined code-fix attachment.
+- **Site Health Monitor Metrics** — Site Health Monitor no longer uses the retired click-through rate (CTR) metric in its health logic or dashboard.
+- **Preflight Site Matching** — When a page matches more than one onboarded site, Preflight explains the problem and lets you continue with one of the matching sites.
+- **Preflight Alt Text Suggestions** — Alt Text opportunities show the suggested alt text as a ready-to-use suggestion, followed by the reason for the suggestion when one is available.
+- **Preflight Lorem Ipsum Details** — When placeholder text is found in an attribute, such as an image's alt text, the opportunity shows which attribute matched.
+
+### Bug Fixes
+
+- Opportunities with outdated suggestions now show a consistent status on the opportunities list and detail pages.
+
+## October 5–11, 2026 {#october-5-11-2026}
+
+### New Features
+
+- **FAQ Structured Data Deployed View (Early Access)** — A **Deployed** view lists deployed FAQ structured data fixes, showing the page where each fix was applied with a link to open it in AEM.
+
+### Enhancements
+
+- **Site Alerts and Core Web Vitals (Early Access)** — Move between Site Alerts and Core Web Vitals suggestions in one click. Alert incidents link to available fixes, and Core Web Vitals rows show an **Alert** badge when the page has a site alert.
+- **Preflight in the Universal Editor** — Audits in the Universal Editor now use the page's rendered content, making them faster and more reliable.
+- **Preflight Link Details** — Broken links flagged by AEM's link checker now show the link's visible text instead of a CSS selector.
+
+### Bug Fixes
+
+- Connecting a Google Ads account from within Experience Cloud now completes reliably, the account picker no longer reopens after you save your selection, and the connection card updates after you disconnect.
+- **Deploy** on an individual FAQ structured data row now opens the Multi-Site Manager dialog so you can choose whether to update the source page or only the local page.
+
+## September 28–October 4, 2026 {#september-28-october-4-2026}
+
+### New Features
+
+- **Personal AI Agent Opportunities (Early Access)** — Filter opportunities that help personal AI agents read and interact with your site, with badges and guidance explaining the benefits.
+
+### Enhancements
+
+- **Broken Internal Link Deployment (Early Access)** — Provide a replacement URL for a link that cannot be fixed automatically and deploy the validated update.
+- **Alt Text Published Status** — See when an alt text change is confirmed live on the published page while retaining clear failure and re-detection states.
+- **Core Web Vitals Code Patches** — Review patches file by file with line numbers and highlighted additions and deletions.
+- **Core Web Vitals Code Deployment (Early Access)** — Submit eligible code patches as a pull request in your configured code repository.
+
+### Bug Fixes
+
+- Forms Accessibility opportunities now support creating Jira issues.
+- Deployment follow-up links now open the configured code repository.
+- Detailed accessibility reports now open and display their content instead of redirecting to the home page or appearing blank.
+- Alt Text deployed counts and date groups now match the displayed fixes, without empty failed-deployment groups.
+- Restoring skipped Sitemap and Core Web Vitals suggestions now updates their status reliably.
+
+## September 21–27, 2026
+
+### Enhancements
+
+- **FAQ Structured Data Deployment (Early Access)** — For pages managed with AEM Multi-Site Manager, choose whether to apply structured data updates to the source page or only the local page.
+- **Form Deployment** — Deploy the fix associated with the selected form variation reliably.
+- **Localized Experiences** — Permission labels and truncated table content are clearer across supported languages.
+
+### Bug Fixes
+
+- Core Web Vitals patch downloads are available whenever a patch exists.
+- CSV exports now preserve localized characters in Excel.
+- Performance metrics no longer remain stuck loading when source data is incomplete.
+
+## September 14–20, 2026
+
+### Enhancements
+
+- **Granular Permissions** — Administrators can grant members access to selected opportunity types while managing site-wide permissions separately.
+
+### Bug Fixes
+
+- Metadata deployment now restores the warning shown when fixing a local page breaks inheritance.
+
+## September 7–13, 2026
+
+### New Features
+
+- **Google Ads Placement Exclusions** — Review placement risks for connected Google Ads accounts and download site-specific exclusion lists for automated and Performance Max campaigns.
+
+### Enhancements
+
+- **Deployment Failure Guidance** — Failure messages now explain whether a content update needs connection access, a rescan, or support.
+
+### Bug Fixes
+
+- Accessibility report values and layouts now display more clearly across supported languages.
+- Paid Traffic channel and platform totals now include previously unclassified traffic.
+- Broken backlink deployed counts now match the rows shown, including rolled-back and backfilled deployment states.
+- Eligible Edge Delivery Services sites are no longer incorrectly blocked from broken-link deployment.
+
+## August 31–September 6, 2026
+
+### Enhancements
+
+- **AEM Content Connections** — Settings now recognize AEM-authored Edge Delivery Services configurations, preserve their source details, and block unsupported source URLs before saving.
+- **Trial Onboarding** — Domain entry now explains the supported production-site requirements before a trial site is added.
+
+### Bug Fixes
+
+- Paid Traffic month labels and selectors now display correctly across supported languages.
+- CSV exports now use each accessibility issue's correct page URL.
+- Eligible Edge Delivery Services sites are no longer incorrectly blocked from Alt Text deployment.
+
+## August 20–27, 2026
+
+### New Features
+
+- **Alerts View** — Review a 90-day timeline of automatically detected site-health incidents, correlate changes with deployments and content updates, and inspect affected pages and performance metrics in one place.
+- **Reports and Wins** — Use the Reports section to review optimization history, performance trends, and before-and-after wins that help you communicate the impact of your optimization work.
+- **What's New and Help Center** — Discover recently released capabilities, open product documentation, and access the release notes directly from the in-app Help Center.
+- **Google Ads Connection (Early Access)** — Connect a Google Ads account to bring paid-traffic performance data into Sites Optimizer opportunities and recommendations.
+
+### Enhancements
+
+- **Opportunity List Controls** — Filter and sort opportunities by URL, starred status, priority, or recency, save views in the URL for sharing, and export suggestion data to CSV.
+- **Suggestion Workflow Controls** — Edit AI-generated suggestions before deployment, ignore individual suggestions, skip complete opportunities, and restore skipped opportunities when they become relevant again.
+- **Deployment History** — Review deployment history by date, distinguish automatic deployments from changes marked as deployed manually, and follow pull-request links for code-based fixes.
+- **Brand and Slack Integrations** — Select an Adobe GenStudio brand for on-brand content generation and share relevant optimization updates with a configured Slack channel.
+
+## August 6–19, 2026
+
+### New Features
+
+- **Preflight in AEM Sites Page Editor** — If your authoring environment runs AEM 2026.7.0 or later, you can open Preflight directly from the Page Editor toolbar to analyze the current page without leaving your authoring workflow.
+- **Preflight Export Options** — Export Preflight results as a CSV or PDF, with options to include run metadata and audits that passed, making it easier to share findings and track readiness.
+
+### Enhancements
+
+- **Preflight Session Details** — When you continue a previous audit session, Preflight shows when the run was performed and makes affected elements easier to identify by displaying readable text or a CSS selector.
+
+## July 1–19, 2026
+
+### New Features
+
+- **Permissions Management (Early Access)** — Users with the Manage users capability can now control site access from a new Permissions tab — search people by name or email and grant or revoke specific capabilities. Actions a user isn't allowed to perform appear disabled with a tooltip explaining how to request access.
+- **Deployment Status Badges** — Fixes marked as deployed manually now display a distinct "Marked as deployed" badge in the Deployed view, making it easy to tell manual updates apart from automatic deployments.
+
+### Enhancements
+
+- **Auto-Fix for GitHub (Cloud Manager)** — Code-patch autofix for opportunities like Core Web Vitals, Security, and Form Accessibility can now raise pull requests on Cloud Manager bring-your-own-git repositories hosted on GitHub, matching existing support for GitLab, Bitbucket, and Azure DevOps. A new Settings toggle lets you control the one-time setup confirmation for your site.
+- **Auto-Fix via Branch (Cloud Manager Standard)** — Auto-fix via branch is now available for Cloud Manager standard repositories when enabled for your site.
+- **Deployed View: Performed By** — The Deployed view now shows who marked each fix as deployed and when its status was last updated, via new "Performed by" and "Status last updated" columns.
+- **Google Ads Disconnect Feedback** — Disconnecting a Google Ads account in Settings now shows a "Disconnecting…" status, with a dismissible error message if the disconnect fails so you can retry.
+
+### Bug Fixes
+
+- The Fix ARIA Labels opportunity now shows the correct page URL in the Details dialog when a fix spans multiple pages.
+- The Skip dialog's info message now displays correctly, with properly aligned text, in Korean, Simplified Chinese, and Traditional Chinese.
+- Related-pages dialogs for Alt Text and Invalid or Missing Metadata now load reliably, and the Invalid or Missing Metadata Deployed view and meta-tag fixes now work correctly with the latest suggestion format.
+
+## May 11–22, 2026
+
+### New Features
+
+- **Site Alerts Report (Early Access)** — A new 90-day Site Alerts Report provides a quarterly view of your site's health, using color-coded daily blocks to highlight periods of elevated alerts so you can quickly identify and investigate trends over time.
+- **Operational Telemetry Onboarding** — Sites that have not yet connected operational telemetry data now receive a persistent banner on the home page and a guided onboarding dialog to complete setup, ensuring you get full visibility into real-user performance.
+- **Alt Text: Multi-Site Manager Awareness** — When generating Alt Text fixes for sites that use AEM Multi-Site Manager or Language Copy, Sites Optimizer now checks whether fixes can be safely applied to each language variant before suggesting them.
+
+### Enhancements
+
+- **Alt Text Accuracy** — Alt Text suggestions now draw from the most recent audit signal, and re-detected issues are surfaced in both the Current Issues and Deployed tabs for a complete picture.
+
+### Bug Fixes
+
+- The Deploy button state now correctly reflects whether a fix can actually be deployed.
+- Dark theme is now correctly applied on page refresh.
+- Reports show dates in the user's locale.
+- Regional preferences for language and number/date format can now be configured independently.
+- Broken image alt text is now accessible to screen readers.
+
+## April 21–May 10, 2026
+
+### New Features
+
+- **No Site Onboarded State** — Customers who have not yet added a site now see a clear, actionable prompt on the home page to get started quickly.
+- **Documentation in Help Center** — The AEM Sites Optimizer documentation on Experience League is now accessible directly from the in-app help center, without leaving the product.
+
+### Bug Fixes
+
+- Sites with no active suggestions now correctly display an Action Required dialog.
+- Skipped suggestions now appear in the Ignored tab as expected.
+- Paid Traffic picker dropdowns no longer truncate translated text.
+- Sitemap page picker is now correctly sized.
+
+## March 13–April 20, 2026
+
+### New Features
+
+- **Trials Onboarding** — New trial users now experience a guided setup flow: enter your domain, wait for analysis, then explore your first opportunities — no configuration required to get started.
+- **Trial Opportunities Page** — Trial users can search, sort, and filter opportunities, with three suggestions unlocked and remaining suggestions shown in a locked preview with an upgrade prompt.
+- **Monthly Optimization Progress** — A progress bar on the home page tracks how many optimization actions you have taken this month, helping you stay on top of your site health goals.
+- **Audit Target URLs (Early Access)** — Under Settings, you can now specify up to 100 custom URLs to ensure those pages are always included in audits.
+- **Delivery Type Configuration** — Settings now lets you specify your site's delivery type (Edge Delivery Services, AEM Cloud Service, or AEM Managed Services) and connect your content provider.
+- **Core Web Vitals Redesign** — The Core Web Vitals opportunity has been redesigned with Jira linking, CSV download, and multi-select support for batch actions.
+- **Broken Backlinks Unified Table** — Broken backlinks from all sources are now shown in a single unified table, with the ability to export CDN redirect rules directly.
+- **No CTA Above the Fold: Deploy to Author** — Fixes for the No CTA Above the Fold opportunity can now be deployed directly to AEM Author.
+- **Forms Autofix Deploy** — Forms opportunity fixes can now be deployed directly to AEM Author.
+- **AEM Multi-Site Manager Support** — Opportunities that affect multiple language copies of a site now indicate which root site the fix was applied at, using a "Fixed at" column.
+- **Skip Failed Fixes** — You can now skip individual fixes that have failed deployment, keeping your workflow unblocked.
+- **Open in AEM Editor** — Opportunity suggestions now include a direct link to open the affected page in AEM's visual editor for quick inline edits.
+
+## February 28–March 13, 2026
+
+### New Features
+
+- **Ad Intent Mismatch Opportunity** — A new opportunity type identifies paid traffic landing pages that are not converting, surfacing bounce rate, cost-per-click, and traffic metrics to help you prioritize landing page improvements.
+- **No CTA Above the Fold** — This opportunity is now a dedicated first-class type with its own detail page and filtering, making it easier to track and prioritize conversion improvements.
+- **Sitemap URL Suggestions** — The Sitemap opportunity now suggests replacement URLs for pages returning 404 errors, making it easier to correct broken sitemap entries.
+- **Redesigned Broken Backlinks** — The Broken Backlinks detail page has been redesigned for improved clarity and usability.
+
+### Enhancements
+
+- **Top Organic Search Pages V2** — Organic traffic data is now sourced from a 30-day Ahrefs dataset, providing more comprehensive and actionable search performance insights.
+- **Security Vulnerabilities: Dependency Tree** — Security vulnerability details now include a dependency tree visualization so you can understand the full impact of a vulnerability across your project.
+
+## February 14–27, 2026
+
+### New Features
+
+- **Top Organic Search Pages** — Site Health Monitor now includes a dedicated tab showing your site's top organic traffic pages, giving you visibility into which content drives the most search traffic.
+- **Alt Text Autofix V2** — Before deploying an Alt Text fix, you can run a pre-flight "Check Fixability" assessment to verify the fix can be successfully applied to your content.
+- **Deployed View for Alt Text** — Alt Text fixes now appear in a Deployed tab, giving you a full history of accessibility improvements alongside the current outstanding issues.
+- **External Organization Deploy Gate** — When deploying fixes to an externally managed site, an explicit confirmation step is now required to prevent accidental changes.
+
+### Enhancements
+
+- **Meta Tags URL Exemptions** — Specific URLs can now be excluded from Meta Tags validation via configuration, reducing false positives for intentionally short or non-standard titles.
+- **Advanced URL Filtering** — Opportunity lists now support sub-route prefix matching when filtering by URL, making it easier to focus on specific sections of your site.
+- **Improved Trend Charts** — Traffic trend charts now handle year-over-year data correctly, removing misleading dips at year boundaries.
+
+## February 6–13, 2026
+
+### New Features
+
+- **Maintenance Mode** — Sites Optimizer now handles planned maintenance windows gracefully, displaying a clear status message instead of incomplete or misleading data during downtime.
+- **Deployed View for Broken Backlinks** — Fixed backlinks are now tracked in a Deployed tab, grouped by date so you can see your remediation history at a glance.
+- **No CTA Above the Fold Opportunity** — A new opportunity type surfaces pages where no clear call-to-action is visible above the fold, helping you identify and improve pages with low conversion potential.
+- **Jira Integration for Accessibility & Color Contrast (Early Access)** — Forms and Color Contrast accessibility opportunities can now be linked directly to Jira tickets for streamlined issue tracking within your existing workflow.
+
+### Enhancements
+
+- **Deployed Views for Meta Tags & Security** — Meta Tags and Security opportunities now include date-grouped Deployed tabs, consistent with other opportunity types.
+- **Alt Text Deployment Tracking** — "Mark as Deployed" is now available for Alt Text fixes, and manually edited alt text is preserved across re-analysis runs.
+
+## January 26–February 6, 2026
+
+### New Features
+
+- **Deployed View for Canonical & Hreflang** — Changes to Canonical and Hreflang opportunities are now grouped by deployment date in a Deployed tab, giving you a clear history of what was fixed and when.
+- **CSV Export** — You can now export opportunity data for High Organic Low CTR and Forms opportunities to CSV for offline analysis and reporting.
+- **Favorite Opportunities** — Star any opportunity from its header to add it to your favorites, making it faster to navigate back to the opportunities you are actively working on.
+- **Deployed View for Redirect Chains** — Redirect Chain fixes can now be marked as Deployed directly from the details page.
+
+### Enhancements
+
+- **Improved Cookie Banner Cost Estimates** — Cost calculations for the Cookie Banner opportunity have been refined for greater accuracy.
+
+## January 16–23, 2026
+
+### New Features
+
+- **Site Health Monitor (General Availability)** — Site Health Monitor is now available for all customers, providing a continuous view of your site's performance health. New sites are set up automatically upon onboarding.
+- **Subpath Site Support** — Sites scoped to specific URL subpaths are now fully supported in Site Health Monitor.
+
+### Enhancements
+
+- **Actionable Data Sufficiency Notices** — Paid Traffic opportunities with fewer than 1,000 pageviews now display a data sufficiency notice, helping you focus optimization efforts where traffic data is statistically meaningful.
+- **Flexible Meta Title Validation** — The minimum character requirement for meta titles has been reduced, giving you more flexibility in crafting concise page titles.
+- **Localized What's New Dialog** — The in-app feature announcements dialog now displays in your preferred language.
+- **Published Badge** — Variations in the High Organic Low CTR opportunity that have been deployed now show a "Published" badge, making it easier to distinguish active from pending changes.
+- **Pull Request Links in Accessibility** — The Accessibility opportunity's Deployed tab now shows the associated pull request URL for each fix, making it easier to trace changes back to your source control history.

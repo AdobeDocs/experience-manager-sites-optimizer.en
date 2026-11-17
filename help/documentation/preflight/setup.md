@@ -1,20 +1,20 @@
 ---
 title: Preflight setup
-description: Learn how to set up the Preflight extension for AEM Sites Optimizer.
+description: Learn how to set up Preflight for AEM Sites Optimizer.
+TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8ObcY
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
-
 # Preflight setup
 
-AEM Sites Optimizer Preflight opportunity identification requires the setup of the Preflight extension. You can set it up in either Universal Editor, Document-Based Preview, or AEM Cloud Service so you can run Preflight audits on your pages before they are published.
+Running Preflight requires setting it up in your authoring environment. You can set up Preflight for Universal Editor, Document-based authoring, the AEM Sites Page Editor, or Adobe Managed Services, so you can run Preflight audits on your pages before they are published.
 
 ## Enable user access
 
-To use the Preflight extension, ensure that your user is assigned to at least one of the following AEM Sites Optimizer product profiles in [Adobe Admin Console](https://adminconsole.adobe.com):
+To use Preflight, users must be assigned the **Adobe Experience Manager Sites Optimizer** product in [Adobe Admin Console](https://adminconsole.adobe.com).
 
-* AEM Sites Optimizer - Auto-Suggest User
-* AEM Sites Optimizer - Auto-Optimize User
-
-## Enable the Preflight extension
+## Enable Preflight
 
 >[!BEGINTABS]
 
@@ -24,12 +24,12 @@ To set up Preflight in Universal Editor, follow these steps:
 
 1. Open the **Extension Manager** at:
    [https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor](https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor)
-1. Locate the **AEM Sites Optimizer Preflight Extension** and submit a request to enable it.
-1. The **Adobe AEM team** reviews and enables the extension for your organization.
+1. Locate the **AEM Sites Optimizer Preflight** Extension.
+1. The organization's System Administrator will need to enable this extension.
 1. After the extension is enabled, open a page in **Universal Editor**, for example:
    `https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/en/example/home.html`
 1. The **Preflight Extension** appears in the **side rail**.
-1. Select the **Preflight Extension** from the side rail to start a **Preflight Audit** of the current page.
+1. Select the **Preflight Extension** from the side rail to open Preflight for the current page.
 
 >[!TAB Document-based authoring]
 
@@ -108,13 +108,29 @@ To set up Preflight for Document-based authoring, follow these steps:
    ```
 
 1. Open the preview URL (`*.aem.page`) of the page that you want to audit.
-1. In **Sidekick**, click the **Preflight** button to start the audit for the current page.
+1. In **Sidekick**, click the **Preflight** button to open Preflight for the current page.
 
 >[!TAB AEM Sites Page Editor]
 
-To use Preflight in the AEM Sites Page Editor, you can create a bookmarklet in your web browser. Follow these steps:
+If your author environment is running [AEM 2026.7.0 (release 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) or later, Preflight is built into the AEM Sites Page Editor and no bookmarklet is required. Follow these steps:
 
-1. Show your **Bookmarks Bar** in your Web browser:
+1. Open the page you want to audit in the **AEM Sites Page Editor**.
+1. In the editor toolbar, select the **Preflight** icon (the play button, highlighted below) to open the Preflight panel for the current page.
+
+   ![The Preflight icon in the AEM Sites Page Editor toolbar](./assets/setup/toolbar-preflight-button.png){align="center"}
+
+>[!NOTE]
+>
+>Don't see the **Preflight** icon in the toolbar? Check the following:
+>
+>* **Supported release** — The integrated button requires AEM 2026.7.0 (release 27083) or later. On earlier releases, use the bookmarklet method below.
+>* **Rollout** — The integrated button is being enabled for organizations in stages, so it may not have reached your organization yet, even on a supported release. Until it does, use the bookmarklet method below, or reach out to Adobe or your administrator.
+>* **Page access** — The button appears only when you have edit access to the page.
+>* **User access** — Confirm your user is assigned the **AEM Sites Optimizer - Auto-Suggest User** or **AEM Sites Optimizer - Auto-Optimize User** profile. See [Enable user access](#enable-user-access).
+
+To use Preflight in the AEM Sites Page Editor on earlier AEM releases, you can create a bookmarklet in your web browser. Follow these steps:
+
+1. Show your **Bookmarks Bar** in your web browser:
 
    * Press **Ctrl+Shift+B** (Windows) or **Cmd+Shift+B** (Mac).
 
@@ -129,7 +145,7 @@ To use Preflight in the AEM Sites Page Editor, you can create a bookmarklet in y
 
 1. Name the bookmark **Preflight** (or any name you prefer).
 1. Open the preview URL (`*.aem.page`) of the page that you want to audit in the **AEM Sites Page Editor**.
-1. Click the **Preflight** bookmark in your Bookmarks Bar to start the audit for the current page.
+1. Click the **Preflight** bookmark in your Bookmarks Bar to open Preflight for the current page.
 
 >[!TAB Adobe Managed Services]
 
@@ -137,7 +153,18 @@ To use Preflight in the AEM Sites Page Editor, you can create a bookmarklet in y
 >
 >Only Adobe Managed Services (AMS) environments that use Adobe's Identity Provider (IMS) for authentication on AEM Author are supported. Preflight does not work if your organization uses any other identity provider for AMS authentication.
 
-To use Preflight in the AEM Sites Page Editor on an AMS environment, create a bookmarklet in your web browser, following these steeps:
+When Preflight is built into the AEM Sites Page Editor toolbar, no bookmarklet is required. Contact Adobe to get it installed for your organization. After it is installed, follow these steps:
+
+1. Open the page you want to audit in the **AEM Sites Page Editor**.
+1. In the editor toolbar, select the **Preflight** icon (the play button, highlighted below) to open the Preflight panel for the current page.
+
+   ![The Preflight icon in the AEM Sites Page Editor toolbar](./assets/setup/toolbar-preflight-button.png){align="center"}
+
+>[!NOTE]
+>
+>Don't see the **Preflight** icon in the toolbar? The integrated button may not be installed for your organization yet. Contact Adobe to have it installed, or use the bookmarklet method below.
+
+To use Preflight in the AEM Sites Page Editor on an AMS environment without the toolbar icon, create a bookmarklet in your web browser, following these steps:
 
 1. Show your **Bookmarks Bar** in your web browser:
 
@@ -154,7 +181,7 @@ To use Preflight in the AEM Sites Page Editor on an AMS environment, create a bo
    
 1. Name the bookmark **Preflight** (or any name you prefer).
 1. Open the page you want to audit in the **AEM Sites Page Editor**.
-1. Click the **Preflight** bookmark in your Bookmarks Bar to start the audit for the current page.
+1. Click the **Preflight** bookmark in your Bookmarks Bar to open Preflight for the current page.
 
 >[!ENDTABS]
 

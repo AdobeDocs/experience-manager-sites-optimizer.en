@@ -1,8 +1,14 @@
 ---
 title: Optimize Site Health with Sites Optimizer
 description: Learn how to improve your site's health with Sites Optimizer.
+TQID: https://experienceleague.adobe.com/-zDE6-ycqW-IkPEQA9J024GAHb8SOdfdwR4DCEd0Oyc
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
-
 # Site health opportunities
 
 ![Site health opportunities](./assets/site-health/hero.png){align="center"}

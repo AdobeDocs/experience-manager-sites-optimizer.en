@@ -2,8 +2,14 @@
 title: High Bounce Rate Opportunity Documentation
 description: Learn about the low views opportunity and how to use it to improve forms engagement on your website.
 badgeEngagement: label="Engagement" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Engagement"
+TQID: https://experienceleague.adobe.com/0P8QzHWJHZ21We0T8o3s3Bj60syHXSl2dmfUS85uXoE
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
-
 # High bounce rate opportunity
 
 ![High bounce rate opportunity](./assets/high-bounce-rate/hero.png){align="center"}

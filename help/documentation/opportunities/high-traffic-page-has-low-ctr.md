@@ -2,8 +2,16 @@
 title: High Traffic Page Has Low CTR Opportunity Documentation
 description: Learn about the high traffic page has low CTR opportunity and how to use it to increase the engagement on your website.
 badgeEngagement: label="Engagement" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Engagement"
+TQID: https://experienceleague.adobe.com/pnOZaaoYn5nIWwc2Qt3Xs-wyCygoRgMEHsD8P0Rq-6U
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
 ---
-
 # High traffic page has low CTR opportunity
 
 ![High traffic page has low CTR opportunity](./assets/high-traffic-page-has-low-ctr/hero.png){align="center"}
