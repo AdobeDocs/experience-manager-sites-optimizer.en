@@ -15,6 +15,28 @@ This page documents the latest updates, new features, and improvements in Adobe 
 
 Features marked **(Early Access)** are available on request — contact your account team or Customer Success Engineer to enable them for your organization.
 
+## November 16–18, 2026 {#november-16-18-2026}
+
+### New Features
+
+- **Personal Agent Readiness (Early Access)** — Review your site's readiness score, tested task outcomes, and prioritized improvements for personal AI agents when results are available.
+
+### Enhancements
+
+- **Deployed Fixes Export** — Export fixes from the **Deployed** tab to CSV with deployment dates, including image filenames and URLs for Alt Text fixes.
+- **Paid Traffic Conversion Rates (Early Access)** — See per-page Adobe Analytics conversion rates in the Paid Traffic Report and its CSV export when conversion data is available for the selected period.
+- **Trial Insights** — Trial metric cards now adapt to smaller screens and explain that upgrading unlocks additional accessibility and site health insights.
+- **Jira Cloud Connection** — Settings now explicitly identifies Jira Cloud in the connection card and action, clarifying which Jira service you can connect.
+
+### Bug Fixes
+
+- Site Health Monitor now retains existing findings when an audit is disabled and uses consistent audit eligibility for scores and issue tabs.
+- Site Health Monitor category scores stay aligned across page rows, including when some scores are missing or labels wrap in other languages.
+- Canonical suggestions no longer recommend changing a mapping that appears intentional without explaining the review choice, and guidance now recommends rather than requires absolute URLs.
+- Accessibility code fixes confirmed live now display **Live** instead of **Patch ready** and no longer ask you to confirm deployment again.
+- Alt Text **Details** no longer shows selection or bulk-action controls when neither automatic fixes nor Jira ticket creation is available.
+- Site Profile count tiles no longer include the English word "of" when another language is selected.
+
 ## November 9–15, 2026 {#november-9-15-2026}
 
 ### New Features
