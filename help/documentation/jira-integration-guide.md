@@ -31,7 +31,7 @@ Setting up the integration takes three stages:
 
 | Stage | Who does it | Where |
 |---|---|---|
-| [Prepare your accounts](#prerequisites) | Jira site admin and Adobe org admin | Atlassian Administration and Adobe Admin Console |
+| [Prepare your accounts](#prerequisites) | Jira site admin and Adobe organization admin | Atlassian Administration and Adobe Admin Console |
 | [Connect Jira and set defaults](#configure-jira) | Sites Optimizer user who authorizes the connection | **Settings** in Sites Optimizer |
 | [Create tickets](#create-tickets) | Anyone who works on opportunities | Opportunity pages |
 
@@ -70,7 +70,13 @@ The invited account accepts the invitation and signs in with, or creates, an Atl
 
 ### Give the account access to Sites Optimizer {#grant-aso-access}
 
-The account that authorizes the Jira connection must also have access to AEM Sites Optimizer in your Adobe organization.
+The account that authorizes the Jira connection must be able to sign in to Sites Optimizer for your organization. How you give that access depends on your Sites Optimizer plan.
+
+>[!BEGINTABS]
+
+>[!TAB Paid customers]
+
+Add the account to an AEM Sites Optimizer product profile in the Adobe Admin Console:
 
 1. Go to [adminconsole.adobe.com](https://adminconsole.adobe.com) and select **Products** > **Adobe Experience Manager Sites Optimizer**.
 1. Select the product profile the account needs. The Jira integration is available in all Sites Optimizer product profiles.
@@ -79,9 +85,28 @@ The account that authorizes the Jira connection must also have access to AEM Sit
 
 1. Select the **Users** tab, select **Add User**, enter the account's email address, and select **Save**.
 
+For more about product profiles and roles, see [Manage user permissions](/help/documentation/manage-permissions.md).
+
+>[!TAB Trial and free customers]
+
+Trial and free plans don't include Sites Optimizer product profiles in the Admin Console. Instead, the account needs access to Adobe Experience Manager in your Adobe organization:
+
+1. Make sure the account is a user in your Adobe organization.
+1. Make sure the account is assigned a product profile for at least one of these products:
+
+   * **Adobe Experience Manager as a Cloud Service**
+   * **Adobe Experience Manager Managed Services**
+   * **Adobe Experience Manager Edge Delivery Services**
+
+   If the account doesn't have one of these product profiles, ask your Adobe organization's system administrator to assign one in the [Adobe Admin Console](https://adminconsole.adobe.com).
+
+1. Sign in to Sites Optimizer with the account and select your organization. See [Sites Optimizer trial](/help/documentation/trial.md).
+
+>[!ENDTABS]
+
 >[!IMPORTANT]
 >
->Add the account to your Adobe organization **before** it authorizes the Jira connection. Without product profile access, the account cannot see Sites Optimizer in Experience Cloud.
+>Add the account to your Adobe organization **before** it authorizes the Jira connection. Otherwise, connecting fails with "You are not a member of this organization."
 
 ## Connect Jira and set ticket defaults {#configure-jira}
 
