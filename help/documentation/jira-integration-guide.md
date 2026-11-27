@@ -87,9 +87,9 @@ Add the account to an AEM Sites Optimizer product profile in the Adobe Admin Con
 
 For more about product profiles and roles, see [Manage user permissions](/help/documentation/manage-permissions.md).
 
->[!TAB Trial and free customers]
+>[!TAB Trial customers]
 
-Trial and free plans don't include Sites Optimizer product profiles in the Admin Console. Instead, the account needs access to Adobe Experience Manager in your Adobe organization:
+The Sites Optimizer trial doesn't include Sites Optimizer product profiles in the Admin Console. Instead, the account needs access to Adobe Experience Manager in your Adobe organization:
 
 1. Make sure the account is a user in your Adobe organization.
 1. Make sure the account is assigned a product profile for at least one of these products:
