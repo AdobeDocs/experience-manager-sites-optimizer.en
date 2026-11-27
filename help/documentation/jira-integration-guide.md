@@ -23,7 +23,7 @@ Turn opportunity issues into Jira tickets without leaving AEM Sites Optimizer. E
 
 >[!AVAILABILITY]
 >
->Contact your account team or Customer Success Engineer if you don't see **Connect to Jira** in **Settings** or **Create ticket** on supported opportunities.
+>Contact your account team or Customer Success Engineer if you don't see **Connect to Jira Cloud** in **Settings** or **Create ticket** on supported opportunities.
 
 ## How it works {#how-it-works}
 
@@ -117,11 +117,11 @@ Trial and free plans don't include Sites Optimizer product profiles in the Admin
 <!-- CONFIRM: only an administrator can connect Jira and set ticket creation defaults? Carried over from PR #162; not confirmed. -->
 
 1. Sign in to Sites Optimizer with the account you prepared.
-1. Select **Settings** and go to the **Connect to Jira** section. A new connection shows the status **Not connected**.
+1. Select **Settings** and go to the **Connect to Jira Cloud** section. A new connection shows the status **Not connected**.
 
-   ![Settings page showing the Connect to Jira section with the status Not connected](./assets/jira-integration/settings-jira-not-connected.png){align="center"}
+   ![Settings page showing the Connect to Jira Cloud section with the status Not connected](./assets/jira-integration/settings-jira-not-connected.png){align="center"}
 
-1. Select **Connect to Jira**.
+1. Select **Connect to Jira Cloud**.
 1. On the Atlassian page, authorize the connection and select your Jira site when prompted.
 
    <!-- SCREENSHOT TODO: ![Atlassian authorization page listing the Jira site to connect](./assets/jira-integration/atlassian-authorize-site.png){align="center"} -->
@@ -136,7 +136,7 @@ When you return to Sites Optimizer, the status changes to **Connected** and the 
 
 After you connect, set the defaults that Sites Optimizer applies to every ticket.
 
-![Connect to Jira section showing the Connected status, the connected Jira site, and the Ticket creation defaults form](./assets/jira-integration/settings-ticket-defaults.png){align="center"}
+![Connect to Jira Cloud section showing the Connected status, the connected Jira site, and the Ticket creation defaults form](./assets/jira-integration/settings-ticket-defaults.png){align="center"}
 
 | Field | Required | Description |
 |---|---|---|
@@ -164,7 +164,7 @@ Confirm that the setup works:
 
 ### Manage the connection {#manage-connection}
 
-Use the buttons in the **Connect to Jira** section to manage the connection:
+Use the buttons in the **Connect to Jira Cloud** section to manage the connection:
 
 * **Go to Jira**: Opens your connected Jira site.
 * **Reconnect to Jira**: Appears when the status is **Re-authorization required**. Select it and authorize the connection again with the same Jira site.
@@ -178,8 +178,8 @@ Use the buttons in the **Connect to Jira** section to manage the connection:
 | You are not a member of this organization. Ask your administrator to add you before connecting Jira. | Add the account to your Adobe organization and product profile. See [Give the account access to Sites Optimizer](#grant-aso-access). |
 | You selected a different Jira site. Disconnect the current connection first, then connect the new site. | Select **Disconnect**, then connect the Jira site you want. |
 | A connection to this Jira site already exists for your organization. | The site is already connected. Open **Settings** to review the connection. |
-| Jira authorization was denied. Please try again and grant access when prompted. | Select **Connect to Jira** again and allow access on the Atlassian page. |
-| The authorization session has expired. Please try connecting again. | Select **Connect to Jira** again and finish the Atlassian authorization within 10 minutes. |
+| Jira authorization was denied. Please try again and grant access when prompted. | Select **Connect to Jira Cloud** again and allow access on the Atlassian page. |
+| The authorization session has expired. Please try connecting again. | Select **Connect to Jira Cloud** again and finish the Atlassian authorization within 10 minutes. |
 
 ## Create Jira tickets from opportunities {#create-tickets}
 
@@ -329,7 +329,7 @@ When Sites Optimizer suggests a code patch for the selected issues, the patch is
    * **Mobile issues**: The failing metrics on mobile, with their values.
    * **Recommendations**: The suggested fixes for the page.
 
-   ![Create Jira ticket dialog for core web vitals showing the affected pages, desktop issues, mobile issues, and recommendations](./assets/jira-integration/cwv-dialog.png){align="center"}
+   ![Create Jira ticket dialog for core web vitals showing the ticket fields and, for one affected page, the desktop issues, mobile issues, and recommendations](./assets/jira-integration/cwv-dialog.png){align="center"}
 
 1. Select **Create**.
 
@@ -365,7 +365,7 @@ If Sites Optimizer shows "Failed to create Jira ticket", check the following:
 * **Required fields**: The Jira project doesn't require extra fields that Sites Optimizer doesn't fill in, such as a custom required field. Choose a project or issue type without extra required fields, or ask your Jira administrator to make those fields optional.
 * **Priority and parent**: **Priority** and **Epic (parent)** match values that exist in your Jira site exactly, including capitalization.
 * **Attachment size**: For tickets with a code patch, the combined patch is 3 MB or smaller. Select fewer issues and try again.
-* **Connection status**: In **Settings**, the **Connect to Jira** status is **Connected**. If it shows **Re-authorization required**, select **Reconnect to Jira**.
+* **Connection status**: In **Settings**, the **Connect to Jira Cloud** status is **Connected**. If it shows **Re-authorization required**, select **Reconnect to Jira**.
 
 ## Frequently asked questions {#faq}
 
